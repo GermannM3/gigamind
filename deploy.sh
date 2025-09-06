@@ -55,6 +55,9 @@ sudo systemctl enable gigamind
 sudo systemctl start gigamind
 
 echo "✅ GigaMind deployed successfully!"
-echo "📝 Don't forget to set GIGACHAT_AUTH_KEY in /opt/gigamind/.env"
+echo "📝 Don't forget to set GigaChat credentials in /opt/gigamind/.env:"
+echo "   - GIGACHAT_CLIENT_ID"
+echo "   - GIGACHAT_AUTH_KEY" 
+echo "   - GIGACHAT_ACCESS_TOKEN (optional, for direct token usage)"
 echo "🌐 Service will be available at http://your-server-ip:8000"
 echo "📊 Check status with: sudo systemctl status gigamind"

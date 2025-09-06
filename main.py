@@ -15,8 +15,14 @@ load_dotenv()
 memory = GigaMemory()
 judge = TinyJudge()
 
-# Получение токена GigaChat (Client Credentials)
+# Получение токена GigaChat (Client Credentials или прямой токен)
 def get_gigachat_token():
+    # Сначала проверяем, есть ли прямой токен
+    direct_token = os.getenv("GIGACHAT_ACCESS_TOKEN")
+    if direct_token:
+        return direct_token
+    
+    # Если нет прямого токена, получаем через OAuth
     url = "https://ngw.devices.sberbank.ru:9443/api/v2/oauth"
     headers = {
         'RqUID': 'my_unique_id_123',
