@@ -1,0 +1,13 @@
+python-dotenv
+requests
+fastapi
+uvicorn
+gradio
+sqlalchemy
+sentence-transformers
+faiss-cpu
+transformers
+accelerate
+bitsandbytes
+torch
+vaderSentiment

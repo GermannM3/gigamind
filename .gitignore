@@ -1,0 +1,510 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+#   However, in case of collaboration, if having platform-specific dependencies or dependencies
+#   having no cross-platform support, pipenv may install dependencies that don't work, or not
+#   install all needed dependencies.
+#Pipfile.lock
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# Project specific
+# Database files
+data/
+*.db
+*.sqlite
+*.sqlite3
+
+# Model files and caches
+models/
+*.pkl
+*.joblib
+*.h5
+*.hdf5
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows
+*.exe
+*.msi
+*.msm
+*.msp
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Mobile app builds
+gigamind_mobile/
+*.apk
+*.ipa
+
+# API keys and secrets
+.env.local
+.env.production
+.env.staging
+secrets.json
+config.json
+
+# FastAPI specific
+.pytest_cache/
+
+# Gradio specific
+gradio_cached_examples/
+flagged/
+
+# Hugging Face cache
+.cache/
+huggingface/
+
+# PyTorch cache
+.torch/
+
+# Sentence transformers cache
+sentence_transformers_cache/
+
+# FAISS indexes (if large)
+*.index
+*.faiss
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Test files
+test_*.py
+*_test.py
+tests/
+
+# Documentation builds
+docs/build/
+site/
+
+# Node.js (if any frontend)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Docker
+.dockerignore
+Dockerfile
+docker-compose.yml
+.docker/
+
+# Kubernetes
+*.yaml
+*.yml
+k8s/
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# Ansible
+*.retry
+
+# Vagrant
+.vagrant/
+
+# JetBrains IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# Project specific exclusions
+# Exclude large data files
+data/large_datasets/
+*.csv
+*.json
+*.jsonl
+*.parquet
+
+# Exclude model checkpoints
+checkpoints/
+*.ckpt
+*.pth
+*.pt
+
+# Exclude experiment results
+experiments/
+results/
+outputs/
+
+# Exclude configuration files with secrets
+config.ini
+settings.ini
+secrets.yaml
+secrets.yml
+
+# Exclude Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Exclude pytest cache
+.pytest_cache/
+
+# Exclude coverage reports
+htmlcov/
+.coverage
+coverage.xml
+
+# Exclude profiling data
+*.prof
+*.profile
+
+# Exclude memory dumps
+*.dmp
+*.hprof
+
+# Exclude temporary Python files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Exclude virtual environment
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# Exclude IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Exclude OS files
+.DS_Store
+Thumbs.db
+
+# Exclude logs
+*.log
+logs/
+
+# Exclude database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Exclude archives
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Exclude mobile builds
+gigamind_mobile/
+*.apk
+*.ipa
+
+# Exclude API keys
+.env
+.env.local
+.env.production
+.env.staging
+secrets.json
+config.json
+
+# Exclude model files
+models/
+*.pkl
+*.joblib
+*.h5
+*.hdf5
+
+# Exclude FAISS indexes
+*.index
+*.faiss
+
+# Exclude cache directories
+.cache/
+huggingface/
+.torch/
+sentence_transformers_cache/
+
+# Exclude Gradio cache
+gradio_cached_examples/
+flagged/
+
+# Exclude test files
+test_*.py
+*_test.py
+tests/
+
+# Exclude documentation builds
+docs/build/
+site/
+
+# Exclude Docker files
+Dockerfile
+docker-compose.yml
+.docker/
+
+# Exclude Kubernetes files
+*.yaml
+*.yml
+k8s/
+
+# Exclude Terraform files
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# Exclude backup files
+*.bak
+*.backup
+*~
+
+# Exclude temporary files
+temp/
+tmp/
+*.tmp
+
+# Exclude large media files
+*.mp4
+*.avi
+*.mov
+*.wmv
+*.flv
+*.webm
+*.mkv
+*.mp3
+*.wav
+*.flac
+*.aac
+*.ogg
+*.wma
+*.m4a
+
+# Exclude large documents (but keep project docs)
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+*.odt
+*.ods
+*.odp
+*.rtf
+
+# Exclude large data files
+*.csv
+*.json
+*.jsonl
+*.parquet
