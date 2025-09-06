@@ -1,0 +1,15 @@
+# Production requirements for GigaMind
+python-dotenv==1.0.0
+requests==2.31.0
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+gunicorn==21.2.0
+gradio==4.7.1
+sqlalchemy==2.0.23
+sentence-transformers==2.2.2
+faiss-cpu==1.7.4
+transformers==4.35.2
+accelerate==0.24.1
+bitsandbytes==0.41.3
+torch==2.1.1
+vaderSentiment==3.3.2
