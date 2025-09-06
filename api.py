@@ -33,7 +33,12 @@ messages: List[Message] = []
 
 @app.get("/")
 async def root():
-    return {"message": "GigaMind API сервер запущен", "version": "1.0.0"}
+    return {
+        "message": "GigaMind API сервер запущен", 
+        "version": "1.0.0",
+        "status": "running",
+        "timestamp": datetime.now().isoformat()
+    }
 
 @app.get("/messages")
 async def get_messages(limit: int = 50):
@@ -106,6 +111,16 @@ async def health_check():
         "status": "healthy",
         "timestamp": datetime.now(),
         "message_count": len(messages)
+    }
+
+@app.get("/test")
+async def test_endpoint():
+    """Простой тестовый endpoint"""
+    return {
+        "message": "Тест успешен!",
+        "server": "GigaMind",
+        "timestamp": datetime.now().isoformat(),
+        "gigachat_configured": bool(os.getenv("GIGACHAT_ACCESS_TOKEN"))
     }
 
 if __name__ == "__main__":
