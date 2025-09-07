@@ -40,4 +40,4 @@ USER gigamind
 EXPOSE 8000
 
 # Команда запуска для Timeweb Cloud
-CMD ["gunicorn", "main:app", "--bind", "0.0.0.0:8000", "--timeout", "60", "--workers", "1", "--access-logfile", "-", "--error-logfile", "-"]
+CMD ["gunicorn", "api:app", "--bind", "0.0.0.0:8000", "--timeout", "60", "--workers", "1", "--access-logfile", "-", "--error-logfile", "-"]
