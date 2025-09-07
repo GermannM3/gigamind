@@ -48,6 +48,15 @@ GigaMind - это инновационный AI-ассистент, которы
 2. Создайте файл `.env.production` с вашими данными GigaChat
 3. Запустите: `docker-compose up -d`
 
+### Timeweb Cloud Apps
+1. Подключите репозиторий в панели Timeweb Cloud
+2. Выберите "Деплой из Dockerfile"
+3. Установите переменные окружения:
+   - `GIGACHAT_CLIENT_ID=your_client_id`
+   - `GIGACHAT_AUTH_KEY=your_auth_key`
+   - `GIGACHAT_ACCESS_TOKEN=your_access_token`
+4. Запустите деплой
+
 ### Переменные окружения
 ```env
 GIGACHAT_CLIENT_ID=your_client_id
