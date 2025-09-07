@@ -43,6 +43,8 @@ Thumbs.db
 # Mobile app
 GigaMindMobile/
 mobile_app_requirements.md
+gigamind_mobile/
+gigamind_mobile.zip
 
 # Data files
 data/
@@ -63,6 +65,17 @@ README.md
 build/
 dist/
 *.egg-info/
+
+# Virtual envs
+venv/
+.venv/
+env/
+
+# Caches & intermediates
+*.cache/
+*.pid
+*.lock
+*.bak
 
 # Temporary files
 *.tmp
