@@ -1,0 +1,30 @@
+# Конфигурация для Timeweb Cloud Apps
+name: gigamind
+description: GigaMind AI Assistant - интеллектуальный помощник с памятью и контекстом
+
+# Настройки сборки
+build:
+  dockerfile: Dockerfile
+  context: .
+
+# Переменные окружения
+environment:
+  - HOST=0.0.0.0
+  - PORT=8000
+  - WORKERS=1
+  - LOG_LEVEL=INFO
+
+# Порт
+port: 8000
+
+# Ресурсы
+resources:
+  memory: 2G
+  cpu: 1
+
+# Health check
+healthcheck:
+  path: /health
+  interval: 30s
+  timeout: 10s
+  retries: 3
