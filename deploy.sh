@@ -42,7 +42,7 @@ Type=simple
 User=$USER
 WorkingDirectory=/opt/gigamind
 Environment=PATH=/opt/gigamind/venv/bin
-ExecStart=/opt/gigamind/venv/bin/gunicorn main:app --bind 0.0.0.0:8000 --timeout 60 --workers 2
+ExecStart=/opt/gigamind/venv/bin/gunicorn api:app --bind 0.0.0.0:8000 --timeout 60 --workers 2
 Restart=always
 
 [Install]
