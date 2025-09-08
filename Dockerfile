@@ -26,12 +26,11 @@ COPY requirements.txt .
 RUN python -m pip install --upgrade pip setuptools wheel \
     && pip install --no-cache-dir -r requirements.txt
 
+# Копируем исходный код
+COPY . .
+
 # Предварительно загружаем модель для эмбеддингов, чтобы избежать этого при запуске
 RUN python -c "from sentence_transformers import SentenceTransformer; SentenceTransformer('all-MiniLM-L6-v2')"
-
-# Копируем исходный код
-
-COPY . .
 
 # Создаем директорию для данных
 RUN mkdir -p data
@@ -44,4 +43,4 @@ USER gigamind
 EXPOSE 8000
 
 # Команда запуска для Timeweb Cloud
-CMD ["gunicorn", "api:app", "--bind", "0.0.0.0:8000", "--timeout", "60", "--workers", "1", "--access-logfile", "-", "--error-logfile", "-"]
+CMD ["python", "main.py", "api"]
