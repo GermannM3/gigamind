@@ -46,7 +46,19 @@ def gigachat_generate(prompt, token):
         "temperature": 0.7
     }
     response = requests.post(url, headers=headers, data=json.dumps(payload), verify=False)
-    return response.json()['choices'][0]['message']['content']
+    data = response.json()
+    # Безопасный разбор ответа
+    try:
+        choices = data.get('choices') or []
+        if not choices:
+            raise ValueError(f"Пустой ответ GigaChat: {data}")
+        message = choices[0].get('message') or {}
+        content = message.get('content')
+        if not content:
+            raise ValueError(f"Нет контента в ответе GigaChat: {data}")
+        return content
+    except Exception as parse_err:
+        raise RuntimeError(f"Ошибка разбора ответа GigaChat: {parse_err}")
 
 # Основная логика
 def respond(user_id, user_input):

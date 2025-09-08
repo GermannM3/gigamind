@@ -104,7 +104,8 @@ async def chat(request: ChatRequest):
         )
         
     except Exception as e:
-        raise HTTPException(status_code=500, detail=f"Ошибка обработки запроса: {str(e)}")
+        # Возвращаем человекочитаемую ошибку
+        raise HTTPException(status_code=500, detail=f"Ошибка GigaChat: {str(e)}. Проверьте переменные окружения GIGACHAT_ACCESS_TOKEN / GIGACHAT_AUTH_KEY и доступность API.")
 
 @app.delete("/messages")
 async def clear_messages():
