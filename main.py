@@ -2,6 +2,7 @@ import os
 import sys
 from dotenv import load_dotenv
 import requests
+import uuid
 import json
 from memory import GigaMemory
 from judge import TinyJudge
@@ -25,7 +26,7 @@ def get_gigachat_token():
     if auth_key:
         url = "https://ngw.devices.sberbank.ru:9443/api/v2/oauth"
         headers = {
-            'RqUID': 'my_unique_id_123',
+            'RqUID': str(uuid.uuid4()),
             'Authorization': f'Basic {auth_key}',
             'Content-Type': 'application/x-www-form-urlencoded'
         }
@@ -56,7 +57,7 @@ def gigachat_generate(prompt, token):
     if client_id:
         headers['X-Client-Id'] = client_id
     payload = {
-        "model": "GigaChat:latest",
+        "model": "GigaChat",
         "messages": [{"role": "user", "content": prompt}],
         "temperature": 0.7
     }
