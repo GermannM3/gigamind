@@ -38,10 +38,17 @@ class GigaMemory:
         self.history.append((user_id, query, response, tags))
 
     def search_memory(self, query, top_k=3):
+        # Если ещё нет данных в индексе, возвращаем пустой список
+        if self.index.ntotal == 0 or len(self.history) == 0:
+            return []
+
         embedding = self.model.encode([query])[0]
         D, I = self.index.search(np.array([embedding]), top_k)
         results = []
         for idx in I[0]:
+            # faiss может возвращать -1 для пустых/недоступных позиций
+            if idx is None or idx < 0:
+                continue
             if idx < len(self.history):
                 results.append(self.history[idx])
         return results

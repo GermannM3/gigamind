@@ -17,31 +17,46 @@ judge = TinyJudge()
 
 # Получение токена GigaChat (Client Credentials или прямой токен)
 def get_gigachat_token():
-    # Сначала проверяем, есть ли прямой токен
+    """Возвращает токен GigaChat.
+    Приоритет: если задан GIGACHAT_AUTH_KEY — всегда получать свежий токен по OAuth.
+    Иначе использовать GIGACHAT_ACCESS_TOKEN как есть (может протухать).
+    """
+    auth_key = os.getenv("GIGACHAT_AUTH_KEY")
+    if auth_key:
+        url = "https://ngw.devices.sberbank.ru:9443/api/v2/oauth"
+        headers = {
+            'RqUID': 'my_unique_id_123',
+            'Authorization': f'Basic {auth_key}',
+            'Content-Type': 'application/x-www-form-urlencoded'
+        }
+        data = {'scope': 'GIGACHAT_API_PERS'}
+        response = requests.post(url, headers=headers, data=data, verify=False)
+        token = response.json().get('access_token')
+        if not token:
+            raise RuntimeError("Не удалось получить токен GigaChat по GIGACHAT_AUTH_KEY. Проверьте ключ и доступ.")
+        return token
+
     direct_token = os.getenv("GIGACHAT_ACCESS_TOKEN")
     if direct_token:
         return direct_token
-    
-    # Если нет прямого токена, получаем через OAuth
-    url = "https://ngw.devices.sberbank.ru:9443/api/v2/oauth"
-    headers = {
-        'RqUID': 'my_unique_id_123',
-        'Authorization': f'Basic {os.getenv("GIGACHAT_AUTH_KEY")}',
-        'Content-Type': 'application/x-www-form-urlencoded'
-    }
-    data = {'scope': 'GIGACHAT_API_PERS'}
-    response = requests.post(url, headers=headers, data=data, verify=False)
-    return response.json().get('access_token')
+
+    raise RuntimeError(
+        "GigaChat токен не настроен. Установите GIGACHAT_AUTH_KEY (предпочтительно) или GIGACHAT_ACCESS_TOKEN."
+    )
 
 # Генерация ответа
 def gigachat_generate(prompt, token):
     url = "https://gigachat.devices.sberbank.ru/api/v1/chat/completions"
     headers = {
         'Authorization': f'Bearer {token}',
-        'Content-Type': 'application/json'
+        'Content-Type': 'application/json',
+        'Accept': 'application/json',
     }
+    client_id = os.getenv("GIGACHAT_CLIENT_ID")
+    if client_id:
+        headers['X-Client-Id'] = client_id
     payload = {
-        "model": "GigaChat",
+        "model": "GigaChat:latest",
         "messages": [{"role": "user", "content": prompt}],
         "temperature": 0.7
     }

@@ -1,5 +1,5 @@
 from fastapi import FastAPI, HTTPException
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
 from typing import List, Optional
 import uvicorn
 import os
@@ -25,7 +25,7 @@ class Message(BaseModel):
     id: Optional[int] = None
     role: str  # "user" или "assistant"
     content: str
-    timestamp: datetime = datetime.now()
+    timestamp: datetime = Field(default_factory=datetime.now)
     judge_score: Optional[float] = None
     judge_feedback: Optional[str] = None
 
@@ -130,8 +130,20 @@ async def test_endpoint():
         "message": "Тест успешен!",
         "server": "GigaMind",
         "timestamp": datetime.now().isoformat(),
-        "gigachat_configured": bool(os.getenv("GIGACHAT_ACCESS_TOKEN"))
+        "gigachat_configured": bool(os.getenv("GIGACHAT_ACCESS_TOKEN") or os.getenv("GIGACHAT_AUTH_KEY")),
+        "prefer_oauth": bool(os.getenv("GIGACHAT_AUTH_KEY"))
     }
+
+@app.get("/gigachat/check")
+async def gigachat_check():
+    """Проверка получения токена GigaChat и пробный колл без коммитов в память."""
+    try:
+        token = get_gigachat_token()
+        # Пробный короткий запрос
+        content = gigachat_generate("Скажи 'Проверка связи'.", token)
+        return {"ok": True, "sample": content[:100]}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"GigaChat check failed: {str(e)}")
 
 if __name__ == "__main__":
     uvicorn.run(app, host="0.0.0.0", port=8000)
