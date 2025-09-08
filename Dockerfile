@@ -26,7 +26,11 @@ COPY requirements.txt .
 RUN python -m pip install --upgrade pip setuptools wheel \
     && pip install --no-cache-dir -r requirements.txt
 
+# Предварительно загружаем модель для эмбеддингов, чтобы избежать этого при запуске
+RUN python -c "from sentence_transformers import SentenceTransformer; SentenceTransformer('all-MiniLM-L6-v2')"
+
 # Копируем исходный код
+
 COPY . .
 
 # Создаем директорию для данных
