@@ -2,6 +2,7 @@ import os
 import sys
 from dotenv import load_dotenv
 import requests
+import certifi
 import uuid
 import json
 from memory import GigaMemory
@@ -19,10 +20,15 @@ judge = TinyJudge()
 # Получение токена GigaChat (Client Credentials или прямой токен)
 def get_gigachat_token():
     """Возвращает токен GigaChat.
-    Приоритет: если задан GIGACHAT_AUTH_KEY — всегда получать свежий токен по OAuth.
-    Иначе использовать GIGACHAT_ACCESS_TOKEN как есть (может протухать).
+    Приоритет: если задан GIGACHAT_ACCESS_TOKEN — используем его как есть.
+    Иначе пытаемся получить по OAuth через GIGACHAT_AUTH_KEY / GIGACHAT_SECRET.
     """
-    auth_key = os.getenv("GIGACHAT_AUTH_KEY")
+    direct_token = os.getenv("GIGACHAT_ACCESS_TOKEN")
+    if direct_token:
+        return direct_token
+
+    # поддерживаем алиас переменной: GIGACHAT_SECRET (base64 client_id:secret)
+    auth_key = os.getenv("GIGACHAT_AUTH_KEY") or os.getenv("GIGACHAT_SECRET")
     if auth_key:
         url = "https://ngw.devices.sberbank.ru:9443/api/v2/oauth"
         headers = {
@@ -31,18 +37,14 @@ def get_gigachat_token():
             'Content-Type': 'application/x-www-form-urlencoded'
         }
         data = {'scope': 'GIGACHAT_API_PERS'}
-        response = requests.post(url, headers=headers, data=data, verify=False)
+        response = requests.post(url, headers=headers, data=data, verify=certifi.where())
         token = response.json().get('access_token')
         if not token:
             raise RuntimeError("Не удалось получить токен GigaChat по GIGACHAT_AUTH_KEY. Проверьте ключ и доступ.")
         return token
 
-    direct_token = os.getenv("GIGACHAT_ACCESS_TOKEN")
-    if direct_token:
-        return direct_token
-
     raise RuntimeError(
-        "GigaChat токен не настроен. Установите GIGACHAT_AUTH_KEY (предпочтительно) или GIGACHAT_ACCESS_TOKEN."
+        "GigaChat токен не настроен. Установите GIGACHAT_ACCESS_TOKEN или GIGACHAT_AUTH_KEY/GIGACHAT_SECRET."
     )
 
 # Генерация ответа
@@ -61,7 +63,7 @@ def gigachat_generate(prompt, token):
         "messages": [{"role": "user", "content": prompt}],
         "temperature": 0.7
     }
-    response = requests.post(url, headers=headers, data=json.dumps(payload), verify=False)
+    response = requests.post(url, headers=headers, data=json.dumps(payload), verify=certifi.where())
     data = response.json()
     # Безопасный разбор ответа
     try:
