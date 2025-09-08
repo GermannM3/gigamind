@@ -43,5 +43,7 @@ USER gigamind
 # Открываем порт
 EXPOSE 8000
 
-# Команда запуска для Timeweb Cloud
-CMD ["gunicorn", "api:app", "--bind", "0.0.0.0:8000", "--timeout", "60", "--workers", "1", "--access-logfile", "-", "--error-logfile", "-"]
+# Команда запуска для Timeweb Cloud (переменные PORT/WORKERS)
+ENV PORT=8000 \
+    WORKERS=1
+CMD ["bash", "-lc", "exec gunicorn -k uvicorn.workers.UvicornWorker api:app --bind 0.0.0.0:${PORT} --workers ${WORKERS} --timeout 60 --access-logfile - --error-logfile -"]

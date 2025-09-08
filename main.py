@@ -96,7 +96,12 @@ def run_gradio():
 def run_api():
     """Запустить API сервер"""
     import api
-    uvicorn.run("api:app", host="0.0.0.0", port=8000, reload=False)
+    host = os.getenv("HOST", "0.0.0.0")
+    try:
+        port = int(os.getenv("PORT", "8000"))
+    except ValueError:
+        port = 8000
+    uvicorn.run("api:app", host=host, port=port, reload=False)
 
 if __name__ == "__main__":
     if len(sys.argv) > 1 and sys.argv[1] == "api":
