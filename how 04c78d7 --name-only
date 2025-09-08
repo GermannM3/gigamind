@@ -1,0 +1,10 @@
+[33m04c78d7[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m Merge pull request #2 from GermannM3/cursor/debug-and-deploy-fastapi-app-c846
+[33m7a612e9[m[33m ([m[1;31morigin/cursor/debug-and-deploy-fastapi-app-c846[m[33m)[m Refactor: Update deployment configurations and add checks
+[33m17c043a[m 141
+[33m46ab2a4[m Fix deploy script: Correct gunicorn entrypoint for FastAPI app
+[33m546326a[m Update README with corrected Docker deployment instructions and API information
+[33mee19c92[m Fix Docker configuration: Correct entrypoint for FastAPI app and improve healthcheck
+[33m39c041c[m chore: remove nested repo GigaMindMobile from index; update docker files
+[33m493b8cc[m chore(docker): update Dockerfile and .dockerignore; chore(compose): simplify for Timeweb Apps
+[33md3d29db[m chore(compose): simplify for local/Timeweb Apps (use .env, remove version/deploy)
+[33mfe69300[m Optimize Docker for Timeweb Cloud Apps deployment

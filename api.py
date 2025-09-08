@@ -8,8 +8,17 @@ from datetime import datetime
 
 # Импортируем существующие компоненты
 from main import get_gigachat_token, gigachat_generate, memory, judge
+import gradio as gr
+from main import demo as gradio_demo
 
 app = FastAPI(title="GigaMind API", description="API для мобильного клиента GigaMind", version="1.0.0")
+
+# Монтируем веб‑интерфейс Gradio на /ui
+try:
+    app = gr.mount_gradio_app(app, gradio_demo, path="/ui")
+except Exception:
+    # Если по какой-то причине Gradio недоступен, не падаем
+    pass
 
 # Модели данных
 class Message(BaseModel):
