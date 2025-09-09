@@ -5,6 +5,9 @@ import requests
 import certifi
 import uuid
 import json
+import urllib3
+# Отключаем предупреждения об SSL для self-signed сертификатов
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 from memory import GigaMemory
 from judge import TinyJudge
 import gradio as gr
@@ -37,7 +40,8 @@ def get_gigachat_token():
             'Content-Type': 'application/x-www-form-urlencoded'
         }
         data = {'scope': 'GIGACHAT_API_PERS'}
-        response = requests.post(url, headers=headers, data=data, verify=certifi.where())
+        # GigaChat использует self-signed сертификат, отключаем проверку
+        response = requests.post(url, headers=headers, data=data, verify=False)
         token = response.json().get('access_token')
         if not token:
             raise RuntimeError("Не удалось получить токен GigaChat по GIGACHAT_AUTH_KEY. Проверьте ключ и доступ.")
@@ -63,7 +67,8 @@ def gigachat_generate(prompt, token):
         "messages": [{"role": "user", "content": prompt}],
         "temperature": 0.7
     }
-    response = requests.post(url, headers=headers, data=json.dumps(payload), verify=certifi.where())
+    # GigaChat использует self-signed сертификат, отключаем проверку
+    response = requests.post(url, headers=headers, data=json.dumps(payload), verify=False)
     data = response.json()
     # Безопасный разбор ответа
     try:
