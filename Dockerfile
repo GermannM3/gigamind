@@ -16,7 +16,9 @@ RUN apt-get update && apt-get install -y \
 # Настройки pip и временного каталога, чтобы избежать ошибок файловой системы при сборке
 ENV PIP_NO_CACHE_DIR=1 \
     PIP_DISABLE_PIP_VERSION_CHECK=1 \
-    TMPDIR=/tmp
+    TMPDIR=/tmp \
+    TRANSFORMERS_CACHE=/app/.cache/huggingface \
+    HF_HOME=/app/.cache/huggingface
 RUN mkdir -p /tmp && chmod 1777 /tmp
 
 # Копируем файлы зависимостей
@@ -29,8 +31,9 @@ RUN python -m pip install --upgrade pip setuptools wheel \
 # Копируем исходный код
 COPY . .
 
-# Предварительно загружаем модель для эмбеддингов, чтобы избежать этого при запуске
-RUN python -c "from sentence_transformers import SentenceTransformer; SentenceTransformer('all-MiniLM-L6-v2')"
+# Модель будет загружена при первом запуске приложения
+# Создаем кэш-директорию для моделей Hugging Face
+RUN mkdir -p /app/.cache/huggingface && chown -R 1000:1000 /app/.cache
 
 # Создаем директорию для данных
 RUN mkdir -p data
