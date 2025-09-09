@@ -20,6 +20,19 @@ except Exception:
     # Если по какой-то причине Gradio недоступен, не падаем
     pass
 
+# Редирект с корня на веб-интерфейс
+@app.get("/")
+async def root():
+    """Редирект на веб-интерфейс"""
+    from fastapi.responses import RedirectResponse
+    return RedirectResponse(url="/ui")
+
+@app.get("/webui/")
+async def webui_redirect():
+    """Редирект для /webui/ на /ui"""
+    from fastapi.responses import RedirectResponse
+    return RedirectResponse(url="/ui")
+
 # Модели данных
 class Message(BaseModel):
     id: Optional[int] = None
