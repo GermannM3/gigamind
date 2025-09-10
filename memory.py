@@ -18,7 +18,8 @@ class FakeModel:
 class GigaMemory:
     def __init__(self, db_path="data/memory.db"):
         os.makedirs("data", exist_ok=True)
-        self.conn = sqlite3.connect(db_path)
+        # Разрешаем использование соединения из разных потоков FastAPI/Gradio
+        self.conn = sqlite3.connect(db_path, check_same_thread=False)
         self.create_table()
         self.model = None  # Lazy loading
         self.index = faiss.IndexFlatL2(384)  # Размер эмбеддинга модели
