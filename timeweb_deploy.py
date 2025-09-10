@@ -19,7 +19,7 @@ def list_apps():
     """Получить список приложений"""
     client = get_client()
     try:
-        response = client.get_apps()
+        response = client.apps.get_apps()
         return response
     except Exception as e:
         print(f"Ошибка при получении списка приложений: {e}")
@@ -29,7 +29,7 @@ def get_app_deploys(app_id, limit=10):
     """Получить список деплоев приложения"""
     client = get_client()
     try:
-        response = client.get_app_deploys(app_id, limit=limit)
+        response = client.apps.get_app_deploys(app_id, limit=limit)
         return response
     except Exception as e:
         print(f"Ошибка при получении деплоев: {e}")
@@ -39,7 +39,7 @@ def create_deploy(app_id):
     """Создать новый деплой"""
     client = get_client()
     try:
-        response = client.create_deploy(app_id)
+        response = client.apps.create_deploy(app_id)
         return response
     except Exception as e:
         print(f"Ошибка при создании деплоя: {e}")

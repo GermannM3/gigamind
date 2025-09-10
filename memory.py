@@ -4,6 +4,17 @@ import numpy as np
 import os
 import logging
 
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
+
+class FakeModel:
+    """Фиктивная модель для случаев, когда не удается загрузить sentence-transformers"""
+    def encode(self, texts):
+        # Возвращаем случайные эмбеддинги размера 384
+        if isinstance(texts, str):
+            texts = [texts]
+        return np.random.random((len(texts), 384)).astype(np.float32)
+
 class GigaMemory:
     def __init__(self, db_path="data/memory.db"):
         os.makedirs("data", exist_ok=True)
@@ -17,20 +28,15 @@ class GigaMemory:
         """Загружает модель при первом использовании"""
         if self.model is None:
             try:
-                logging.info("Загружаем модель sentence-transformers...")
+                logger.info("Загружаем модель sentence-transformers...")
                 from sentence_transformers import SentenceTransformer
                 self.model = SentenceTransformer('all-MiniLM-L6-v2')
-                logging.info("Модель успешно загружена!")
+                logger.info("Модель успешно загружена!")
             except Exception as e:
-                logging.error(f"Ошибка загрузки модели: {e}")
+                logger.error(f"Ошибка загрузки модели: {e}")
+                logger.warning("Используем фиктивную модель для продолжения работы")
                 # Возвращаем фиктивную модель для продолжения работы
                 self.model = FakeModel()
-                
-class FakeModel:
-    """Фиктивная модель для случаев, когда не удается загрузить sentence-transformers"""
-    def encode(self, texts):
-        # Возвращаем случайные эмбеддинги размера 384
-        return np.random.random((len(texts), 384)).astype(np.float32)
 
     def create_table(self):
         self.conn.execute('''
@@ -53,9 +59,10 @@ class FakeModel:
         self.conn.commit()
         # Добавляем в FAISS
         self._ensure_model_loaded()
-        embedding = self.model.encode([query])[0]
-        self.index.add(np.array([embedding]))
-        self.history.append((user_id, query, response, tags))
+        if self.model:
+            embedding = self.model.encode([query])[0]
+            self.index.add(np.array([embedding]))
+            self.history.append((user_id, query, response, tags))
 
     def search_memory(self, query, top_k=3):
         # Если ещё нет данных в индексе, возвращаем пустой список
@@ -63,6 +70,10 @@ class FakeModel:
             return []
 
         self._ensure_model_loaded()
+        if not self.model:
+            logger.warning("Модель не загружена, невозможно искать в памяти.")
+            return []
+
         embedding = self.model.encode([query])[0]
         D, I = self.index.search(np.array([embedding]), top_k)
         results = []
