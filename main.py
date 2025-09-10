@@ -31,14 +31,11 @@ class GigaChatAPI:
         self.access_token = os.getenv("GIGACHAT_ACCESS_TOKEN")
         self.token_expires_at = None
         
-    async def get_access_token(self):
-        """Асинхронное получение токена доступа"""
-        if self.access_token:
-            return self.access_token
-            
+    async def _oauth_fetch_token(self) -> str:
+        """Всегда получает НОВЫЙ токен по OAuth при наличии GIGACHAT_AUTH_KEY."""
         if not self.auth_key:
-            raise RuntimeError("Не настроены переменные окружения для GigaChat API")
-            
+            raise RuntimeError("Не настроены переменные окружения для GigaChat API (GIGACHAT_AUTH_KEY)")
+
         headers = {
             'Content-Type': 'application/x-www-form-urlencoded',
             'Accept': 'application/json',
@@ -46,21 +43,34 @@ class GigaChatAPI:
             'Authorization': f'Basic {self.auth_key}'
         }
         data = 'scope=GIGACHAT_API_PERS'
-        
-        try:
-            timeout = aiohttp.ClientTimeout(total=10)
-            async with aiohttp.ClientSession(timeout=timeout) as session:
-                async with session.post(self.auth_url, headers=headers, data=data, ssl=False) as response:
-                    if response.status == 200:
-                        token_data = await response.json()
-                        self.access_token = token_data.get('access_token')
-                        self.token_expires_at = token_data.get('expires_at')
-                        return self.access_token
-                    else:
-                        error_text = await response.text()
-                        raise RuntimeError(f"Ошибка получения токена: {response.status}, {error_text}")
-        except Exception as e:
-            raise RuntimeError(f"Ошибка при запросе токена: {e}")
+
+        timeout = aiohttp.ClientTimeout(total=10)
+        async with aiohttp.ClientSession(timeout=timeout) as session:
+            async with session.post(self.auth_url, headers=headers, data=data, ssl=False) as response:
+                if response.status == 200:
+                    token_data = await response.json()
+                    self.access_token = token_data.get('access_token')
+                    # expires_at может быть в мс; если нет — обнулим, и будем обновлять по 401
+                    try:
+                        self.token_expires_at = int(token_data.get('expires_at')) if token_data.get('expires_at') else None
+                    except Exception:
+                        self.token_expires_at = None
+                    return self.access_token
+                else:
+                    error_text = await response.text()
+                    raise RuntimeError(f"Ошибка получения токена: {response.status}, {error_text}")
+
+    async def get_access_token(self):
+        """Асинхронное получение токена доступа"""
+        # При наличии OAuth-ключа ВСЕГДА берем свежий токен, игнорируя возможный просроченный ACCESS_TOKEN
+        if self.auth_key:
+            return await self._oauth_fetch_token()
+
+        # Fallback: используем прямой токен, если OAuth недоступен
+        if self.access_token:
+            return self.access_token
+
+        raise RuntimeError("Не настроены переменные окружения для GigaChat API (нет ни GIGACHAT_AUTH_KEY, ни GIGACHAT_ACCESS_TOKEN)")
     
     async def ensure_token(self):
         """Проверка и обновление токена при необходимости"""
@@ -88,25 +98,42 @@ class GigaChatAPI:
             "max_tokens": 2048
         }
         
-        try:
-            timeout = aiohttp.ClientTimeout(total=15)
-            async with aiohttp.ClientSession(timeout=timeout) as session:
-                async with session.post(
-                    f"{self.base_url}/chat/completions",
-                    headers=headers,
-                    json=payload,
-                    ssl=False
-                ) as response:
-                    if response.status == 200:
-                        data = await response.json()
-                        if 'choices' in data and len(data['choices']) > 0:
-                            return data['choices'][0]['message']['content']
-                    else:
-                        error_text = await response.text()
-                        raise RuntimeError(f"Ошибка GigaChat API: {response.status}, {error_text}")
-                
-        except Exception as e:
-            raise RuntimeError(f"Ошибка при запросе к GigaChat: {e}")
+        timeout = aiohttp.ClientTimeout(total=20)
+        async with aiohttp.ClientSession(timeout=timeout) as session:
+            # Первая попытка
+            async with session.post(
+                f"{self.base_url}/chat/completions",
+                headers=headers,
+                json=payload,
+                ssl=False
+            ) as response:
+                if response.status == 200:
+                    data = await response.json()
+                    if 'choices' in data and len(data['choices']) > 0:
+                        return data['choices'][0]['message']['content']
+                elif response.status == 401:
+                    # Токен истек — обновим и повторим 1 раз
+                    await self._oauth_fetch_token()
+                    retry_headers = {
+                        **headers,
+                        'Authorization': f'Bearer {self.access_token}'
+                    }
+                    async with session.post(
+                        f"{self.base_url}/chat/completions",
+                        headers=retry_headers,
+                        json=payload,
+                        ssl=False
+                    ) as retry_response:
+                        if retry_response.status == 200:
+                            data = await retry_response.json()
+                            if 'choices' in data and len(data['choices']) > 0:
+                                return data['choices'][0]['message']['content']
+                        else:
+                            error_text = await retry_response.text()
+                            raise RuntimeError(f"Ошибка GigaChat API после обновления токена: {retry_response.status}, {error_text}")
+                else:
+                    error_text = await response.text()
+                    raise RuntimeError(f"Ошибка GigaChat API: {response.status}, {error_text}")
 
 # Глобальный экземпляр
 gigachat_api = GigaChatAPI()
