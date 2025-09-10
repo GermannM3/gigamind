@@ -61,16 +61,19 @@ class GigaChatAPI:
                     raise RuntimeError(f"Ошибка получения токена: {response.status}, {error_text}")
 
     async def get_access_token(self):
-        """Асинхронное получение токена доступа"""
-        # При наличии OAuth-ключа ВСЕГДА берем свежий токен, игнорируя возможный просроченный ACCESS_TOKEN
-        if self.auth_key:
-            return await self._oauth_fetch_token()
-
-        # Fallback: используем прямой токен, если OAuth недоступен
+        """Асинхронное получение токена доступа.
+        Приоритет:
+        1) Если задан прямой токен (GIGACHAT_ACCESS_TOKEN) — используем его как есть
+        2) Иначе, если доступен OAuth-ключ — запрашиваем новый токен
+        3) Иначе — ошибка конфигурации
+        """
         if self.access_token:
             return self.access_token
 
-        raise RuntimeError("Не настроены переменные окружения для GigaChat API (нет ни GIGACHAT_AUTH_KEY, ни GIGACHAT_ACCESS_TOKEN)")
+        if self.auth_key:
+            return await self._oauth_fetch_token()
+
+        raise RuntimeError("Не настроены переменные окружения для GigaChat API (нет ни GIGACHAT_ACCESS_TOKEN, ни GIGACHAT_AUTH_KEY)")
     
     async def ensure_token(self):
         """Проверка и обновление токена при необходимости"""
@@ -113,6 +116,9 @@ class GigaChatAPI:
                         return data['choices'][0]['message']['content']
                 elif response.status == 401:
                     # Токен истек — обновим и повторим 1 раз
+                    if not self.auth_key:
+                        error_text = await response.text()
+                        raise RuntimeError(f"Токен недействителен, а OAuth-ключ не настроен. {response.status}, {error_text}")
                     await self._oauth_fetch_token()
                     retry_headers = {
                         **headers,
@@ -148,6 +154,10 @@ def get_gigachat_token():
     finally:
         loop.close()
 
+# Асинхронная обертка для получения токена (для FastAPI)
+async def get_gigachat_token_async():
+    return await gigachat_api.get_access_token()
+
 # Генерация ответа (обратная совместимость)
 def gigachat_generate(prompt, token):
     """Синхронная обертка для генерации"""
@@ -158,6 +168,11 @@ def gigachat_generate(prompt, token):
         return loop.run_until_complete(gigachat_api.chat_completion(messages))
     finally:
         loop.close()
+
+# Асинхронная обертка для генерации (для FastAPI)
+async def gigachat_generate_async(prompt):
+    messages = [{"role": "user", "content": prompt}]
+    return await gigachat_api.chat_completion(messages)
 
 # Основная логика
 def respond(user_id, user_input):

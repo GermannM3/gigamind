@@ -7,7 +7,7 @@ import json
 from datetime import datetime
 
 # Импортируем существующие компоненты
-from main import get_gigachat_token, gigachat_generate, memory, judge
+from main import get_gigachat_token, gigachat_generate, get_gigachat_token_async, gigachat_generate_async, memory, judge
 import gradio as gr
 from main import demo as gradio_demo
 
@@ -78,8 +78,8 @@ async def chat(request: ChatRequest):
         )
         messages.append(user_message)
         
-        # Получаем токен GigaChat
-        token = get_gigachat_token()
+        # Получаем токен GigaChat (асинхронно, чтобы не ломать event loop)
+        token = await get_gigachat_token_async()
         
         # Поиск в памяти
         context = memory.search_memory(request.message)
@@ -93,8 +93,8 @@ async def chat(request: ChatRequest):
         Ответь кратко, дружелюбно и персонализированно.
         """
         
-        # Генерация ответа
-        response_content = gigachat_generate(full_prompt, token)
+        # Генерация ответа (асинхронно)
+        response_content = await gigachat_generate_async(full_prompt)
         
         # Сохраняем в память
         memory.add_memory(request.user_id, request.message, response_content, tags="")
