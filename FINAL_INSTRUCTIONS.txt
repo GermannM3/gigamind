@@ -1,0 +1,79 @@
+# ФИНАЛЬНАЯ ИНСТРУКЦИЯ ПО РАБОТЕ С ПРОЕКТОМ GIGAMIND MOBILE
+
+## Что было сделано
+
+1. Создан новый проект React Native с полной функциональностью
+2. Скопированы и адаптированы все компоненты
+3. Исправлена конфигурация API для работы через HTTPS
+4. Созданы скрипты для сборки и запуска
+5. Подготовлена подробная документация
+6. Создана ветка mobile в репозитории (локально)
+
+## Файлы и папки, которые нужно скопировать на Windows
+
+Скопируйте следующие файлы и папки:
+```
+/home/germannm/Документы/gigamind/GigaMindMobile/ -> целиком
+/home/germannm/Документы/gigamind/GigaMindMobileExpo/ -> целиком
+/home/germannm/Документы/gigamind/APK_BUILD_INSTRUCTIONS.md
+/home/germannm/Документы/gigamind/PROJECT_SUMMARY.md
+/home/germannm/Документы/gigamind/WINDOWS_INSTRUCTIONS.md
+/home/germannm/Документы/gigamind/FINAL_REPORT_MOBILE.md
+```
+
+## Дальнейшие шаги на Windows
+
+1. **Установка необходимого ПО** (следуйте инструкции в WINDOWS_INSTRUCTIONS.md):
+   - Node.js и npm
+   - Java 17 Development Kit
+   - Android Studio и SDK
+
+2. **Клонирование или копирование проекта**:
+   - Либо клонируйте репозиторий и переключитесь на ветку mobile
+   - Либо скопируйте файлы вручную
+
+3. **Установка зависимостей**:
+   ```
+   cd GigaMindMobile
+   npm install
+   ```
+
+4. **Сборка APK**:
+   ```
+   cd android
+   .\gradlew assembleRelease
+   ```
+
+## Если не удается собрать APK
+
+1. **Используйте Expo с облачной сборкой**:
+   - Установите Expo CLI: `npm install -g eas-cli`
+   - Создайте аккаунт на https://expo.dev
+   - Авторизуйтесь: `eas login`
+   - Соберите APK: `eas build --platform android`
+
+2. **Используйте Android Studio**:
+   - Откройте проект в Android Studio
+   - Используйте встроенные инструменты для сборки
+
+## Тестирование APK
+
+После сборки APK вы можете:
+1. Установить его на физическое Android устройство
+2. Протестировать в эмуляторе Android Studio
+3. Использовать для участия в конкурсе AI Journey Contest 2025
+
+## Контактная информация API
+
+- URL: https://germannm3-gigamind-9814.twc1.net
+- Health check: /health
+- Чат: /chat
+- Сообщения: /messages
+
+## Цветовая схема приложения
+
+- Основной градиент: #0b1f4b → #122e78 → #1a4bd9
+- Фон сообщений пользователя: #667eea → #764ba2
+- Фон сообщений ассистента: #f093fb → #f5576c
+
+Удачи в продолжении работы над проектом GigaMind Mobile!
