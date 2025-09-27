@@ -1,0 +1,347 @@
+--------- beginning of main
+09-17 20:42:57.943 E/pageboostd( 3548): Received HALT command code 2
+09-17 20:42:57.968 E/.gigamindmobile(25342): Not starting debugger since process cannot load the jdwp agent.
+09-17 20:42:57.976 E/android.vending(25344): Not starting debugger since process cannot load the jdwp agent.
+--------- beginning of crash
+09-17 20:42:58.007 E/AndroidRuntime(25342): FATAL EXCEPTION: main
+09-17 20:42:58.007 E/AndroidRuntime(25342): Process: com.gigamindmobile, PID: 25342
+09-17 20:42:58.007 E/AndroidRuntime(25342): java.lang.UnsatisfiedLinkError: dlopen failed: library "librninstance.so" not found
+09-17 20:42:58.007 E/AndroidRuntime(25342): 	at java.lang.Runtime.loadLibrary0(Runtime.java:1090)
+09-17 20:42:58.007 E/AndroidRuntime(25342): 	at java.lang.Runtime.loadLibrary0(Runtime.java:1012)
+09-17 20:42:58.007 E/AndroidRuntime(25342): 	at java.lang.System.loadLibrary(System.java:1765)
+09-17 20:42:58.007 E/AndroidRuntime(25342): 	at com.facebook.soloader.nativeloader.SystemDelegate.loadLibrary(SystemDelegate.java:24)
+09-17 20:42:58.007 E/AndroidRuntime(25342): 	at com.facebook.soloader.nativeloader.NativeLoader.loadLibrary(NativeLoader.java:52)
+09-17 20:42:58.007 E/AndroidRuntime(25342): 	at com.facebook.soloader.nativeloader.NativeLoader.loadLibrary(NativeLoader.java:30)
+09-17 20:42:58.007 E/AndroidRuntime(25342): 	at com.facebook.soloader.SoLoader.loadLibrary(SoLoader.java:812)
+09-17 20:42:58.007 E/AndroidRuntime(25342): 	at com.facebook.react.runtime.JSRuntimeFactory.<clinit>(JSRuntimeFactory.kt:21)
+09-17 20:42:58.007 E/AndroidRuntime(25342): 	at com.facebook.react.defaults.DefaultReactNativeHost.toReactHost$ReactAndroid_release(DefaultReactNativeHost.kt:113)
+09-17 20:42:58.007 E/AndroidRuntime(25342): 	at com.facebook.react.defaults.DefaultReactHost.getDefaultReactHost(DefaultReactHost.kt:296)
+09-17 20:42:58.007 E/AndroidRuntime(25342): 	at com.facebook.react.defaults.DefaultReactHost.getDefaultReactHost$default(DefaultReactHost.kt:286)
+09-17 20:42:58.007 E/AndroidRuntime(25342): 	at com.gigamindmobile.MainApplication.getReactHost(MainApplication.kt:32)
+09-17 20:42:58.007 E/AndroidRuntime(25342): 	at com.gigamindmobile.MainApplication.onCreate(MainApplication.kt:38)
+09-17 20:42:58.007 E/AndroidRuntime(25342): 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1386)
+09-17 20:42:58.007 E/AndroidRuntime(25342): 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:8377)
+09-17 20:42:58.007 E/AndroidRuntime(25342): 	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+09-17 20:42:58.007 E/AndroidRuntime(25342): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2675)
+09-17 20:42:58.007 E/AndroidRuntime(25342): 	at android.os.Handler.dispatchMessage(Handler.java:107)
+09-17 20:42:58.007 E/AndroidRuntime(25342): 	at android.os.Looper.loopOnce(Looper.java:257)
+09-17 20:42:58.007 E/AndroidRuntime(25342): 	at android.os.Looper.loop(Looper.java:342)
+09-17 20:42:58.007 E/AndroidRuntime(25342): 	at android.app.ActivityThread.main(ActivityThread.java:9634)
+09-17 20:42:58.007 E/AndroidRuntime(25342): 	at java.lang.reflect.Method.invoke(Native Method)
+09-17 20:42:58.007 E/AndroidRuntime(25342): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:619)
+09-17 20:42:58.007 E/AndroidRuntime(25342): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:929)
+09-17 20:42:58.018 E/AppIconSolution( 2560): Using cached contents available for us.mark.TheHacker.appicon
+09-17 20:42:58.043 E/ng.android.lool(25372): Not starting debugger since process cannot load the jdwp agent.
+09-17 20:42:58.061 E/.gigamindmobile(25387): Not starting debugger since process cannot load the jdwp agent.
+09-17 20:42:58.135 E/AndroidRuntime(25387): FATAL EXCEPTION: main
+09-17 20:42:58.135 E/AndroidRuntime(25387): Process: com.gigamindmobile, PID: 25387
+09-17 20:42:58.135 E/AndroidRuntime(25387): java.lang.UnsatisfiedLinkError: dlopen failed: library "librninstance.so" not found
+09-17 20:42:58.135 E/AndroidRuntime(25387): 	at java.lang.Runtime.loadLibrary0(Runtime.java:1090)
+09-17 20:42:58.135 E/AndroidRuntime(25387): 	at java.lang.Runtime.loadLibrary0(Runtime.java:1012)
+09-17 20:42:58.135 E/AndroidRuntime(25387): 	at java.lang.System.loadLibrary(System.java:1765)
+09-17 20:42:58.135 E/AndroidRuntime(25387): 	at com.facebook.soloader.nativeloader.SystemDelegate.loadLibrary(SystemDelegate.java:24)
+09-17 20:42:58.135 E/AndroidRuntime(25387): 	at com.facebook.soloader.nativeloader.NativeLoader.loadLibrary(NativeLoader.java:52)
+09-17 20:42:58.135 E/AndroidRuntime(25387): 	at com.facebook.soloader.nativeloader.NativeLoader.loadLibrary(NativeLoader.java:30)
+09-17 20:42:58.135 E/AndroidRuntime(25387): 	at com.facebook.soloader.SoLoader.loadLibrary(SoLoader.java:812)
+09-17 20:42:58.135 E/AndroidRuntime(25387): 	at com.facebook.react.runtime.JSRuntimeFactory.<clinit>(JSRuntimeFactory.kt:21)
+09-17 20:42:58.135 E/AndroidRuntime(25387): 	at com.facebook.react.defaults.DefaultReactNativeHost.toReactHost$ReactAndroid_release(DefaultReactNativeHost.kt:113)
+09-17 20:42:58.135 E/AndroidRuntime(25387): 	at com.facebook.react.defaults.DefaultReactHost.getDefaultReactHost(DefaultReactHost.kt:296)
+09-17 20:42:58.135 E/AndroidRuntime(25387): 	at com.facebook.react.defaults.DefaultReactHost.getDefaultReactHost$default(DefaultReactHost.kt:286)
+09-17 20:42:58.135 E/AndroidRuntime(25387): 	at com.gigamindmobile.MainApplication.getReactHost(MainApplication.kt:32)
+09-17 20:42:58.135 E/AndroidRuntime(25387): 	at com.gigamindmobile.MainApplication.onCreate(MainApplication.kt:38)
+09-17 20:42:58.135 E/AndroidRuntime(25387): 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1386)
+09-17 20:42:58.135 E/AndroidRuntime(25387): 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:8377)
+09-17 20:42:58.135 E/AndroidRuntime(25387): 	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+09-17 20:42:58.135 E/AndroidRuntime(25387): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2675)
+09-17 20:42:58.135 E/AndroidRuntime(25387): 	at android.os.Handler.dispatchMessage(Handler.java:107)
+09-17 20:42:58.135 E/AndroidRuntime(25387): 	at android.os.Looper.loopOnce(Looper.java:257)
+09-17 20:42:58.135 E/AndroidRuntime(25387): 	at android.os.Looper.loop(Looper.java:342)
+09-17 20:42:58.135 E/AndroidRuntime(25387): 	at android.app.ActivityThread.main(ActivityThread.java:9634)
+09-17 20:42:58.135 E/AndroidRuntime(25387): 	at java.lang.reflect.Method.invoke(Native Method)
+09-17 20:42:58.135 E/AndroidRuntime(25387): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:619)
+09-17 20:42:58.135 E/AndroidRuntime(25387): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:929)
+09-17 20:42:58.165 E/Dc.IafdService(25372): app error more than 5 times.  just return
+--------- beginning of system
+09-17 20:42:58.197 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:42:58.197 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:42:58.197 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:42:58.206 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:42:58.206 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:42:58.206 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:42:58.288 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:42:58.289 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:42:58.289 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:42:58.361 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:42:58.361 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:42:58.361 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:42:58.380 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:42:58.380 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:42:58.380 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:42:58.429 E/ding:background(25502): Not starting debugger since process cannot load the jdwp agent.
+09-17 20:42:58.487 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:42:58.487 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:42:58.487 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:42:58.567 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:42:58.567 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:42:58.567 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:42:58.572 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:42:58.572 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:42:58.572 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:43:00.593 E/ArtService( 1608): Failed to get dexopt status [packageName = com.yahoo.mobile.client.android.mail, dexPath = /data/user/0/com.yahoo.mobile.client.android.mail/app_pccache/5/B6EA2E920DF34AD079952BEB09AEEF53F19B467E/pcam.jar, isa = arm64, classLoaderContext = PCL[];PCL[/data/app/~~Tykvv_ZfQcPDfAmHIMkw0w==/com.yahoo.mobile.client.android.mail-chdXAcX6b2txnnc2tezbWw==/base.apk]{PCL[/system/framework/org.apache.http.legacy.jar]#PCL[/system_ext/framework/androidx.window.extensions.jar]#PCL[/system_ext/framework/androidx.window.sidecar.jar]}]
+09-17 20:43:00.593 E/ArtService( 1608): android.os.ServiceSpecificException: Failed to create OatFileAssistant: Failed to load class loader context files for '/data/user/0/com.yahoo.mobile.client.android.mail/app_pccache/5/B6EA2E920DF34AD079952BEB09AEEF53F19B467E/pcam.jar' with context 'PCL[];PCL[/data/app/~~Tykvv_ZfQcPDfAmHIMkw0w==/com.yahoo.mobile.client.android.mail-chdXAcX6b2txnnc2tezbWw==/base.apk]{PCL[/system/framework/org.apache.http.legacy.jar]#PCL[/system_ext/framework/androidx.window.extensions.jar]#PCL[/system_ext/framework/androidx.window.sidecar.jar]}' (code 1)
+09-17 20:43:00.593 E/ArtService( 1608): 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3271)
+09-17 20:43:00.593 E/ArtService( 1608): 	at android.os.Parcel.createException(Parcel.java:3241)
+09-17 20:43:00.593 E/ArtService( 1608): 	at android.os.Parcel.readException(Parcel.java:3224)
+09-17 20:43:00.593 E/ArtService( 1608): 	at android.os.Parcel.readException(Parcel.java:3166)
+09-17 20:43:00.593 E/ArtService( 1608): 	at com.android.server.art.IArtd$Stub$Proxy.getDexoptStatus(IArtd.java:880)
+09-17 20:43:00.593 E/ArtService( 1608): 	at com.android.server.art.ArtFileManager.getUsableArtifacts(ArtFileManager.java:153)
+09-17 20:43:00.593 E/ArtService( 1608): 	at com.android.server.art.ArtManagerLocal.getArtManagedFileStats(ArtManagerLocal.java:1056)
+09-17 20:43:00.593 E/ArtService( 1608): 	at com.android.server.usage.StorageStatsService.computeAppStatsByDataTypes(qb/99323245 147331c3f593555230048f1951233b624d28de1bc69667cb1c9f7e756ba791a6:75)
+09-17 20:43:00.593 E/ArtService( 1608): 	at com.android.server.usage.StorageStatsService.queryStatsForUid(qb/99323245 147331c3f593555230048f1951233b624d28de1bc69667cb1c9f7e756ba791a6:138)
+09-17 20:43:00.593 E/ArtService( 1608): 	at com.android.server.usage.StorageStatsService.queryStatsForPackage(qb/99323245 147331c3f593555230048f1951233b624d28de1bc69667cb1c9f7e756ba791a6:83)
+09-17 20:43:00.593 E/ArtService( 1608): 	at android.app.usage.IStorageStatsManager$Stub.onTransact(IStorageStatsManager.java:265)
+09-17 20:43:00.593 E/ArtService( 1608): 	at android.os.Binder.execTransactInternal(Binder.java:1536)
+09-17 20:43:00.593 E/ArtService( 1608): 	at android.os.Binder.execTransact(Binder.java:1480)
+09-17 20:43:00.593 E/ArtService( 1608): Failed to get dexopt status [packageName = com.yahoo.mobile.client.android.mail, dexPath = /data/user/0/com.yahoo.mobile.client.android.mail/app_pccache/5/6E2A190BD4DF56E567C807314532FEF7E6BDBEDC/pcam.jar, isa = arm64, classLoaderContext = PCL[];PCL[/data/app/~~Tykvv_ZfQcPDfAmHIMkw0w==/com.yahoo.mobile.client.android.mail-chdXAcX6b2txnnc2tezbWw==/base.apk]{PCL[/system/framework/org.apache.http.legacy.jar]#PCL[/system_ext/framework/androidx.window.extensions.jar]#PCL[/system_ext/framework/androidx.window.sidecar.jar]}]
+09-17 20:43:00.593 E/ArtService( 1608): android.os.ServiceSpecificException: Failed to create OatFileAssistant: Failed to load class loader context files for '/data/user/0/com.yahoo.mobile.client.android.mail/app_pccache/5/6E2A190BD4DF56E567C807314532FEF7E6BDBEDC/pcam.jar' with context 'PCL[];PCL[/data/app/~~Tykvv_ZfQcPDfAmHIMkw0w==/com.yahoo.mobile.client.android.mail-chdXAcX6b2txnnc2tezbWw==/base.apk]{PCL[/system/framework/org.apache.http.legacy.jar]#PCL[/system_ext/framework/androidx.window.extensions.jar]#PCL[/system_ext/framework/androidx.window.sidecar.jar]}' (code 1)
+09-17 20:43:00.593 E/ArtService( 1608): 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3271)
+09-17 20:43:00.593 E/ArtService( 1608): 	at android.os.Parcel.createException(Parcel.java:3241)
+09-17 20:43:00.593 E/ArtService( 1608): 	at android.os.Parcel.readException(Parcel.java:3224)
+09-17 20:43:00.593 E/ArtService( 1608): 	at android.os.Parcel.readException(Parcel.java:3166)
+09-17 20:43:00.593 E/ArtService( 1608): 	at com.android.server.art.IArtd$Stub$Proxy.getDexoptStatus(IArtd.java:880)
+09-17 20:43:00.593 E/ArtService( 1608): 	at com.android.server.art.ArtFileManager.getUsableArtifacts(ArtFileManager.java:153)
+09-17 20:43:00.593 E/ArtService( 1608): 	at com.android.server.art.ArtManagerLocal.getArtManagedFileStats(ArtManagerLocal.java:1056)
+09-17 20:43:00.593 E/ArtService( 1608): 	at com.android.server.usage.StorageStatsService.computeAppStatsByDataTypes(qb/99323245 147331c3f593555230048f1951233b624d28de1bc69667cb1c9f7e756ba791a6:75)
+09-17 20:43:00.593 E/ArtService( 1608): 	at com.android.server.usage.StorageStatsService.queryStatsForUid(qb/99323245 147331c3f593555230048f1951233b624d28de1bc69667cb1c9f7e756ba791a6:138)
+09-17 20:43:00.593 E/ArtService( 1608): 	at com.android.server.usage.StorageStatsService.queryStatsForPackage(qb/99323245 147331c3f593555230048f1951233b624d28de1bc69667cb1c9f7e756ba791a6:83)
+09-17 20:43:00.593 E/ArtService( 1608): 	at android.app.usage.IStorageStatsManager$Stub.onTransact(IStorageStatsManager.java:265)
+09-17 20:43:00.593 E/ArtService( 1608): 	at android.os.Binder.execTransactInternal(Binder.java:1536)
+09-17 20:43:00.593 E/ArtService( 1608): 	at android.os.Binder.execTransact(Binder.java:1480)
+09-17 20:43:00.950 E/DatabaseUtils(16272): Writing exception to parcel
+09-17 20:43:00.950 E/DatabaseUtils(16272): java.lang.SecurityException: Permission Denial: writing com.sec.android.provider.badge.BadgeProvider uri content://com.sec.badge/apps?notify=true from pid=19086, uid=10281 requires com.sec.android.provider.badge.permission.WRITE, or grantUriPermission()
+09-17 20:43:00.950 E/DatabaseUtils(16272): 	at android.content.ContentProvider.enforceWritePermissionInner(ContentProvider.java:1138)
+09-17 20:43:00.950 E/DatabaseUtils(16272): 	at android.content.ContentProvider.semEnforceWritePermission(ContentProvider.java:1064)
+09-17 20:43:00.950 E/DatabaseUtils(16272): 	at android.content.ContentProvider$Transport.enforceWritePermission(ContentProvider.java:840)
+09-17 20:43:00.950 E/DatabaseUtils(16272): 	at android.content.ContentProvider$Transport.update(ContentProvider.java:569)
+09-17 20:43:00.950 E/DatabaseUtils(16272): 	at android.content.ContentProviderNative.onTransact(ContentProviderNative.java:243)
+09-17 20:43:00.950 E/DatabaseUtils(16272): 	at android.os.Binder.execTransactInternal(Binder.java:1541)
+09-17 20:43:00.950 E/DatabaseUtils(16272): 	at android.os.Binder.execTransact(Binder.java:1480)
+09-17 20:43:01.454 E/TaskPersister( 1608): File error accessing recents directory (directory doesn't exist?).
+09-17 20:43:02.114 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:43:02.114 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:43:02.114 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:43:02.212 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:43:02.212 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:43:02.212 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:43:02.221 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:43:02.221 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:43:02.221 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:43:02.268 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:43:02.268 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:43:02.268 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:43:02.280 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:43:02.280 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:43:02.280 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:43:02.335 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:43:02.335 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:43:02.335 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:43:02.367 E/PocketModeEvent( 1608): PocketModeSetting is off 
+09-17 20:43:02.390 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:43:02.390 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:43:02.390 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:43:02.397 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:43:02.397 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:43:02.397 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:43:03.664 E/Watchdog( 1608): !@Sync: 14909 heap(MB): 161 / 194 FD: 1608 [2025-09-17 20:43:03.663]
+09-17 20:43:03.801 E/DatabaseUtils(16272): Writing exception to parcel
+09-17 20:43:03.801 E/DatabaseUtils(16272): java.lang.SecurityException: Permission Denial: writing com.sec.android.provider.badge.BadgeProvider uri content://com.sec.badge/apps?notify=true from pid=19086, uid=10281 requires com.sec.android.provider.badge.permission.WRITE, or grantUriPermission()
+09-17 20:43:03.801 E/DatabaseUtils(16272): 	at android.content.ContentProvider.enforceWritePermissionInner(ContentProvider.java:1138)
+09-17 20:43:03.801 E/DatabaseUtils(16272): 	at android.content.ContentProvider.semEnforceWritePermission(ContentProvider.java:1064)
+09-17 20:43:03.801 E/DatabaseUtils(16272): 	at android.content.ContentProvider$Transport.enforceWritePermission(ContentProvider.java:840)
+09-17 20:43:03.801 E/DatabaseUtils(16272): 	at android.content.ContentProvider$Transport.update(ContentProvider.java:569)
+09-17 20:43:03.801 E/DatabaseUtils(16272): 	at android.content.ContentProviderNative.onTransact(ContentProviderNative.java:243)
+09-17 20:43:03.801 E/DatabaseUtils(16272): 	at android.os.Binder.execTransactInternal(Binder.java:1541)
+09-17 20:43:03.801 E/DatabaseUtils(16272): 	at android.os.Binder.execTransact(Binder.java:1480)
+09-17 20:43:03.962 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:43:03.962 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:43:03.962 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:43:04.061 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:43:04.061 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:43:04.061 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:43:04.069 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:43:04.069 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:43:04.069 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:43:04.120 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:43:04.120 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:43:04.120 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:43:04.130 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:43:04.130 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:43:04.130 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:43:04.183 E/Sensors ( 1351): inject_scontext_data: New ssp_data_injection_fd(44)
+09-17 20:43:04.189 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:43:04.189 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:43:04.189 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:43:04.190 E/SemContext.CaeProvider( 1608): setAttribute() : attribute is null!
+09-17 20:43:04.191 E/SensorService( 1608): BigData:Pakage) 5 already enabled. 
+09-17 20:43:04.243 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:43:04.243 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:43:04.243 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:43:04.250 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:43:04.250 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:43:04.250 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:43:04.292 E/SensorService( 1608): BigData:Pakage) 5 already disabled. 
+09-17 20:43:04.434 E/Sensors ( 1351): inject_scontext_data: New ssp_data_injection_fd(44)
+09-17 20:43:04.499 E/ArtService( 1608): Failed to get dexopt status [packageName = com.twitter.android, dexPath = /data/user/0/com.twitter.android/app_pccache/5/93C3DCFD0867095FE4406F170E27CC60B68F10CD/pcam.jar, isa = arm64, classLoaderContext = PCL[];PCL[/data/app/~~CZ0m1RJsd_Mst3vwzz2WhA==/com.twitter.android-yR5zYOsLCh1DC7z8n8H-BA==/base.apk]{PCL[/system/framework/org.apache.http.legacy.jar]#PCL[/system_ext/framework/androidx.window.extensions.jar]#PCL[/system_ext/framework/androidx.window.sidecar.jar]}]
+09-17 20:43:04.499 E/ArtService( 1608): android.os.ServiceSpecificException: Failed to create OatFileAssistant: Failed to load class loader context files for '/data/user/0/com.twitter.android/app_pccache/5/93C3DCFD0867095FE4406F170E27CC60B68F10CD/pcam.jar' with context 'PCL[];PCL[/data/app/~~CZ0m1RJsd_Mst3vwzz2WhA==/com.twitter.android-yR5zYOsLCh1DC7z8n8H-BA==/base.apk]{PCL[/system/framework/org.apache.http.legacy.jar]#PCL[/system_ext/framework/androidx.window.extensions.jar]#PCL[/system_ext/framework/androidx.window.sidecar.jar]}' (code 1)
+09-17 20:43:04.499 E/ArtService( 1608): 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3271)
+09-17 20:43:04.499 E/ArtService( 1608): 	at android.os.Parcel.createException(Parcel.java:3241)
+09-17 20:43:04.499 E/ArtService( 1608): 	at android.os.Parcel.readException(Parcel.java:3224)
+09-17 20:43:04.499 E/ArtService( 1608): 	at android.os.Parcel.readException(Parcel.java:3166)
+09-17 20:43:04.499 E/ArtService( 1608): 	at com.android.server.art.IArtd$Stub$Proxy.getDexoptStatus(IArtd.java:880)
+09-17 20:43:04.499 E/ArtService( 1608): 	at com.android.server.art.ArtFileManager.getUsableArtifacts(ArtFileManager.java:153)
+09-17 20:43:04.499 E/ArtService( 1608): 	at com.android.server.art.ArtManagerLocal.getArtManagedFileStats(ArtManagerLocal.java:1056)
+09-17 20:43:04.499 E/ArtService( 1608): 	at com.android.server.usage.StorageStatsService.computeAppStatsByDataTypes(qb/99323245 147331c3f593555230048f1951233b624d28de1bc69667cb1c9f7e756ba791a6:75)
+09-17 20:43:04.499 E/ArtService( 1608): 	at com.android.server.usage.StorageStatsService.queryStatsForUid(qb/99323245 147331c3f593555230048f1951233b624d28de1bc69667cb1c9f7e756ba791a6:138)
+09-17 20:43:04.499 E/ArtService( 1608): 	at com.android.server.usage.StorageStatsService.queryStatsForPackage(qb/99323245 147331c3f593555230048f1951233b624d28de1bc69667cb1c9f7e756ba791a6:83)
+09-17 20:43:04.499 E/ArtService( 1608): 	at android.app.usage.IStorageStatsManager$Stub.onTransact(IStorageStatsManager.java:265)
+09-17 20:43:04.499 E/ArtService( 1608): 	at android.os.Binder.execTransactInternal(Binder.java:1536)
+09-17 20:43:04.499 E/ArtService( 1608): 	at android.os.Binder.execTransact(Binder.java:1480)
+09-17 20:43:04.932 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:43:04.932 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:43:04.932 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:43:05.030 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:43:05.030 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:43:05.030 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:43:05.039 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:43:05.039 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:43:05.039 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:43:05.088 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:43:05.088 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:43:05.088 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:43:05.102 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:43:05.102 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:43:05.102 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:43:05.113 E/ArtService( 1608): Failed to get dexopt status [packageName = ai.qwenlm.chat.android, dexPath = /data/user/0/ai.qwenlm.chat.android/app_SGLib/app_1756471037/main/libsgmain_inner347148062000.zip, isa = arm64, classLoaderContext = PCL[];PCL[/data/app/~~eGbsbgP2TCE50_VSmNpmQg==/ai.qwenlm.chat.android-GUW0_nvW22foq87Em1jjxQ==/base.apk]]
+09-17 20:43:05.113 E/ArtService( 1608): android.os.ServiceSpecificException: Failed to create OatFileAssistant: Failed to load class loader context files for '/data/user/0/ai.qwenlm.chat.android/app_SGLib/app_1756471037/main/libsgmain_inner347148062000.zip' with context 'PCL[];PCL[/data/app/~~eGbsbgP2TCE50_VSmNpmQg==/ai.qwenlm.chat.android-GUW0_nvW22foq87Em1jjxQ==/base.apk]' (code 1)
+09-17 20:43:05.113 E/ArtService( 1608): 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3271)
+09-17 20:43:05.113 E/ArtService( 1608): 	at android.os.Parcel.createException(Parcel.java:3241)
+09-17 20:43:05.113 E/ArtService( 1608): 	at android.os.Parcel.readException(Parcel.java:3224)
+09-17 20:43:05.113 E/ArtService( 1608): 	at android.os.Parcel.readException(Parcel.java:3166)
+09-17 20:43:05.113 E/ArtService( 1608): 	at com.android.server.art.IArtd$Stub$Proxy.getDexoptStatus(IArtd.java:880)
+09-17 20:43:05.113 E/ArtService( 1608): 	at com.android.server.art.ArtFileManager.getUsableArtifacts(ArtFileManager.java:153)
+09-17 20:43:05.113 E/ArtService( 1608): 	at com.android.server.art.ArtManagerLocal.getArtManagedFileStats(ArtManagerLocal.java:1056)
+09-17 20:43:05.113 E/ArtService( 1608): 	at com.android.server.usage.StorageStatsService.computeAppStatsByDataTypes(qb/99323245 147331c3f593555230048f1951233b624d28de1bc69667cb1c9f7e756ba791a6:75)
+09-17 20:43:05.113 E/ArtService( 1608): 	at com.android.server.usage.StorageStatsService.queryStatsForUid(qb/99323245 147331c3f593555230048f1951233b624d28de1bc69667cb1c9f7e756ba791a6:138)
+09-17 20:43:05.113 E/ArtService( 1608): 	at com.android.server.usage.StorageStatsService.queryStatsForPackage(qb/99323245 147331c3f593555230048f1951233b624d28de1bc69667cb1c9f7e756ba791a6:83)
+09-17 20:43:05.113 E/ArtService( 1608): 	at android.app.usage.IStorageStatsManager$Stub.onTransact(IStorageStatsManager.java:265)
+09-17 20:43:05.113 E/ArtService( 1608): 	at android.os.Binder.execTransactInternal(Binder.java:1536)
+09-17 20:43:05.113 E/ArtService( 1608): 	at android.os.Binder.execTransact(Binder.java:1480)
+09-17 20:43:05.113 E/ArtService( 1608): Failed to get dexopt status [packageName = ai.qwenlm.chat.android, dexPath = /data/user/0/ai.qwenlm.chat.android/app_SGLib/app_1756471037/libsgmain_inner347148062000.zip, isa = arm64, classLoaderContext = PCL[];PCL[/data/app/~~eGbsbgP2TCE50_VSmNpmQg==/ai.qwenlm.chat.android-GUW0_nvW22foq87Em1jjxQ==/base.apk]]
+09-17 20:43:05.113 E/ArtService( 1608): android.os.ServiceSpecificException: Failed to create OatFileAssistant: Failed to load class loader context files for '/data/user/0/ai.qwenlm.chat.android/app_SGLib/app_1756471037/libsgmain_inner347148062000.zip' with context 'PCL[];PCL[/data/app/~~eGbsbgP2TCE50_VSmNpmQg==/ai.qwenlm.chat.android-GUW0_nvW22foq87Em1jjxQ==/base.apk]' (code 1)
+09-17 20:43:05.113 E/ArtService( 1608): 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3271)
+09-17 20:43:05.113 E/ArtService( 1608): 	at android.os.Parcel.createException(Parcel.java:3241)
+09-17 20:43:05.113 E/ArtService( 1608): 	at android.os.Parcel.readException(Parcel.java:3224)
+09-17 20:43:05.113 E/ArtService( 1608): 	at android.os.Parcel.readException(Parcel.java:3166)
+09-17 20:43:05.113 E/ArtService( 1608): 	at com.android.server.art.IArtd$Stub$Proxy.getDexoptStatus(IArtd.java:880)
+09-17 20:43:05.113 E/ArtService( 1608): 	at com.android.server.art.ArtFileManager.getUsableArtifacts(ArtFileManager.java:153)
+09-17 20:43:05.113 E/ArtService( 1608): 	at com.android.server.art.ArtManagerLocal.getArtManagedFileStats(ArtManagerLocal.java:1056)
+09-17 20:43:05.113 E/ArtService( 1608): 	at com.android.server.usage.StorageStatsService.computeAppStatsByDataTypes(qb/99323245 147331c3f593555230048f1951233b624d28de1bc69667cb1c9f7e756ba791a6:75)
+09-17 20:43:05.113 E/ArtService( 1608): 	at com.android.server.usage.StorageStatsService.queryStatsForUid(qb/99323245 147331c3f593555230048f1951233b624d28de1bc69667cb1c9f7e756ba791a6:138)
+09-17 20:43:05.113 E/ArtService( 1608): 	at com.android.server.usage.StorageStatsService.queryStatsForPackage(qb/99323245 147331c3f593555230048f1951233b624d28de1bc69667cb1c9f7e756ba791a6:83)
+09-17 20:43:05.113 E/ArtService( 1608): 	at android.app.usage.IStorageStatsManager$Stub.onTransact(IStorageStatsManager.java:265)
+09-17 20:43:05.113 E/ArtService( 1608): 	at android.os.Binder.execTransactInternal(Binder.java:1536)
+09-17 20:43:05.113 E/ArtService( 1608): 	at android.os.Binder.execTransact(Binder.java:1480)
+09-17 20:43:05.156 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:43:05.156 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:43:05.156 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:43:05.212 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:43:05.212 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:43:05.212 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:43:05.218 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:43:05.218 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:43:05.218 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:43:05.428 E/ArtService( 1608): Failed to get dexopt status [packageName = com.android.vending, dexPath = /data/user/0/com.android.vending/app_dg_cache/9A5D7051542AE014765C7224F1C1DC516F7F4BFD/the.apk, isa = arm64, classLoaderContext = PCL[];PCL[/data/app/~~ZHzsdNt4pnkM7dAKzroJtA==/com.android.vending-tEHAAU7K4I4PXj6UiWGIwg==/base.apk]{PCL[/system/framework/org.apache.http.legacy.jar]#PCL[/system_ext/framework/androidx.window.extensions.jar]#PCL[/system_ext/framework/androidx.window.sidecar.jar]}]
+09-17 20:43:05.428 E/ArtService( 1608): android.os.ServiceSpecificException: Failed to create OatFileAssistant: Failed to load class loader context files for '/data/user/0/com.android.vending/app_dg_cache/9A5D7051542AE014765C7224F1C1DC516F7F4BFD/the.apk' with context 'PCL[];PCL[/data/app/~~ZHzsdNt4pnkM7dAKzroJtA==/com.android.vending-tEHAAU7K4I4PXj6UiWGIwg==/base.apk]{PCL[/system/framework/org.apache.http.legacy.jar]#PCL[/system_ext/framework/androidx.window.extensions.jar]#PCL[/system_ext/framework/androidx.window.sidecar.jar]}' (code 1)
+09-17 20:43:05.428 E/ArtService( 1608): 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3271)
+09-17 20:43:05.428 E/ArtService( 1608): 	at android.os.Parcel.createException(Parcel.java:3241)
+09-17 20:43:05.428 E/ArtService( 1608): 	at android.os.Parcel.readException(Parcel.java:3224)
+09-17 20:43:05.428 E/ArtService( 1608): 	at android.os.Parcel.readException(Parcel.java:3166)
+09-17 20:43:05.428 E/ArtService( 1608): 	at com.android.server.art.IArtd$Stub$Proxy.getDexoptStatus(IArtd.java:880)
+09-17 20:43:05.428 E/ArtService( 1608): 	at com.android.server.art.ArtFileManager.getUsableArtifacts(ArtFileManager.java:153)
+09-17 20:43:05.428 E/ArtService( 1608): 	at com.android.server.art.ArtManagerLocal.getArtManagedFileStats(ArtManagerLocal.java:1056)
+09-17 20:43:05.428 E/ArtService( 1608): 	at com.android.server.usage.StorageStatsService.computeAppStatsByDataTypes(qb/99323245 147331c3f593555230048f1951233b624d28de1bc69667cb1c9f7e756ba791a6:75)
+09-17 20:43:05.428 E/ArtService( 1608): 	at com.android.server.usage.StorageStatsService.queryStatsForUid(qb/99323245 147331c3f593555230048f1951233b624d28de1bc69667cb1c9f7e756ba791a6:138)
+09-17 20:43:05.428 E/ArtService( 1608): 	at com.android.server.usage.StorageStatsService.queryStatsForPackage(qb/99323245 147331c3f593555230048f1951233b624d28de1bc69667cb1c9f7e756ba791a6:83)
+09-17 20:43:05.428 E/ArtService( 1608): 	at android.app.usage.IStorageStatsManager$Stub.onTransact(IStorageStatsManager.java:265)
+09-17 20:43:05.428 E/ArtService( 1608): 	at android.os.Binder.execTransactInternal(Binder.java:1536)
+09-17 20:43:05.428 E/ArtService( 1608): 	at android.os.Binder.execTransact(Binder.java:1480)
+09-17 20:43:05.431 E/ArtService( 1608): Failed to get dexopt status [packageName = com.android.vending, dexPath = /data/user/0/com.android.vending/app_dg_cache/EA908AC69FD243C28051AD07A6A4F504FC4A6B55/the.apk, isa = arm64, classLoaderContext = PCL[];PCL[/data/app/~~DrTfC-TWGFkK0RWQ1jSTaA==/com.android.vending-9JqKzJekhSl98Mo6UToaIA==/base.apk]{PCL[/system/framework/org.apache.http.legacy.jar]#PCL[/system_ext/framework/androidx.window.extensions.jar]#PCL[/system_ext/framework/androidx.window.sidecar.jar]}]
+09-17 20:43:05.431 E/ArtService( 1608): android.os.ServiceSpecificException: Failed to create OatFileAssistant: Failed to load class loader context files for '/data/user/0/com.android.vending/app_dg_cache/EA908AC69FD243C28051AD07A6A4F504FC4A6B55/the.apk' with context 'PCL[];PCL[/data/app/~~DrTfC-TWGFkK0RWQ1jSTaA==/com.android.vending-9JqKzJekhSl98Mo6UToaIA==/base.apk]{PCL[/system/framework/org.apache.http.legacy.jar]#PCL[/system_ext/framework/androidx.window.extensions.jar]#PCL[/system_ext/framework/androidx.window.sidecar.jar]}' (code 1)
+09-17 20:43:05.431 E/ArtService( 1608): 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3271)
+09-17 20:43:05.431 E/ArtService( 1608): 	at android.os.Parcel.createException(Parcel.java:3241)
+09-17 20:43:05.431 E/ArtService( 1608): 	at android.os.Parcel.readException(Parcel.java:3224)
+09-17 20:43:05.431 E/ArtService( 1608): 	at android.os.Parcel.readException(Parcel.java:3166)
+09-17 20:43:05.431 E/ArtService( 1608): 	at com.android.server.art.IArtd$Stub$Proxy.getDexoptStatus(IArtd.java:880)
+09-17 20:43:05.431 E/ArtService( 1608): 	at com.android.server.art.ArtFileManager.getUsableArtifacts(ArtFileManager.java:153)
+09-17 20:43:05.431 E/ArtService( 1608): 	at com.android.server.art.ArtManagerLocal.getArtManagedFileStats(ArtManagerLocal.java:1056)
+09-17 20:43:05.431 E/ArtService( 1608): 	at com.android.server.usage.StorageStatsService.computeAppStatsByDataTypes(qb/99323245 147331c3f593555230048f1951233b624d28de1bc69667cb1c9f7e756ba791a6:75)
+09-17 20:43:05.431 E/ArtService( 1608): 	at com.android.server.usage.StorageStatsService.queryStatsForUid(qb/99323245 147331c3f593555230048f1951233b624d28de1bc69667cb1c9f7e756ba791a6:138)
+09-17 20:43:05.431 E/ArtService( 1608): 	at com.android.server.usage.StorageStatsService.queryStatsForPackage(qb/99323245 147331c3f593555230048f1951233b624d28de1bc69667cb1c9f7e756ba791a6:83)
+09-17 20:43:05.431 E/ArtService( 1608): 	at android.app.usage.IStorageStatsManager$Stub.onTransact(IStorageStatsManager.java:265)
+09-17 20:43:05.431 E/ArtService( 1608): 	at android.os.Binder.execTransactInternal(Binder.java:1536)
+09-17 20:43:05.431 E/ArtService( 1608): 	at android.os.Binder.execTransact(Binder.java:1480)
+09-17 20:43:05.494 E/ArtService( 1608): Failed to get dexopt status [packageName = com.google.android.youtube, dexPath = /data/user/0/com.google.android.youtube/app_dg_cache/5B8BE05A31375C5DBB24353A53C9D441E52F0C3C/the.apk, isa = arm64, classLoaderContext = PCL[];PCL[/data/app/~~cZHCzJNTXfDf7iskebUvNA==/com.google.android.youtube-h3DUld2v9xYN18w2_-oGHQ==/base.apk]{PCL[/system/framework/org.apache.http.legacy.jar]#PCL[/system_ext/framework/androidx.window.extensions.jar]#PCL[/system_ext/framework/androidx.window.sidecar.jar]}]
+09-17 20:43:05.494 E/ArtService( 1608): android.os.ServiceSpecificException: Failed to create OatFileAssistant: Failed to load class loader context files for '/data/user/0/com.google.android.youtube/app_dg_cache/5B8BE05A31375C5DBB24353A53C9D441E52F0C3C/the.apk' with context 'PCL[];PCL[/data/app/~~cZHCzJNTXfDf7iskebUvNA==/com.google.android.youtube-h3DUld2v9xYN18w2_-oGHQ==/base.apk]{PCL[/system/framework/org.apache.http.legacy.jar]#PCL[/system_ext/framework/androidx.window.extensions.jar]#PCL[/system_ext/framework/androidx.window.sidecar.jar]}' (code 1)
+09-17 20:43:05.494 E/ArtService( 1608): 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3271)
+09-17 20:43:05.494 E/ArtService( 1608): 	at android.os.Parcel.createException(Parcel.java:3241)
+09-17 20:43:05.494 E/ArtService( 1608): 	at android.os.Parcel.readException(Parcel.java:3224)
+09-17 20:43:05.494 E/ArtService( 1608): 	at android.os.Parcel.readException(Parcel.java:3166)
+09-17 20:43:05.494 E/ArtService( 1608): 	at com.android.server.art.IArtd$Stub$Proxy.getDexoptStatus(IArtd.java:880)
+09-17 20:43:05.494 E/ArtService( 1608): 	at com.android.server.art.ArtFileManager.getUsableArtifacts(ArtFileManager.java:153)
+09-17 20:43:05.494 E/ArtService( 1608): 	at com.android.server.art.ArtManagerLocal.getArtManagedFileStats(ArtManagerLocal.java:1056)
+09-17 20:43:05.494 E/ArtService( 1608): 	at com.android.server.usage.StorageStatsService.computeAppStatsByDataTypes(qb/99323245 147331c3f593555230048f1951233b624d28de1bc69667cb1c9f7e756ba791a6:75)
+09-17 20:43:05.494 E/ArtService( 1608): 	at com.android.server.usage.StorageStatsService.queryStatsForUid(qb/99323245 147331c3f593555230048f1951233b624d28de1bc69667cb1c9f7e756ba791a6:138)
+09-17 20:43:05.494 E/ArtService( 1608): 	at com.android.server.usage.StorageStatsService.queryStatsForPackage(qb/99323245 147331c3f593555230048f1951233b624d28de1bc69667cb1c9f7e756ba791a6:83)
+09-17 20:43:05.494 E/ArtService( 1608): 	at android.app.usage.IStorageStatsManager$Stub.onTransact(IStorageStatsManager.java:265)
+09-17 20:43:05.494 E/ArtService( 1608): 	at android.os.Binder.execTransactInternal(Binder.java:1536)
+09-17 20:43:05.494 E/ArtService( 1608): 	at android.os.Binder.execTransact(Binder.java:1480)
+09-17 20:43:05.501 E/ArtService( 1608): Failed to get dexopt status [packageName = com.google.android.youtube, dexPath = /data/user/0/com.google.android.youtube/app_pccache/5/93C3DCFD0867095FE4406F170E27CC60B68F10CD/pcam.jar, isa = arm64, classLoaderContext = PCL[];PCL[/data/app/~~cZHCzJNTXfDf7iskebUvNA==/com.google.android.youtube-h3DUld2v9xYN18w2_-oGHQ==/base.apk]{PCL[/system/framework/org.apache.http.legacy.jar]#PCL[/system_ext/framework/androidx.window.extensions.jar]#PCL[/system_ext/framework/androidx.window.sidecar.jar]}]
+09-17 20:43:05.501 E/ArtService( 1608): android.os.ServiceSpecificException: Failed to create OatFileAssistant: Failed to load class loader context files for '/data/user/0/com.google.android.youtube/app_pccache/5/93C3DCFD0867095FE4406F170E27CC60B68F10CD/pcam.jar' with context 'PCL[];PCL[/data/app/~~cZHCzJNTXfDf7iskebUvNA==/com.google.android.youtube-h3DUld2v9xYN18w2_-oGHQ==/base.apk]{PCL[/system/framework/org.apache.http.legacy.jar]#PCL[/system_ext/framework/androidx.window.extensions.jar]#PCL[/system_ext/framework/androidx.window.sidecar.jar]}' (code 1)
+09-17 20:43:05.501 E/ArtService( 1608): 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3271)
+09-17 20:43:05.501 E/ArtService( 1608): 	at android.os.Parcel.createException(Parcel.java:3241)
+09-17 20:43:05.501 E/ArtService( 1608): 	at android.os.Parcel.readException(Parcel.java:3224)
+09-17 20:43:05.501 E/ArtService( 1608): 	at android.os.Parcel.readException(Parcel.java:3166)
+09-17 20:43:05.501 E/ArtService( 1608): 	at com.android.server.art.IArtd$Stub$Proxy.getDexoptStatus(IArtd.java:880)
+09-17 20:43:05.501 E/ArtService( 1608): 	at com.android.server.art.ArtFileManager.getUsableArtifacts(ArtFileManager.java:153)
+09-17 20:43:05.501 E/ArtService( 1608): 	at com.android.server.art.ArtManagerLocal.getArtManagedFileStats(ArtManagerLocal.java:1056)
+09-17 20:43:05.501 E/ArtService( 1608): 	at com.android.server.usage.StorageStatsService.computeAppStatsByDataTypes(qb/99323245 147331c3f593555230048f1951233b624d28de1bc69667cb1c9f7e756ba791a6:75)
+09-17 20:43:05.501 E/ArtService( 1608): 	at com.android.server.usage.StorageStatsService.queryStatsForUid(qb/99323245 147331c3f593555230048f1951233b624d28de1bc69667cb1c9f7e756ba791a6:138)
+09-17 20:43:05.501 E/ArtService( 1608): 	at com.android.server.usage.StorageStatsService.queryStatsForPackage(qb/99323245 147331c3f593555230048f1951233b624d28de1bc69667cb1c9f7e756ba791a6:83)
+09-17 20:43:05.501 E/ArtService( 1608): 	at android.app.usage.IStorageStatsManager$Stub.onTransact(IStorageStatsManager.java:265)
+09-17 20:43:05.501 E/ArtService( 1608): 	at android.os.Binder.execTransactInternal(Binder.java:1536)
+09-17 20:43:05.501 E/ArtService( 1608): 	at android.os.Binder.execTransact(Binder.java:1480)
+09-17 20:43:05.779 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:43:05.779 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:43:05.779 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:43:05.852 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:43:05.852 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:43:05.852 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:43:05.859 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:43:05.859 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:43:05.859 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:43:05.912 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:43:05.912 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:43:05.912 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:43:05.924 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:43:05.924 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:43:05.924 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:43:05.980 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:43:05.980 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:43:05.980 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:43:06.032 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:43:06.032 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:43:06.032 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:43:06.038 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:43:06.038 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:43:06.038 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:43:08.657 E/ding:background(25597): Not starting debugger since process cannot load the jdwp agent.

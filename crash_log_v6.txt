@@ -1,0 +1,83 @@
+--------- beginning of main
+09-17 21:21:29.516 E/pageboostd( 3548): Received HALT command code 2
+09-17 21:21:29.538 E/.gigamindmobile( 7601): Not starting debugger since process cannot load the jdwp agent.
+--------- beginning of crash
+09-17 21:21:29.575 E/AndroidRuntime( 7601): FATAL EXCEPTION: main
+09-17 21:21:29.575 E/AndroidRuntime( 7601): Process: com.gigamindmobile, PID: 7601
+09-17 21:21:29.575 E/AndroidRuntime( 7601): java.lang.UnsatisfiedLinkError: dlopen failed: library "librninstance.so" not found
+09-17 21:21:29.575 E/AndroidRuntime( 7601): 	at java.lang.Runtime.loadLibrary0(Runtime.java:1090)
+09-17 21:21:29.575 E/AndroidRuntime( 7601): 	at java.lang.Runtime.loadLibrary0(Runtime.java:1012)
+09-17 21:21:29.575 E/AndroidRuntime( 7601): 	at java.lang.System.loadLibrary(System.java:1765)
+09-17 21:21:29.575 E/AndroidRuntime( 7601): 	at com.facebook.soloader.nativeloader.SystemDelegate.loadLibrary(SystemDelegate.java:24)
+09-17 21:21:29.575 E/AndroidRuntime( 7601): 	at com.facebook.soloader.nativeloader.NativeLoader.loadLibrary(NativeLoader.java:52)
+09-17 21:21:29.575 E/AndroidRuntime( 7601): 	at com.facebook.soloader.nativeloader.NativeLoader.loadLibrary(NativeLoader.java:30)
+09-17 21:21:29.575 E/AndroidRuntime( 7601): 	at com.facebook.soloader.SoLoader.loadLibrary(SoLoader.java:812)
+09-17 21:21:29.575 E/AndroidRuntime( 7601): 	at com.facebook.react.runtime.JSRuntimeFactory.<clinit>(JSRuntimeFactory.kt:21)
+09-17 21:21:29.575 E/AndroidRuntime( 7601): 	at com.facebook.react.defaults.DefaultReactNativeHost.toReactHost$ReactAndroid_release(DefaultReactNativeHost.kt:113)
+09-17 21:21:29.575 E/AndroidRuntime( 7601): 	at com.facebook.react.defaults.DefaultReactHost.getDefaultReactHost(DefaultReactHost.kt:296)
+09-17 21:21:29.575 E/AndroidRuntime( 7601): 	at com.facebook.react.defaults.DefaultReactHost.getDefaultReactHost$default(DefaultReactHost.kt:286)
+09-17 21:21:29.575 E/AndroidRuntime( 7601): 	at com.gigamindmobile.MainApplication.getReactHost(MainApplication.kt:32)
+09-17 21:21:29.575 E/AndroidRuntime( 7601): 	at com.gigamindmobile.MainApplication.onCreate(MainApplication.kt:38)
+09-17 21:21:29.575 E/AndroidRuntime( 7601): 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1386)
+09-17 21:21:29.575 E/AndroidRuntime( 7601): 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:8377)
+09-17 21:21:29.575 E/AndroidRuntime( 7601): 	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+09-17 21:21:29.575 E/AndroidRuntime( 7601): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2675)
+09-17 21:21:29.575 E/AndroidRuntime( 7601): 	at android.os.Handler.dispatchMessage(Handler.java:107)
+09-17 21:21:29.575 E/AndroidRuntime( 7601): 	at android.os.Looper.loopOnce(Looper.java:257)
+09-17 21:21:29.575 E/AndroidRuntime( 7601): 	at android.os.Looper.loop(Looper.java:342)
+09-17 21:21:29.575 E/AndroidRuntime( 7601): 	at android.app.ActivityThread.main(ActivityThread.java:9634)
+09-17 21:21:29.575 E/AndroidRuntime( 7601): 	at java.lang.reflect.Method.invoke(Native Method)
+09-17 21:21:29.575 E/AndroidRuntime( 7601): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:619)
+09-17 21:21:29.575 E/AndroidRuntime( 7601): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:929)
+09-17 21:21:29.605 E/android.dqagent( 7623): Not starting debugger since process cannot load the jdwp agent.
+--------- beginning of system
+09-17 21:21:32.521 E/TaskPersister( 1608): File error accessing recents directory (directory doesn't exist?).
+09-17 21:21:35.190 E/Watchdog( 1608): !@Sync: 14986 heap(MB): 184 / 203 FD: 1494 [2025-09-17 21:21:35.189]
+09-17 21:21:39.740 E/NotificationService( 1608): isPkgBlocked = true
+09-17 21:21:39.740 E/NotificationService( 1608): isRecordBlocked = false
+09-17 21:21:39.740 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 21:21:39.748 E/NotificationService( 1608): isPkgBlocked = true
+09-17 21:21:39.748 E/NotificationService( 1608): isRecordBlocked = false
+09-17 21:21:39.748 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 21:21:39.774 E/NotificationService( 1608): isPkgBlocked = true
+09-17 21:21:39.774 E/NotificationService( 1608): isRecordBlocked = false
+09-17 21:21:39.774 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 21:21:39.813 E/NotificationService( 1608): isPkgBlocked = true
+09-17 21:21:39.813 E/NotificationService( 1608): isRecordBlocked = false
+09-17 21:21:39.813 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 21:21:39.876 E/NotificationService( 1608): isPkgBlocked = true
+09-17 21:21:39.876 E/NotificationService( 1608): isRecordBlocked = false
+09-17 21:21:39.876 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 21:21:39.945 E/NotificationService( 1608): isPkgBlocked = true
+09-17 21:21:39.945 E/NotificationService( 1608): isRecordBlocked = false
+09-17 21:21:39.945 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 21:21:39.969 E/NotificationService( 1608): isPkgBlocked = true
+09-17 21:21:39.969 E/NotificationService( 1608): isRecordBlocked = false
+09-17 21:21:39.969 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 21:21:39.975 E/NotificationService( 1608): isPkgBlocked = true
+09-17 21:21:39.975 E/NotificationService( 1608): isRecordBlocked = false
+09-17 21:21:39.975 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 21:21:40.156 E/NotificationService( 1608): isPkgBlocked = true
+09-17 21:21:40.156 E/NotificationService( 1608): isRecordBlocked = false
+09-17 21:21:40.156 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 21:21:40.162 E/NotificationService( 1608): isPkgBlocked = true
+09-17 21:21:40.162 E/NotificationService( 1608): isRecordBlocked = false
+09-17 21:21:40.162 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 21:21:40.206 E/NotificationService( 1608): isPkgBlocked = true
+09-17 21:21:40.206 E/NotificationService( 1608): isRecordBlocked = false
+09-17 21:21:40.206 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 21:21:40.265 E/NotificationService( 1608): isPkgBlocked = true
+09-17 21:21:40.265 E/NotificationService( 1608): isRecordBlocked = false
+09-17 21:21:40.265 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 21:21:40.409 E/NotificationService( 1608): isPkgBlocked = true
+09-17 21:21:40.409 E/NotificationService( 1608): isRecordBlocked = false
+09-17 21:21:40.409 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 21:21:40.578 E/NotificationService( 1608): isPkgBlocked = true
+09-17 21:21:40.578 E/NotificationService( 1608): isRecordBlocked = false
+09-17 21:21:40.578 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 21:21:40.620 E/NotificationService( 1608): isPkgBlocked = true
+09-17 21:21:40.620 E/NotificationService( 1608): isRecordBlocked = false
+09-17 21:21:40.620 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 21:21:40.633 E/NotificationService( 1608): isPkgBlocked = true
+09-17 21:21:40.633 E/NotificationService( 1608): isRecordBlocked = false
+09-17 21:21:40.634 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.

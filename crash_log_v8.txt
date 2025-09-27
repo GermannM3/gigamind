@@ -1,0 +1,630 @@
+--------- beginning of system
+09-17 22:17:52.432 E/NotificationService( 1608): isPkgBlocked = true
+09-17 22:17:52.432 E/NotificationService( 1608): isRecordBlocked = false
+09-17 22:17:52.432 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 22:17:52.440 E/NotificationService( 1608): isPkgBlocked = true
+09-17 22:17:52.440 E/NotificationService( 1608): isRecordBlocked = false
+09-17 22:17:52.441 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 22:17:52.448 E/NotificationService( 1608): isPkgBlocked = true
+09-17 22:17:52.448 E/NotificationService( 1608): isRecordBlocked = false
+09-17 22:17:52.448 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 22:17:52.458 E/NotificationService( 1608): isPkgBlocked = true
+09-17 22:17:52.458 E/NotificationService( 1608): isRecordBlocked = false
+09-17 22:17:52.458 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 22:17:52.463 E/NotificationService( 1608): isPkgBlocked = true
+09-17 22:17:52.463 E/NotificationService( 1608): isRecordBlocked = false
+09-17 22:17:52.463 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 22:17:52.468 E/NotificationService( 1608): isPkgBlocked = true
+09-17 22:17:52.468 E/NotificationService( 1608): isRecordBlocked = false
+09-17 22:17:52.468 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 22:17:52.477 E/NotificationService( 1608): isPkgBlocked = true
+09-17 22:17:52.477 E/NotificationService( 1608): isRecordBlocked = false
+09-17 22:17:52.477 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+--------- beginning of main
+09-17 22:17:52.482 E/DatabaseUtils( 7698): Writing exception to parcel
+09-17 22:17:52.482 E/DatabaseUtils( 7698): java.lang.SecurityException: Permission Denial: writing com.sec.android.provider.badge.BadgeProvider uri content://com.sec.badge/apps?notify=true from pid=23453, uid=10281 requires com.sec.android.provider.badge.permission.WRITE, or grantUriPermission()
+09-17 22:17:52.482 E/DatabaseUtils( 7698): 	at android.content.ContentProvider.enforceWritePermissionInner(ContentProvider.java:1138)
+09-17 22:17:52.482 E/DatabaseUtils( 7698): 	at android.content.ContentProvider.semEnforceWritePermission(ContentProvider.java:1064)
+09-17 22:17:52.482 E/DatabaseUtils( 7698): 	at android.content.ContentProvider$Transport.enforceWritePermission(ContentProvider.java:840)
+09-17 22:17:52.482 E/DatabaseUtils( 7698): 	at android.content.ContentProvider$Transport.update(ContentProvider.java:569)
+09-17 22:17:52.482 E/DatabaseUtils( 7698): 	at android.content.ContentProviderNative.onTransact(ContentProviderNative.java:243)
+09-17 22:17:52.482 E/DatabaseUtils( 7698): 	at android.os.Binder.execTransactInternal(Binder.java:1541)
+09-17 22:17:52.482 E/DatabaseUtils( 7698): 	at android.os.Binder.execTransact(Binder.java:1480)
+09-17 22:17:52.646 E/pageboostd( 3548): Received HALT command code 2
+09-17 22:17:52.662 E/AppIconSolution( 2560): Using cached contents available for us.mark.TheHacker.appicon
+09-17 22:17:52.698 E/.gigamindmobile( 8512): Not starting debugger since process cannot load the jdwp agent.
+09-17 22:17:52.737 E/SurfaceFlinger( 1454): alpha changed 1.000 -> 0.000 - DimTransitionLayer for Surface(name=Task=12906)/@0x9d8f7ff#36654
+09-17 22:17:52.737 E/SurfaceFlinger( 1454): alpha changed 1.000 -> 0.000 - Task=12906#36644
+09-17 22:17:52.737 E/SurfaceFlinger( 1454): alpha changed 0.000 -> 1.000 - Task=12906#36644
+09-17 22:17:52.737 E/SurfaceFlinger( 1454): alpha changed 0.000 -> 0.000 - DimTransitionLayer for Surface(name=Task=12906)/@0x9d8f7ff#36654
+09-17 22:17:52.770 E/SurfaceFlinger( 1454): alpha changed 0.000 -> 0.019 - DimTransitionLayer for Surface(name=Task=12906)/@0x9d8f7ff#36654
+09-17 22:17:52.775 E/TransactionExecutor( 8512): Failed to execute the transaction: tId:-1917880497 ClientTransaction{
+09-17 22:17:52.775 E/TransactionExecutor( 8512): tId:-1917880497   transactionItems=[
+09-17 22:17:52.775 E/TransactionExecutor( 8512): tId:-1917880497     LaunchActivityItem{activityToken=android.os.BinderProxy@aff4968,intent=Intent { flg=0x10000000 cmp=com.gigamindmobile/.MainActivity },ident=230337207,info=ActivityInfo{3bfdab2 com.gigamindmobile.MainActivity},curConfig={1.0 250mcc99mnc [ru_RU] ldltr sw360dp w360dp h800dp 480dpi nrml long port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2400) mAppBounds=Rect(0, 0 - 1080, 2400) mMaxBounds=Rect(0, 0 - 1080, 2400) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0 mStageConfig=undefined mPopOver=off mOverlappingWithCutout=false mCompatSandboxScale=-1.0 mDexTaskDockingState=none mFreeformTaskPinningState=unpinned} s.7435 fontWeightAdjustment=0 ff=0 bf=0 bts=0 cst=1.0 nightDim=0 desktop/d dm/n dc/d ?dcui themeSeq=0},overrideConfig={1.0 250mcc99mnc [ru_RU] ldltr sw360dp w360dp h800dp 480dpi nrml long port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2400) mAppBounds=Rect(0, 0 - 1080, 2400) mMaxBounds=Rect(0, 0 - 1080, 2400) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=standard mAlwaysOnTop=undefined mRotation=ROTATION_0 mStageConfig=undefined mPopOver=off mOverlappingWithCutout=false mCompatSandboxScale=-1.0 mDexTaskDockingState=none mFreeformTaskPinningState=unpinned} s.2 fontWeightAdjustment=0 ff=0 bf=0 bts=0 cst=1.0 nightDim=0 desktop/d dm/n dc/d ?dcui themeSeq=0},deviceId=0,referrer=com.android.shell,procState=2,state=null,persistentState=null,pendingResults=null,pendingNewIntents=null,sceneTransitionInfo=null,profilerInfo=null,assistToken=android.os.BinderProxy@f336e67,shareableActivityToken=android.os.BinderProxy@f339414,activityWindowInfo=ActivityWindowInfo{isEmbedded=false, taskBounds=Rect(0, 0 - 1080, 2400), taskFragmentBounds=Rect(0, 0 - 1080, 2400)}}
+09-17 22:17:52.775 E/TransactionExecutor( 8512): tId:-1917880497     ResumeActivityItem{mActivityToken=android.os.BinderProxy@aff4968,procState=-1,updateProcState=false,isForward=true,shouldSendCompatFakeFocus=false}
+09-17 22:17:52.775 E/TransactionExecutor( 8512): tId:-1917880497     Target activity: Not found for token: android.os.BinderProxy@aff4968
+09-17 22:17:52.775 E/TransactionExecutor( 8512): tId:-1917880497   ]
+09-17 22:17:52.775 E/TransactionExecutor( 8512): tId:-1917880497 }
+--------- beginning of crash
+09-17 22:17:52.775 E/AndroidRuntime( 8512): FATAL EXCEPTION: main
+09-17 22:17:52.775 E/AndroidRuntime( 8512): Process: com.gigamindmobile, PID: 8512
+09-17 22:17:52.775 E/AndroidRuntime( 8512): java.lang.RuntimeException: Unable to instantiate activity ComponentInfo{com.gigamindmobile/com.gigamindmobile.MainActivity}: java.lang.ClassNotFoundException: Didn't find class "com.gigamindmobile.MainActivity" on path: DexPathList[[zip file "/data/app/~~mOPlyAqZcrJDol40Q-GklQ==/com.gigamindmobile-HOfL3NKh0gWdW9WtAihVPA==/base.apk"],nativeLibraryDirectories=[/data/app/~~mOPlyAqZcrJDol40Q-GklQ==/com.gigamindmobile-HOfL3NKh0gWdW9WtAihVPA==/lib/arm64, /data/app/~~mOPlyAqZcrJDol40Q-GklQ==/com.gigamindmobile-HOfL3NKh0gWdW9WtAihVPA==/base.apk!/lib/arm64-v8a, /system/lib64]]
+09-17 22:17:52.775 E/AndroidRuntime( 8512): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4334)
+09-17 22:17:52.775 E/AndroidRuntime( 8512): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:4685)
+09-17 22:17:52.775 E/AndroidRuntime( 8512): 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:112)
+09-17 22:17:52.775 E/AndroidRuntime( 8512): 	at android.app.servertransaction.TransactionExecutor.executeNonLifecycleItem(TransactionExecutor.java:174)
+09-17 22:17:52.775 E/AndroidRuntime( 8512): 	at android.app.servertransaction.TransactionExecutor.executeTransactionItems(TransactionExecutor.java:109)
+09-17 22:17:52.775 E/AndroidRuntime( 8512): 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:81)
+09-17 22:17:52.775 E/AndroidRuntime( 8512): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2895)
+09-17 22:17:52.775 E/AndroidRuntime( 8512): 	at android.os.Handler.dispatchMessage(Handler.java:107)
+09-17 22:17:52.775 E/AndroidRuntime( 8512): 	at android.os.Looper.loopOnce(Looper.java:257)
+09-17 22:17:52.775 E/AndroidRuntime( 8512): 	at android.os.Looper.loop(Looper.java:342)
+09-17 22:17:52.775 E/AndroidRuntime( 8512): 	at android.app.ActivityThread.main(ActivityThread.java:9634)
+09-17 22:17:52.775 E/AndroidRuntime( 8512): 	at java.lang.reflect.Method.invoke(Native Method)
+09-17 22:17:52.775 E/AndroidRuntime( 8512): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:619)
+09-17 22:17:52.775 E/AndroidRuntime( 8512): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:929)
+09-17 22:17:52.775 E/AndroidRuntime( 8512): Caused by: java.lang.ClassNotFoundException: Didn't find class "com.gigamindmobile.MainActivity" on path: DexPathList[[zip file "/data/app/~~mOPlyAqZcrJDol40Q-GklQ==/com.gigamindmobile-HOfL3NKh0gWdW9WtAihVPA==/base.apk"],nativeLibraryDirectories=[/data/app/~~mOPlyAqZcrJDol40Q-GklQ==/com.gigamindmobile-HOfL3NKh0gWdW9WtAihVPA==/lib/arm64, /data/app/~~mOPlyAqZcrJDol40Q-GklQ==/com.gigamindmobile-HOfL3NKh0gWdW9WtAihVPA==/base.apk!/lib/arm64-v8a, /system/lib64]]
+09-17 22:17:52.775 E/AndroidRuntime( 8512): 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:259)
+09-17 22:17:52.775 E/AndroidRuntime( 8512): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:637)
+09-17 22:17:52.775 E/AndroidRuntime( 8512): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:573)
+09-17 22:17:52.775 E/AndroidRuntime( 8512): 	at android.app.AppComponentFactory.instantiateActivity(AppComponentFactory.java:95)
+09-17 22:17:52.775 E/AndroidRuntime( 8512): 	at androidx.core.app.CoreComponentFactory.instantiateActivity(CoreComponentFactory.java:44)
+09-17 22:17:52.775 E/AndroidRuntime( 8512): 	at android.app.Instrumentation.newActivity(Instrumentation.java:1448)
+09-17 22:17:52.775 E/AndroidRuntime( 8512): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4321)
+09-17 22:17:52.775 E/AndroidRuntime( 8512): 	... 13 more
+09-17 22:17:52.837 E/SurfaceFlinger( 1454): alpha changed 1.000 -> 0.000 - DimTransitionLayer for Surface(name=Task=12906)/@0x8e61e8a#36658
+09-17 22:17:52.837 E/SurfaceFlinger( 1454): alpha changed 0.000 -> 0.180 - DimTransitionLayer for Surface(name=Task=12906)/@0x8e61e8a#36658
+09-17 22:17:52.857 E/DMASA[D]( 4658): [d]enqueueFCwork: ProcessErrorStateInfo is null
+09-17 22:17:52.878 E/DatabaseUtils( 7698): Writing exception to parcel
+09-17 22:17:52.878 E/DatabaseUtils( 7698): java.lang.SecurityException: Permission Denial: writing com.sec.android.provider.badge.BadgeProvider uri content://com.sec.badge/apps?notify=true from pid=23453, uid=10281 requires com.sec.android.provider.badge.permission.WRITE, or grantUriPermission()
+09-17 22:17:52.878 E/DatabaseUtils( 7698): 	at android.content.ContentProvider.enforceWritePermissionInner(ContentProvider.java:1138)
+09-17 22:17:52.878 E/DatabaseUtils( 7698): 	at android.content.ContentProvider.semEnforceWritePermission(ContentProvider.java:1064)
+09-17 22:17:52.878 E/DatabaseUtils( 7698): 	at android.content.ContentProvider$Transport.enforceWritePermission(ContentProvider.java:840)
+09-17 22:17:52.878 E/DatabaseUtils( 7698): 	at android.content.ContentProvider$Transport.update(ContentProvider.java:569)
+09-17 22:17:52.878 E/DatabaseUtils( 7698): 	at android.content.ContentProviderNative.onTransact(ContentProviderNative.java:243)
+09-17 22:17:52.878 E/DatabaseUtils( 7698): 	at android.os.Binder.execTransactInternal(Binder.java:1541)
+09-17 22:17:52.878 E/DatabaseUtils( 7698): 	at android.os.Binder.execTransact(Binder.java:1480)
+09-17 22:17:52.905 E/Dc.IafdService( 6501): app error more than 5 times.  just return
+09-17 22:17:52.975 E/AppIconSolution( 3017): Using cached contents available for us.mark.TheHacker.appicon
+09-17 22:17:53.004 E/SurfaceFlinger( 1454): alpha changed 0.020 -> 0.000 - DimTransitionLayer for Surface(name=Task=12906)/@0x8e61e8a#36658
+09-17 22:17:53.004 E/SurfaceFlinger( 1454): alpha changed 0.000 -> 0.000 - DimTransitionLayer for Surface(name=Task=12906)/@0x8e61e8a#36658
+09-17 22:17:53.050 E/BtGatt.GattService(16000): [GSIM LOG]: gsimLogHandler, msg: MESSAGE_SCAN_STOP, appName: com.google.android.gms, scannerId: 9, reportDelayMillis=0
+09-17 22:17:53.054 E/BtGatt.GattService(16000): [GSIM LOG]: gsimLogHandler, msg: MESSAGE_SCAN_START, appName: com.google.android.gms, scannerId: 9, reportDelayMillis=0
+09-17 22:17:53.264 E/AppIconSolution( 3017): Using cached contents available for us.mark.TheHacker.appicon
+09-17 22:17:53.702 E/.sberbankmobile( 3999): hiddenapi: Accessing hidden method Landroid/os/storage/StorageVolume;->getPath()Ljava/lang/String; (runtime_flags=0, domain=platform, api=max-target-q,test-api) from Lkavsdk/o/ae; (domain=app) using reflection: denied
+09-17 22:17:53.956 E/NotificationService( 1608): isPkgBlocked = true
+09-17 22:17:53.956 E/NotificationService( 1608): isRecordBlocked = false
+09-17 22:17:53.956 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 22:17:54.033 E/NotificationService( 1608): isPkgBlocked = true
+09-17 22:17:54.033 E/NotificationService( 1608): isRecordBlocked = false
+09-17 22:17:54.033 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 22:17:54.057 E/NotificationService( 1608): isPkgBlocked = true
+09-17 22:17:54.057 E/NotificationService( 1608): isRecordBlocked = false
+09-17 22:17:54.057 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 22:17:54.066 E/NotificationService( 1608): isPkgBlocked = true
+09-17 22:17:54.066 E/NotificationService( 1608): isRecordBlocked = false
+09-17 22:17:54.066 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 22:17:54.077 E/NotificationService( 1608): isPkgBlocked = true
+09-17 22:17:54.077 E/NotificationService( 1608): isRecordBlocked = false
+09-17 22:17:54.077 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 22:17:54.085 E/NotificationService( 1608): isPkgBlocked = true
+09-17 22:17:54.085 E/NotificationService( 1608): isRecordBlocked = false
+09-17 22:17:54.085 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 22:17:54.090 E/NotificationService( 1608): isPkgBlocked = true
+09-17 22:17:54.090 E/NotificationService( 1608): isRecordBlocked = false
+09-17 22:17:54.090 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 22:17:54.096 E/NotificationService( 1608): isPkgBlocked = true
+09-17 22:17:54.096 E/NotificationService( 1608): isRecordBlocked = false
+09-17 22:17:54.096 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 22:17:54.974 E/DatabaseUtils( 7698): Writing exception to parcel
+09-17 22:17:54.974 E/DatabaseUtils( 7698): java.lang.SecurityException: Permission Denial: writing com.sec.android.provider.badge.BadgeProvider uri content://com.sec.badge/apps?notify=true from pid=23453, uid=10281 requires com.sec.android.provider.badge.permission.WRITE, or grantUriPermission()
+09-17 22:17:54.974 E/DatabaseUtils( 7698): 	at android.content.ContentProvider.enforceWritePermissionInner(ContentProvider.java:1138)
+09-17 22:17:54.974 E/DatabaseUtils( 7698): 	at android.content.ContentProvider.semEnforceWritePermission(ContentProvider.java:1064)
+09-17 22:17:54.974 E/DatabaseUtils( 7698): 	at android.content.ContentProvider$Transport.enforceWritePermission(ContentProvider.java:840)
+09-17 22:17:54.974 E/DatabaseUtils( 7698): 	at android.content.ContentProvider$Transport.update(ContentProvider.java:569)
+09-17 22:17:54.974 E/DatabaseUtils( 7698): 	at android.content.ContentProviderNative.onTransact(ContentProviderNative.java:243)
+09-17 22:17:54.974 E/DatabaseUtils( 7698): 	at android.os.Binder.execTransactInternal(Binder.java:1541)
+09-17 22:17:54.974 E/DatabaseUtils( 7698): 	at android.os.Binder.execTransact(Binder.java:1480)
+09-17 22:17:54.992 E/TaskPersister( 1608): File error accessing recents directory (directory doesn't exist?).
+09-17 22:17:55.410 E/SecVibrator-HAL-AIDL-EXT( 1417): V_3_0: performHapticEngine
+09-17 22:17:55.410 E/SecVibrator-HAL-AIDL-EXT( 1417): V_3_0: performHapticEngine amplitude : 4000
+09-17 22:17:55.410 E/SecVibrator-HAL-AIDL-EXT( 1417): V_3_0: performHapticEngine packet_cnt : 1
+09-17 22:17:55.410 E/SecVibrator-HAL-AIDL-EXT( 1417): V_3_0: performHapticEngine total_size : 4
+09-17 22:17:55.410 E/SecVibrator-HAL-AIDL-EXT( 1417): V_3_0: performHapticEngine : 4 7 4000 2000 1
+09-17 22:17:55.411 E/SecVibrator-HAL-AIDL-CORE( 1417): HW_API: do_on for timeoutMs: 1
+09-17 22:17:55.411 E/SecVibrator-HAL-AIDL-CORE( 1417): HW_API: >> writeNode node:/timed_output/vibrator/enable val:1
+09-17 22:17:55.412 E/SecVibrator-HAL-AIDL-CORE( 1417): HW_API: << writeNode node OK : 2
+09-17 22:17:55.412 E/SecVibrator-HAL-AIDL-EXT( 1417): V_3_0: performHapticEngine OK
+09-17 22:17:55.508 E/SurfaceFlinger( 1454): alpha changed 1.000 -> 0.000 - Surface(name=Task=1)/@0x41931fb_transition-leash#36664
+09-17 22:17:55.524 E/SurfaceFlinger( 1454): alpha changed 0.000 -> 1.000 - Surface(name=Task=1)/@0x41931fb_transition-leash#36664
+09-17 22:17:55.531 E/NativeCustomFrequencyManager( 1454): [NativeCFMS] BpCustomFrequencyManager::acquire()
+09-17 22:17:55.574 E/SurfaceFlinger( 1454): alpha changed 1.000 -> 0.000 - Surface(name=d1c2e8d InputMethod)/@0x7a60053 - animation-leash of insets_animation#36667
+09-17 22:17:55.636 E/SecVibrator-HAL-AIDL-CORE( 1417): V_1_0: Vibrator off
+09-17 22:17:55.636 E/SecVibrator-HAL-AIDL-CORE( 1417): HW_API: >> writeNode node:/timed_output/vibrator/enable val:0
+09-17 22:17:55.637 E/SecVibrator-HAL-AIDL-CORE( 1417): HW_API: << writeNode node OK : 2
+09-17 22:17:55.742 E/SurfaceComposerClient( 3017): SurfaceComposerClient::Transaction::setAlpha: invalid alpha -0.016384, clamping
+09-17 22:17:55.758 E/SurfaceFlinger( 1454): alpha changed 0.022 -> 0.000 - Surface(name=Task=12899)/@0x1189471_transition-leash#36665
+09-17 22:17:55.758 E/SurfaceComposerClient( 3017): SurfaceComposerClient::Transaction::setAlpha: invalid alpha -0.037181, clamping
+09-17 22:17:55.775 E/SurfaceComposerClient( 3017): SurfaceComposerClient::Transaction::setAlpha: invalid alpha -0.047709, clamping
+09-17 22:17:55.792 E/SurfaceComposerClient( 3017): SurfaceComposerClient::Transaction::setAlpha: invalid alpha -0.050438, clamping
+09-17 22:17:55.809 E/SurfaceComposerClient( 3017): SurfaceComposerClient::Transaction::setAlpha: invalid alpha -0.046872, clamping
+09-17 22:17:55.825 E/SurfaceComposerClient( 3017): SurfaceComposerClient::Transaction::setAlpha: invalid alpha -0.039456, clamping
+09-17 22:17:55.842 E/SurfaceComposerClient( 3017): SurfaceComposerClient::Transaction::setAlpha: invalid alpha -0.029535, clamping
+09-17 22:17:55.859 E/SurfaceComposerClient( 3017): SurfaceComposerClient::Transaction::setAlpha: invalid alpha -0.014703, clamping
+09-17 22:17:55.893 E/WindowManager( 1608): win=Window{876bb47 u0 com.gigamindmobile_test/com.gigamindmobile_test.MainActivity} destroySurfaces: appStopped=true cleanupOnResume=false win.mWindowRemovalAllowed=false win.mRemoveOnExit=false win.mViewVisibility=8 caller=com.android.server.wm.ActivityRecord.destroySurfaces:25 com.android.server.wm.ActivityRecord.activityStopped:204 com.android.server.wm.ActivityClientController.activityStopped:95 android.app.IActivityClientController$Stub.onTransact:722 com.android.server.wm.ActivityClientController.onTransact:1 android.os.Binder.execTransactInternal:1541 android.os.Binder.execTransact:1480 
+09-17 22:17:56.065 E/NotificationService( 1608): isPkgBlocked = true
+09-17 22:17:56.065 E/NotificationService( 1608): isRecordBlocked = false
+09-17 22:17:56.065 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 22:17:56.126 E/NotificationService( 1608): isPkgBlocked = true
+09-17 22:17:56.126 E/NotificationService( 1608): isRecordBlocked = false
+09-17 22:17:56.126 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 22:17:56.133 E/NotificationService( 1608): isPkgBlocked = true
+09-17 22:17:56.133 E/NotificationService( 1608): isRecordBlocked = false
+09-17 22:17:56.133 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 22:17:56.138 E/NotificationService( 1608): isPkgBlocked = true
+09-17 22:17:56.138 E/NotificationService( 1608): isRecordBlocked = false
+09-17 22:17:56.138 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 22:17:56.145 E/NotificationService( 1608): isPkgBlocked = true
+09-17 22:17:56.145 E/NotificationService( 1608): isRecordBlocked = false
+09-17 22:17:56.145 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 22:17:56.148 E/NotificationService( 1608): isPkgBlocked = true
+09-17 22:17:56.148 E/NotificationService( 1608): isRecordBlocked = false
+09-17 22:17:56.148 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 22:17:56.152 E/NotificationService( 1608): isPkgBlocked = true
+09-17 22:17:56.152 E/NotificationService( 1608): isRecordBlocked = false
+09-17 22:17:56.152 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 22:17:56.157 E/NotificationService( 1608): isPkgBlocked = true
+09-17 22:17:56.157 E/NotificationService( 1608): isRecordBlocked = false
+09-17 22:17:56.157 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 22:17:57.186 E/AppIconSolution( 2560): Using cached contents available for us.mark.TheHacker.appicon
+09-17 22:17:57.233 E/pageboostd( 3548): Received HALT command code 2
+09-17 22:17:57.235 E/pageboostd( 3548): Received HALT command code 2
+09-17 22:17:57.263 E/SurfaceFlinger( 1454): alpha changed 1.000 -> 0.000 - Surface(name=Task=12899)/@0x1eb71a1_transition-leash#36673
+09-17 22:17:57.329 E/SurfaceFlinger( 1454): alpha changed 0.000 -> 0.032 - Surface(name=Task=12899)/@0x1eb71a1_transition-leash#36673
+09-17 22:17:57.336 E/NativeCustomFrequencyManager( 1454): [NativeCFMS] BpCustomFrequencyManager::acquire()
+09-17 22:17:57.363 E/SurfaceFlinger( 1454): alpha changed 1.000 -> 0.000 - Surface(name=d1c2e8d InputMethod)/@0x7a60053 - animation-leash of insets_animation#36677
+09-17 22:17:57.530 E/WindowManager( 1608): win=Window{db2d64f u0 SnapshotStartingWindow for taskId=12899 EXITING} destroySurfaces: appStopped=false cleanupOnResume=false win.mWindowRemovalAllowed=true win.mRemoveOnExit=true win.mViewVisibility=0 caller=com.android.server.wm.WindowState.onExitAnimationDone:222 com.android.server.wm.WindowState.onAnimationFinished:161 com.android.server.wm.WindowContainer$$ExternalSyntheticLambda5.onAnimationFinished:26 com.android.server.wm.SurfaceAnimator$$ExternalSyntheticLambda1.run:28 com.android.server.wm.SurfaceAnimator$$ExternalSyntheticLambda0.onAnimationFinished:65 com.android.server.wm.LocalAnimationAdapter$$ExternalSyntheticLambda0.run:10 android.os.Handler.handleCallback:959 
+09-17 22:17:57.547 E/SurfaceFlinger( 1454): alpha changed 0.107 -> 0.000 - Surface(name=db2d64f SnapshotStartingWindow for taskId=12899)/@0xb56b5cd - animation-leash of window_animation#36678
+09-17 22:17:57.654 E/WindowManager( 1608): win=Window{df877d0 u0 com.sec.android.app.launcher/com.sec.android.app.launcher.activities.LauncherActivity} destroySurfaces: appStopped=true cleanupOnResume=false win.mWindowRemovalAllowed=false win.mRemoveOnExit=false win.mViewVisibility=8 caller=com.android.server.wm.ActivityRecord.destroySurfaces:25 com.android.server.wm.ActivityRecord.activityStopped:204 com.android.server.wm.ActivityClientController.activityStopped:95 android.app.IActivityClientController$Stub.onTransact:722 com.android.server.wm.ActivityClientController.onTransact:1 android.os.Binder.execTransactInternal:1541 android.os.Binder.execTransact:1480 
+09-17 22:17:57.790 E/NotificationService( 1608): isPkgBlocked = true
+09-17 22:17:57.790 E/NotificationService( 1608): isRecordBlocked = false
+09-17 22:17:57.790 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 22:17:57.847 E/NotificationService( 1608): isPkgBlocked = true
+09-17 22:17:57.847 E/NotificationService( 1608): isRecordBlocked = false
+09-17 22:17:57.847 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 22:17:57.855 E/NotificationService( 1608): isPkgBlocked = true
+09-17 22:17:57.855 E/NotificationService( 1608): isRecordBlocked = false
+09-17 22:17:57.855 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 22:17:57.861 E/NotificationService( 1608): isPkgBlocked = true
+09-17 22:17:57.861 E/NotificationService( 1608): isRecordBlocked = false
+09-17 22:17:57.861 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 22:17:57.868 E/NotificationService( 1608): isPkgBlocked = true
+09-17 22:17:57.868 E/NotificationService( 1608): isRecordBlocked = false
+09-17 22:17:57.868 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 22:17:57.872 E/NotificationService( 1608): isPkgBlocked = true
+09-17 22:17:57.873 E/NotificationService( 1608): isRecordBlocked = false
+09-17 22:17:57.873 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 22:17:57.876 E/NotificationService( 1608): isPkgBlocked = true
+09-17 22:17:57.876 E/NotificationService( 1608): isRecordBlocked = false
+09-17 22:17:57.876 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 22:17:57.882 E/NotificationService( 1608): isPkgBlocked = true
+09-17 22:17:57.882 E/NotificationService( 1608): isRecordBlocked = false
+09-17 22:17:57.882 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 22:17:58.122 E/SecVibrator-HAL-AIDL-EXT( 1417): V_3_0: performHapticEngine
+09-17 22:17:58.122 E/SecVibrator-HAL-AIDL-EXT( 1417): V_3_0: performHapticEngine amplitude : 4000
+09-17 22:17:58.122 E/SecVibrator-HAL-AIDL-EXT( 1417): V_3_0: performHapticEngine packet_cnt : 1
+09-17 22:17:58.122 E/SecVibrator-HAL-AIDL-EXT( 1417): V_3_0: performHapticEngine total_size : 4
+09-17 22:17:58.122 E/SecVibrator-HAL-AIDL-EXT( 1417): V_3_0: performHapticEngine : 4 7 4000 2000 1
+09-17 22:17:58.122 E/SecVibrator-HAL-AIDL-CORE( 1417): HW_API: do_on for timeoutMs: 1
+09-17 22:17:58.122 E/SecVibrator-HAL-AIDL-CORE( 1417): HW_API: >> writeNode node:/timed_output/vibrator/enable val:1
+09-17 22:17:58.124 E/SecVibrator-HAL-AIDL-CORE( 1417): HW_API: << writeNode node OK : 2
+09-17 22:17:58.124 E/SecVibrator-HAL-AIDL-EXT( 1417): V_3_0: performHapticEngine OK
+09-17 22:17:58.215 E/SurfaceFlinger( 1454): alpha changed 1.000 -> 0.000 - Surface(name=Task=1)/@0x3537c10_transition-leash#36683
+09-17 22:17:58.231 E/SurfaceFlinger( 1454): alpha changed 0.000 -> 1.000 - Surface(name=Task=1)/@0x3537c10_transition-leash#36683
+09-17 22:17:58.281 E/SurfaceFlinger( 1454): alpha changed 1.000 -> 0.000 - Surface(name=d1c2e8d InputMethod)/@0x7a60053 - animation-leash of insets_animation#36686
+09-17 22:17:58.351 E/SecVibrator-HAL-AIDL-CORE( 1417): V_1_0: Vibrator off
+09-17 22:17:58.351 E/SecVibrator-HAL-AIDL-CORE( 1417): HW_API: >> writeNode node:/timed_output/vibrator/enable val:0
+09-17 22:17:58.352 E/SecVibrator-HAL-AIDL-CORE( 1417): HW_API: << writeNode node OK : 2
+09-17 22:17:58.448 E/SurfaceComposerClient( 3017): SurfaceComposerClient::Transaction::setAlpha: invalid alpha -0.016384, clamping
+09-17 22:17:58.465 E/SurfaceFlinger( 1454): alpha changed 0.022 -> 0.000 - Surface(name=Task=12899)/@0xbdb990e_transition-leash#36684
+09-17 22:17:58.465 E/SurfaceComposerClient( 3017): SurfaceComposerClient::Transaction::setAlpha: invalid alpha -0.036481, clamping
+09-17 22:17:58.482 E/SurfaceComposerClient( 3017): SurfaceComposerClient::Transaction::setAlpha: invalid alpha -0.047539, clamping
+09-17 22:17:58.498 E/SurfaceComposerClient( 3017): SurfaceComposerClient::Transaction::setAlpha: invalid alpha -0.050438, clamping
+09-17 22:17:58.515 E/SurfaceComposerClient( 3017): SurfaceComposerClient::Transaction::setAlpha: invalid alpha -0.046872, clamping
+09-17 22:17:58.532 E/SurfaceComposerClient( 3017): SurfaceComposerClient::Transaction::setAlpha: invalid alpha -0.040076, clamping
+09-17 22:17:58.548 E/SurfaceComposerClient( 3017): SurfaceComposerClient::Transaction::setAlpha: invalid alpha -0.029535, clamping
+09-17 22:17:58.565 E/SurfaceComposerClient( 3017): SurfaceComposerClient::Transaction::setAlpha: invalid alpha -0.014703, clamping
+09-17 22:17:58.600 E/WindowManager( 1608): win=Window{876bb47 u0 com.gigamindmobile_test/com.gigamindmobile_test.MainActivity} destroySurfaces: appStopped=true cleanupOnResume=false win.mWindowRemovalAllowed=false win.mRemoveOnExit=false win.mViewVisibility=8 caller=com.android.server.wm.ActivityRecord.destroySurfaces:25 com.android.server.wm.ActivityRecord.activityStopped:204 com.android.server.wm.ActivityClientController.activityStopped:95 android.app.IActivityClientController$Stub.onTransact:722 com.android.server.wm.ActivityClientController.onTransact:1 android.os.Binder.execTransactInternal:1541 android.os.Binder.execTransact:1480 
+09-17 22:17:58.965 E/NotificationService( 1608): isPkgBlocked = true
+09-17 22:17:58.965 E/NotificationService( 1608): isRecordBlocked = false
+09-17 22:17:58.965 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 22:17:58.979 E/pageboostd( 3548): alp start : app comgigamindmobile
+09-17 22:17:58.981 E/AppIconSolution( 2560): Using cached contents available for us.mark.TheHacker.appicon
+09-17 22:17:58.983 E/pageboostd( 3548): comgigamindmobile, amt 10439924 scnt 2 fcnt 0
+09-17 22:17:58.983 E/pageboostd( 3548): comgigamindmobile, amt 0 scnt 0 fcnt 0
+09-17 22:17:58.983 E/pageboostd( 3548): alp end : app comgigamindmobile data_amount 10439924
+09-17 22:17:59.013 E/.gigamindmobile( 8701): Not starting debugger since process cannot load the jdwp agent.
+09-17 22:17:59.037 E/pageboostd( 3548): Received HALT command code 2
+09-17 22:17:59.084 E/SurfaceFlinger( 1454): alpha changed 1.000 -> 0.000 - Surface(name=Task=12907)/@0x86aee39_transition-leash#36693
+09-17 22:17:59.090 E/TransactionExecutor( 8701): Failed to execute the transaction: tId:941762167 ClientTransaction{
+09-17 22:17:59.090 E/TransactionExecutor( 8701): tId:941762167   transactionItems=[
+09-17 22:17:59.090 E/TransactionExecutor( 8701): tId:941762167     LaunchActivityItem{activityToken=android.os.BinderProxy@aff4968,intent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.gigamindmobile/.MainActivity bnds=[290,803][539,1089] },ident=206911621,info=ActivityInfo{3bfdab2 com.gigamindmobile.MainActivity},curConfig={1.0 250mcc99mnc [ru_RU] ldltr sw360dp w360dp h800dp 480dpi nrml long port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2400) mAppBounds=Rect(0, 0 - 1080, 2400) mMaxBounds=Rect(0, 0 - 1080, 2400) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0 mStageConfig=undefined mPopOver=off mOverlappingWithCutout=false mCompatSandboxScale=-1.0 mDexTaskDockingState=none mFreeformTaskPinningState=unpinned} s.7436 fontWeightAdjustment=0 ff=0 bf=0 bts=0 cst=1.0 nightDim=0 desktop/d dm/n dc/d ?dcui themeSeq=0},overrideConfig={1.0 250mcc99mnc [ru_RU] ldltr sw360dp w360dp h800dp 480dpi nrml long port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2400) mAppBounds=Rect(0, 0 - 1080, 2400) mMaxBounds=Rect(0, 0 - 1080, 2400) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=standard mAlwaysOnTop=undefined mRotation=ROTATION_0 mStageConfig=undefined mPopOver=off mOverlappingWithCutout=false mCompatSandboxScale=-1.0 mDexTaskDockingState=none mFreeformTaskPinningState=unpinned} s.2 fontWeightAdjustment=0 ff=0 bf=0 bts=0 cst=1.0 nightDim=0 desktop/d dm/n dc/d ?dcui themeSeq=0},deviceId=0,referrer=com.sec.android.app.launcher,procState=19,state=null,persistentState=null,pendingResults=null,pendingNewIntents=null,sceneTransitionInfo=null,profilerInfo=null,assistToken=android.os.BinderProxy@f336e67,shareableActivityToken=android.os.BinderProxy@f339414,activityWindowInfo=ActivityWindowInfo{isEmbedded=false, taskBounds=Rect(0, 0 - 1080, 2400), taskFragmentBounds=Rect(0, 0 - 1080, 2400)}}
+09-17 22:17:59.090 E/TransactionExecutor( 8701): tId:941762167     ResumeActivityItem{mActivityToken=android.os.BinderProxy@aff4968,procState=-1,updateProcState=false,isForward=true,shouldSendCompatFakeFocus=false}
+09-17 22:17:59.090 E/TransactionExecutor( 8701): tId:941762167     Target activity: Not found for token: android.os.BinderProxy@aff4968
+09-17 22:17:59.090 E/TransactionExecutor( 8701): tId:941762167   ]
+09-17 22:17:59.090 E/TransactionExecutor( 8701): tId:941762167 }
+09-17 22:17:59.090 E/AndroidRuntime( 8701): FATAL EXCEPTION: main
+09-17 22:17:59.090 E/AndroidRuntime( 8701): Process: com.gigamindmobile, PID: 8701
+09-17 22:17:59.090 E/AndroidRuntime( 8701): java.lang.RuntimeException: Unable to instantiate activity ComponentInfo{com.gigamindmobile/com.gigamindmobile.MainActivity}: java.lang.ClassNotFoundException: Didn't find class "com.gigamindmobile.MainActivity" on path: DexPathList[[zip file "/data/app/~~mOPlyAqZcrJDol40Q-GklQ==/com.gigamindmobile-HOfL3NKh0gWdW9WtAihVPA==/base.apk"],nativeLibraryDirectories=[/data/app/~~mOPlyAqZcrJDol40Q-GklQ==/com.gigamindmobile-HOfL3NKh0gWdW9WtAihVPA==/lib/arm64, /data/app/~~mOPlyAqZcrJDol40Q-GklQ==/com.gigamindmobile-HOfL3NKh0gWdW9WtAihVPA==/base.apk!/lib/arm64-v8a, /system/lib64]]
+09-17 22:17:59.090 E/AndroidRuntime( 8701): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4334)
+09-17 22:17:59.090 E/AndroidRuntime( 8701): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:4685)
+09-17 22:17:59.090 E/AndroidRuntime( 8701): 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:112)
+09-17 22:17:59.090 E/AndroidRuntime( 8701): 	at android.app.servertransaction.TransactionExecutor.executeNonLifecycleItem(TransactionExecutor.java:174)
+09-17 22:17:59.090 E/AndroidRuntime( 8701): 	at android.app.servertransaction.TransactionExecutor.executeTransactionItems(TransactionExecutor.java:109)
+09-17 22:17:59.090 E/AndroidRuntime( 8701): 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:81)
+09-17 22:17:59.090 E/AndroidRuntime( 8701): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2895)
+09-17 22:17:59.090 E/AndroidRuntime( 8701): 	at android.os.Handler.dispatchMessage(Handler.java:107)
+09-17 22:17:59.090 E/AndroidRuntime( 8701): 	at android.os.Looper.loopOnce(Looper.java:257)
+09-17 22:17:59.090 E/AndroidRuntime( 8701): 	at android.os.Looper.loop(Looper.java:342)
+09-17 22:17:59.090 E/AndroidRuntime( 8701): 	at android.app.ActivityThread.main(ActivityThread.java:9634)
+09-17 22:17:59.090 E/AndroidRuntime( 8701): 	at java.lang.reflect.Method.invoke(Native Method)
+09-17 22:17:59.090 E/AndroidRuntime( 8701): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:619)
+09-17 22:17:59.090 E/AndroidRuntime( 8701): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:929)
+09-17 22:17:59.090 E/AndroidRuntime( 8701): Caused by: java.lang.ClassNotFoundException: Didn't find class "com.gigamindmobile.MainActivity" on path: DexPathList[[zip file "/data/app/~~mOPlyAqZcrJDol40Q-GklQ==/com.gigamindmobile-HOfL3NKh0gWdW9WtAihVPA==/base.apk"],nativeLibraryDirectories=[/data/app/~~mOPlyAqZcrJDol40Q-GklQ==/com.gigamindmobile-HOfL3NKh0gWdW9WtAihVPA==/lib/arm64, /data/app/~~mOPlyAqZcrJDol40Q-GklQ==/com.gigamindmobile-HOfL3NKh0gWdW9WtAihVPA==/base.apk!/lib/arm64-v8a, /system/lib64]]
+09-17 22:17:59.090 E/AndroidRuntime( 8701): 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:259)
+09-17 22:17:59.090 E/AndroidRuntime( 8701): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:637)
+09-17 22:17:59.090 E/AndroidRuntime( 8701): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:573)
+09-17 22:17:59.090 E/AndroidRuntime( 8701): 	at android.app.AppComponentFactory.instantiateActivity(AppComponentFactory.java:95)
+09-17 22:17:59.090 E/AndroidRuntime( 8701): 	at androidx.core.app.CoreComponentFactory.instantiateActivity(CoreComponentFactory.java:44)
+09-17 22:17:59.090 E/AndroidRuntime( 8701): 	at android.app.Instrumentation.newActivity(Instrumentation.java:1448)
+09-17 22:17:59.090 E/AndroidRuntime( 8701): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4321)
+09-17 22:17:59.090 E/AndroidRuntime( 8701): 	... 13 more
+09-17 22:17:59.108 E/NotificationService( 1608): isPkgBlocked = true
+09-17 22:17:59.108 E/NotificationService( 1608): isRecordBlocked = false
+09-17 22:17:59.108 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 22:17:59.119 E/NotificationService( 1608): isPkgBlocked = true
+09-17 22:17:59.119 E/NotificationService( 1608): isRecordBlocked = false
+09-17 22:17:59.119 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 22:17:59.128 E/NotificationService( 1608): isPkgBlocked = true
+09-17 22:17:59.128 E/NotificationService( 1608): isRecordBlocked = false
+09-17 22:17:59.128 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 22:17:59.133 E/SurfaceFlinger( 1454): alpha changed 0.000 -> 0.032 - Surface(name=Task=12907)/@0x86aee39_transition-leash#36693
+09-17 22:17:59.140 E/android.dqagent( 8732): Not starting debugger since process cannot load the jdwp agent.
+09-17 22:17:59.141 E/NativeCustomFrequencyManager( 1454): [NativeCFMS] BpCustomFrequencyManager::acquire()
+09-17 22:17:59.161 E/NotificationService( 1608): isPkgBlocked = true
+09-17 22:17:59.161 E/NotificationService( 1608): isRecordBlocked = false
+09-17 22:17:59.161 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 22:17:59.171 E/NotificationService( 1608): isPkgBlocked = true
+09-17 22:17:59.171 E/NotificationService( 1608): isRecordBlocked = false
+09-17 22:17:59.171 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 22:17:59.179 E/NotificationService( 1608): isPkgBlocked = true
+09-17 22:17:59.179 E/NotificationService( 1608): isRecordBlocked = false
+09-17 22:17:59.179 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 22:17:59.189 E/NotificationService( 1608): isPkgBlocked = true
+09-17 22:17:59.189 E/NotificationService( 1608): isRecordBlocked = false
+09-17 22:17:59.189 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 22:17:59.400 E/SurfaceComposerClient( 3017): SurfaceComposerClient::Transaction::setAlpha: invalid alpha -0.011296, clamping
+09-17 22:17:59.417 E/SurfaceFlinger( 1454): alpha changed 0.015 -> 0.000 - Surface(name=Task=12907)/@0x86aee39_transition-leash#36693
+09-17 22:17:59.417 E/SurfaceComposerClient( 3017): SurfaceComposerClient::Transaction::setAlpha: invalid alpha -0.025635, clamping
+09-17 22:17:59.434 E/SurfaceComposerClient( 3017): SurfaceComposerClient::Transaction::setAlpha: invalid alpha -0.032777, clamping
+09-17 22:17:59.450 E/SurfaceComposerClient( 3017): SurfaceComposerClient::Transaction::setAlpha: invalid alpha -0.034776, clamping
+09-17 22:17:59.467 E/SurfaceComposerClient( 3017): SurfaceComposerClient::Transaction::setAlpha: invalid alpha -0.032317, clamping
+09-17 22:17:59.484 E/SurfaceComposerClient( 3017): SurfaceComposerClient::Transaction::setAlpha: invalid alpha -0.027204, clamping
+09-17 22:17:59.501 E/SurfaceComposerClient( 3017): SurfaceComposerClient::Transaction::setAlpha: invalid alpha -0.020364, clamping
+09-17 22:17:59.517 E/SurfaceComposerClient( 3017): SurfaceComposerClient::Transaction::setAlpha: invalid alpha -0.010137, clamping
+09-17 22:18:00.056 E/pageboostd( 3548): alp start : app comgigamindmobile
+09-17 22:18:00.057 E/pageboostd( 3548): comgigamindmobile, amt 10439924 scnt 2 fcnt 0
+09-17 22:18:00.057 E/pageboostd( 3548): comgigamindmobile, amt 0 scnt 0 fcnt 0
+09-17 22:18:00.057 E/pageboostd( 3548): alp end : app comgigamindmobile data_amount 10439924
+09-17 22:18:00.059 E/AppIconSolution( 2560): Using cached contents available for us.mark.TheHacker.appicon
+09-17 22:18:00.076 E/.gigamindmobile( 8754): Not starting debugger since process cannot load the jdwp agent.
+09-17 22:18:00.119 E/Pageboost( 1608): record is ongoing. Abort for 8754
+09-17 22:18:00.128 E/pageboostd( 3548): Received HALT command code 2
+09-17 22:18:00.145 E/TransactionExecutor( 8754): Failed to execute the transaction: tId:1638432767 ClientTransaction{
+09-17 22:18:00.145 E/TransactionExecutor( 8754): tId:1638432767   transactionItems=[
+09-17 22:18:00.145 E/TransactionExecutor( 8754): tId:1638432767     LaunchActivityItem{activityToken=android.os.BinderProxy@aff4968,intent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.gigamindmobile/.MainActivity bnds=[290,803][539,1089] },ident=240635849,info=ActivityInfo{3bfdab2 com.gigamindmobile.MainActivity},curConfig={1.0 250mcc99mnc [ru_RU] ldltr sw360dp w360dp h800dp 480dpi nrml long port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2400) mAppBounds=Rect(0, 0 - 1080, 2400) mMaxBounds=Rect(0, 0 - 1080, 2400) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0 mStageConfig=undefined mPopOver=off mOverlappingWithCutout=false mCompatSandboxScale=-1.0 mDexTaskDockingState=none mFreeformTaskPinningState=unpinned} s.7437 fontWeightAdjustment=0 ff=0 bf=0 bts=0 cst=1.0 nightDim=0 desktop/d dm/n dc/d ?dcui themeSeq=0},overrideConfig={1.0 250mcc99mnc [ru_RU] ldltr sw360dp w360dp h800dp 480dpi nrml long port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2400) mAppBounds=Rect(0, 0 - 1080, 2400) mMaxBounds=Rect(0, 0 - 1080, 2400) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=standard mAlwaysOnTop=undefined mRotation=ROTATION_0 mStageConfig=undefined mPopOver=off mOverlappingWithCutout=false mCompatSandboxScale=-1.0 mDexTaskDockingState=none mFreeformTaskPinningState=unpinned} s.2 fontWeightAdjustment=0 ff=0 bf=0 bts=0 cst=1.0 nightDim=0 desktop/d dm/n dc/d ?dcui themeSeq=0},deviceId=0,referrer=com.sec.android.app.launcher,procState=19,state=null,persistentState=null,pendingResults=null,pendingNewIntents=null,sceneTransitionInfo=null,profilerInfo=null,assistToken=android.os.BinderProxy@f336e67,shareableActivityToken=android.os.BinderProxy@f339414,activityWindowInfo=ActivityWindowInfo{isEmbedded=false, taskBounds=Rect(0, 0 - 1080, 2400), taskFragmentBounds=Rect(0, 0 - 1080, 2400)}}
+09-17 22:18:00.145 E/TransactionExecutor( 8754): tId:1638432767     ResumeActivityItem{mActivityToken=android.os.BinderProxy@aff4968,procState=-1,updateProcState=false,isForward=true,shouldSendCompatFakeFocus=false}
+09-17 22:18:00.145 E/TransactionExecutor( 8754): tId:1638432767     Target activity: Not found for token: android.os.BinderProxy@aff4968
+09-17 22:18:00.145 E/TransactionExecutor( 8754): tId:1638432767   ]
+09-17 22:18:00.145 E/TransactionExecutor( 8754): tId:1638432767 }
+09-17 22:18:00.146 E/AndroidRuntime( 8754): FATAL EXCEPTION: main
+09-17 22:18:00.146 E/AndroidRuntime( 8754): Process: com.gigamindmobile, PID: 8754
+09-17 22:18:00.146 E/AndroidRuntime( 8754): java.lang.RuntimeException: Unable to instantiate activity ComponentInfo{com.gigamindmobile/com.gigamindmobile.MainActivity}: java.lang.ClassNotFoundException: Didn't find class "com.gigamindmobile.MainActivity" on path: DexPathList[[zip file "/data/app/~~mOPlyAqZcrJDol40Q-GklQ==/com.gigamindmobile-HOfL3NKh0gWdW9WtAihVPA==/base.apk"],nativeLibraryDirectories=[/data/app/~~mOPlyAqZcrJDol40Q-GklQ==/com.gigamindmobile-HOfL3NKh0gWdW9WtAihVPA==/lib/arm64, /data/app/~~mOPlyAqZcrJDol40Q-GklQ==/com.gigamindmobile-HOfL3NKh0gWdW9WtAihVPA==/base.apk!/lib/arm64-v8a, /system/lib64]]
+09-17 22:18:00.146 E/AndroidRuntime( 8754): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4334)
+09-17 22:18:00.146 E/AndroidRuntime( 8754): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:4685)
+09-17 22:18:00.146 E/AndroidRuntime( 8754): 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:112)
+09-17 22:18:00.146 E/AndroidRuntime( 8754): 	at android.app.servertransaction.TransactionExecutor.executeNonLifecycleItem(TransactionExecutor.java:174)
+09-17 22:18:00.146 E/AndroidRuntime( 8754): 	at android.app.servertransaction.TransactionExecutor.executeTransactionItems(TransactionExecutor.java:109)
+09-17 22:18:00.146 E/AndroidRuntime( 8754): 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:81)
+09-17 22:18:00.146 E/AndroidRuntime( 8754): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2895)
+09-17 22:18:00.146 E/AndroidRuntime( 8754): 	at android.os.Handler.dispatchMessage(Handler.java:107)
+09-17 22:18:00.146 E/AndroidRuntime( 8754): 	at android.os.Looper.loopOnce(Looper.java:257)
+09-17 22:18:00.146 E/AndroidRuntime( 8754): 	at android.os.Looper.loop(Looper.java:342)
+09-17 22:18:00.146 E/AndroidRuntime( 8754): 	at android.app.ActivityThread.main(ActivityThread.java:9634)
+09-17 22:18:00.146 E/AndroidRuntime( 8754): 	at java.lang.reflect.Method.invoke(Native Method)
+09-17 22:18:00.146 E/AndroidRuntime( 8754): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:619)
+09-17 22:18:00.146 E/AndroidRuntime( 8754): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:929)
+09-17 22:18:00.146 E/AndroidRuntime( 8754): Caused by: java.lang.ClassNotFoundException: Didn't find class "com.gigamindmobile.MainActivity" on path: DexPathList[[zip file "/data/app/~~mOPlyAqZcrJDol40Q-GklQ==/com.gigamindmobile-HOfL3NKh0gWdW9WtAihVPA==/base.apk"],nativeLibraryDirectories=[/data/app/~~mOPlyAqZcrJDol40Q-GklQ==/com.gigamindmobile-HOfL3NKh0gWdW9WtAihVPA==/lib/arm64, /data/app/~~mOPlyAqZcrJDol40Q-GklQ==/com.gigamindmobile-HOfL3NKh0gWdW9WtAihVPA==/base.apk!/lib/arm64-v8a, /system/lib64]]
+09-17 22:18:00.146 E/AndroidRuntime( 8754): 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:259)
+09-17 22:18:00.146 E/AndroidRuntime( 8754): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:637)
+09-17 22:18:00.146 E/AndroidRuntime( 8754): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:573)
+09-17 22:18:00.146 E/AndroidRuntime( 8754): 	at android.app.AppComponentFactory.instantiateActivity(AppComponentFactory.java:95)
+09-17 22:18:00.146 E/AndroidRuntime( 8754): 	at androidx.core.app.CoreComponentFactory.instantiateActivity(CoreComponentFactory.java:44)
+09-17 22:18:00.146 E/AndroidRuntime( 8754): 	at android.app.Instrumentation.newActivity(Instrumentation.java:1448)
+09-17 22:18:00.146 E/AndroidRuntime( 8754): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4321)
+09-17 22:18:00.146 E/AndroidRuntime( 8754): 	... 13 more
+09-17 22:18:00.182 E/AppIconSolution( 3017): Using cached contents available for us.mark.TheHacker.appicon
+09-17 22:18:00.182 E/id.app.launcher( 3017): Invalid resource ID 0x00000000.
+09-17 22:18:00.182 E/AppIconSolution( 3017): app icon package doesn't have 'liveicon_from_theme', pkg : com.sec.android.app.clockpackage
+09-17 22:18:00.182 E/AppIconSolution( 3017): Using cached contents available for us.mark.TheHacker.appicon
+09-17 22:18:00.182 E/AppIconSolution( 3017): Using cached contents available for us.mark.TheHacker.appicon
+09-17 22:18:00.256 E/pageboostd( 3548): alp start : app comgigamindmobile
+09-17 22:18:00.257 E/pageboostd( 3548): comgigamindmobile, amt 10439924 scnt 2 fcnt 0
+09-17 22:18:00.257 E/pageboostd( 3548): comgigamindmobile, amt 0 scnt 0 fcnt 0
+09-17 22:18:00.257 E/pageboostd( 3548): alp end : app comgigamindmobile data_amount 10439924
+09-17 22:18:00.258 E/AppIconSolution( 2560): Using cached contents available for us.mark.TheHacker.appicon
+09-17 22:18:00.277 E/.gigamindmobile( 8786): Not starting debugger since process cannot load the jdwp agent.
+09-17 22:18:00.357 E/pageboostd( 3548): Received HALT command code 2
+09-17 22:18:00.449 E/pageboostd( 3548): alp start : app comgigamindmobile
+09-17 22:18:00.450 E/pageboostd( 3548): comgigamindmobile, amt 10439924 scnt 2 fcnt 0
+09-17 22:18:00.450 E/pageboostd( 3548): comgigamindmobile, amt 0 scnt 0 fcnt 0
+09-17 22:18:00.450 E/pageboostd( 3548): alp end : app comgigamindmobile data_amount 10439924
+09-17 22:18:00.450 E/AppIconSolution( 2560): Using cached contents available for us.mark.TheHacker.appicon
+09-17 22:18:00.549 E/pageboostd( 3548): Received HALT command code 2
+09-17 22:18:00.624 E/pageboostd( 3548): alp start : app comgigamindmobile
+09-17 22:18:00.625 E/pageboostd( 3548): comgigamindmobile, amt 10439924 scnt 2 fcnt 0
+09-17 22:18:00.625 E/pageboostd( 3548): comgigamindmobile, amt 0 scnt 0 fcnt 0
+09-17 22:18:00.625 E/pageboostd( 3548): alp end : app comgigamindmobile data_amount 10439924
+09-17 22:18:00.625 E/AppIconSolution( 2560): Using cached contents available for us.mark.TheHacker.appicon
+09-17 22:18:00.724 E/pageboostd( 3548): Received HALT command code 2
+09-17 22:18:00.799 E/pageboostd( 3548): alp start : app comgigamindmobile
+09-17 22:18:00.800 E/pageboostd( 3548): comgigamindmobile, amt 10439924 scnt 2 fcnt 0
+09-17 22:18:00.800 E/pageboostd( 3548): comgigamindmobile, amt 0 scnt 0 fcnt 0
+09-17 22:18:00.800 E/pageboostd( 3548): alp end : app comgigamindmobile data_amount 10439924
+09-17 22:18:00.800 E/AppIconSolution( 2560): Using cached contents available for us.mark.TheHacker.appicon
+09-17 22:18:00.899 E/pageboostd( 3548): Received HALT command code 2
+09-17 22:18:00.974 E/pageboostd( 3548): alp start : app comgigamindmobile
+09-17 22:18:00.975 E/pageboostd( 3548): comgigamindmobile, amt 10439924 scnt 2 fcnt 0
+09-17 22:18:00.975 E/AppIconSolution( 2560): Using cached contents available for us.mark.TheHacker.appicon
+09-17 22:18:00.976 E/pageboostd( 3548): comgigamindmobile, amt 0 scnt 0 fcnt 0
+09-17 22:18:00.976 E/pageboostd( 3548): alp end : app comgigamindmobile data_amount 10439924
+09-17 22:18:01.075 E/pageboostd( 3548): Received HALT command code 2
+09-17 22:18:01.168 E/pageboostd( 3548): alp start : app comgigamindmobile
+09-17 22:18:01.168 E/pageboostd( 3548): comgigamindmobile, amt 10439924 scnt 2 fcnt 0
+09-17 22:18:01.168 E/pageboostd( 3548): comgigamindmobile, amt 0 scnt 0 fcnt 0
+09-17 22:18:01.168 E/pageboostd( 3548): alp end : app comgigamindmobile data_amount 10439924
+09-17 22:18:01.169 E/AppIconSolution( 2560): Using cached contents available for us.mark.TheHacker.appicon
+09-17 22:18:01.219 E/Pageboost( 1608): record is ongoing. Abort for 8786
+09-17 22:18:01.227 E/pageboostd( 3548): Received HALT command code 2
+09-17 22:18:01.247 E/TransactionExecutor( 8786): Failed to execute the transaction: tId:666268439 ClientTransaction{
+09-17 22:18:01.247 E/TransactionExecutor( 8786): tId:666268439   transactionItems=[
+09-17 22:18:01.247 E/TransactionExecutor( 8786): tId:666268439     LaunchActivityItem{activityToken=android.os.BinderProxy@aff4968,intent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.gigamindmobile/.MainActivity bnds=[290,803][539,1089] },ident=176165077,info=ActivityInfo{3bfdab2 com.gigamindmobile.MainActivity},curConfig={1.0 250mcc99mnc [ru_RU] ldltr sw360dp w360dp h800dp 480dpi nrml long port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2400) mAppBounds=Rect(0, 0 - 1080, 2400) mMaxBounds=Rect(0, 0 - 1080, 2400) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0 mStageConfig=undefined mPopOver=off mOverlappingWithCutout=false mCompatSandboxScale=-1.0 mDexTaskDockingState=none mFreeformTaskPinningState=unpinned} s.7438 fontWeightAdjustment=0 ff=0 bf=0 bts=0 cst=1.0 nightDim=0 desktop/d dm/n dc/d ?dcui themeSeq=0},overrideConfig={1.0 250mcc99mnc [ru_RU] ldltr sw360dp w360dp h800dp 480dpi nrml long port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2400) mAppBounds=Rect(0, 0 - 1080, 2400) mMaxBounds=Rect(0, 0 - 1080, 2400) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=standard mAlwaysOnTop=undefined mRotation=ROTATION_0 mStageConfig=undefined mPopOver=off mOverlappingWithCutout=false mCompatSandboxScale=-1.0 mDexTaskDockingState=none mFreeformTaskPinningState=unpinned} s.2 fontWeightAdjustment=0 ff=0 bf=0 bts=0 cst=1.0 nightDim=0 desktop/d dm/n dc/d ?dcui themeSeq=0},deviceId=0,referrer=com.sec.android.app.launcher,procState=19,state=null,persistentState=null,pendingResults=null,pendingNewIntents=null,sceneTransitionInfo=null,profilerInfo=null,assistToken=android.os.BinderProxy@f336e67,shareableActivityToken=android.os.BinderProxy@f339414,activityWindowInfo=ActivityWindowInfo{isEmbedded=false, taskBounds=Rect(0, 0 - 1080, 2400), taskFragmentBounds=Rect(0, 0 - 1080, 2400)}}
+09-17 22:18:01.247 E/TransactionExecutor( 8786): tId:666268439     ResumeActivityItem{mActivityToken=android.os.BinderProxy@aff4968,procState=-1,updateProcState=false,isForward=true,shouldSendCompatFakeFocus=false}
+09-17 22:18:01.247 E/TransactionExecutor( 8786): tId:666268439     Target activity: Not found for token: android.os.BinderProxy@aff4968
+09-17 22:18:01.247 E/TransactionExecutor( 8786): tId:666268439   ]
+09-17 22:18:01.247 E/TransactionExecutor( 8786): tId:666268439 }
+09-17 22:18:01.247 E/AndroidRuntime( 8786): FATAL EXCEPTION: main
+09-17 22:18:01.247 E/AndroidRuntime( 8786): Process: com.gigamindmobile, PID: 8786
+09-17 22:18:01.247 E/AndroidRuntime( 8786): java.lang.RuntimeException: Unable to instantiate activity ComponentInfo{com.gigamindmobile/com.gigamindmobile.MainActivity}: java.lang.ClassNotFoundException: Didn't find class "com.gigamindmobile.MainActivity" on path: DexPathList[[zip file "/data/app/~~mOPlyAqZcrJDol40Q-GklQ==/com.gigamindmobile-HOfL3NKh0gWdW9WtAihVPA==/base.apk"],nativeLibraryDirectories=[/data/app/~~mOPlyAqZcrJDol40Q-GklQ==/com.gigamindmobile-HOfL3NKh0gWdW9WtAihVPA==/lib/arm64, /data/app/~~mOPlyAqZcrJDol40Q-GklQ==/com.gigamindmobile-HOfL3NKh0gWdW9WtAihVPA==/base.apk!/lib/arm64-v8a, /system/lib64]]
+09-17 22:18:01.247 E/AndroidRuntime( 8786): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4334)
+09-17 22:18:01.247 E/AndroidRuntime( 8786): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:4685)
+09-17 22:18:01.247 E/AndroidRuntime( 8786): 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:112)
+09-17 22:18:01.247 E/AndroidRuntime( 8786): 	at android.app.servertransaction.TransactionExecutor.executeNonLifecycleItem(TransactionExecutor.java:174)
+09-17 22:18:01.247 E/AndroidRuntime( 8786): 	at android.app.servertransaction.TransactionExecutor.executeTransactionItems(TransactionExecutor.java:109)
+09-17 22:18:01.247 E/AndroidRuntime( 8786): 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:81)
+09-17 22:18:01.247 E/AndroidRuntime( 8786): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2895)
+09-17 22:18:01.247 E/AndroidRuntime( 8786): 	at android.os.Handler.dispatchMessage(Handler.java:107)
+09-17 22:18:01.247 E/AndroidRuntime( 8786): 	at android.os.Looper.loopOnce(Looper.java:257)
+09-17 22:18:01.247 E/AndroidRuntime( 8786): 	at android.os.Looper.loop(Looper.java:342)
+09-17 22:18:01.247 E/AndroidRuntime( 8786): 	at android.app.ActivityThread.main(ActivityThread.java:9634)
+09-17 22:18:01.247 E/AndroidRuntime( 8786): 	at java.lang.reflect.Method.invoke(Native Method)
+09-17 22:18:01.247 E/AndroidRuntime( 8786): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:619)
+09-17 22:18:01.247 E/AndroidRuntime( 8786): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:929)
+09-17 22:18:01.247 E/AndroidRuntime( 8786): Caused by: java.lang.ClassNotFoundException: Didn't find class "com.gigamindmobile.MainActivity" on path: DexPathList[[zip file "/data/app/~~mOPlyAqZcrJDol40Q-GklQ==/com.gigamindmobile-HOfL3NKh0gWdW9WtAihVPA==/base.apk"],nativeLibraryDirectories=[/data/app/~~mOPlyAqZcrJDol40Q-GklQ==/com.gigamindmobile-HOfL3NKh0gWdW9WtAihVPA==/lib/arm64, /data/app/~~mOPlyAqZcrJDol40Q-GklQ==/com.gigamindmobile-HOfL3NKh0gWdW9WtAihVPA==/base.apk!/lib/arm64-v8a, /system/lib64]]
+09-17 22:18:01.247 E/AndroidRuntime( 8786): 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:259)
+09-17 22:18:01.247 E/AndroidRuntime( 8786): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:637)
+09-17 22:18:01.247 E/AndroidRuntime( 8786): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:573)
+09-17 22:18:01.247 E/AndroidRuntime( 8786): 	at android.app.AppComponentFactory.instantiateActivity(AppComponentFactory.java:95)
+09-17 22:18:01.247 E/AndroidRuntime( 8786): 	at androidx.core.app.CoreComponentFactory.instantiateActivity(CoreComponentFactory.java:44)
+09-17 22:18:01.247 E/AndroidRuntime( 8786): 	at android.app.Instrumentation.newActivity(Instrumentation.java:1448)
+09-17 22:18:01.247 E/AndroidRuntime( 8786): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4321)
+09-17 22:18:01.247 E/AndroidRuntime( 8786): 	... 13 more
+09-17 22:18:01.271 E/SurfaceFlinger( 1454): alpha changed 1.000 -> 0.000 - Surface(name=Task=12909)/@0xa985957_transition-leash#36714
+09-17 22:18:01.321 E/SurfaceFlinger( 1454): alpha changed 0.000 -> 0.032 - Surface(name=Task=12909)/@0xa985957_transition-leash#36714
+09-17 22:18:01.324 E/NativeCustomFrequencyManager( 1454): [NativeCFMS] BpCustomFrequencyManager::acquire()
+09-17 22:18:01.555 E/SurfaceComposerClient( 3017): SurfaceComposerClient::Transaction::setAlpha: invalid alpha -0.003418, clamping
+09-17 22:18:01.571 E/SurfaceFlinger( 1454): alpha changed 0.004 -> 0.000 - Surface(name=Task=12909)/@0xa985957_transition-leash#36714
+09-17 22:18:01.571 E/SurfaceComposerClient( 3017): SurfaceComposerClient::Transaction::setAlpha: invalid alpha -0.007757, clamping
+09-17 22:18:01.588 E/SurfaceComposerClient( 3017): SurfaceComposerClient::Transaction::setAlpha: invalid alpha -0.009953, clamping
+09-17 22:18:01.605 E/SurfaceComposerClient( 3017): SurfaceComposerClient::Transaction::setAlpha: invalid alpha -0.010523, clamping
+09-17 22:18:01.622 E/SurfaceComposerClient( 3017): SurfaceComposerClient::Transaction::setAlpha: invalid alpha -0.009779, clamping
+09-17 22:18:01.638 E/SurfaceComposerClient( 3017): SurfaceComposerClient::Transaction::setAlpha: invalid alpha -0.008231, clamping
+09-17 22:18:01.655 E/SurfaceComposerClient( 3017): SurfaceComposerClient::Transaction::setAlpha: invalid alpha -0.006032, clamping
+09-17 22:18:01.672 E/SurfaceComposerClient( 3017): SurfaceComposerClient::Transaction::setAlpha: invalid alpha -0.003067, clamping
+09-17 22:18:01.885 E/pageboostd( 3548): alp start : app comgigamindmobile
+09-17 22:18:01.886 E/pageboostd( 3548): comgigamindmobile, amt 10439924 scnt 2 fcnt 0
+09-17 22:18:01.886 E/pageboostd( 3548): comgigamindmobile, amt 0 scnt 0 fcnt 0
+09-17 22:18:01.886 E/pageboostd( 3548): alp end : app comgigamindmobile data_amount 10439924
+09-17 22:18:01.886 E/AppIconSolution( 2560): Using cached contents available for us.mark.TheHacker.appicon
+09-17 22:18:01.905 E/.gigamindmobile( 8824): Not starting debugger since process cannot load the jdwp agent.
+09-17 22:18:01.956 E/Pageboost( 1608): record is ongoing. Abort for 8824
+09-17 22:18:01.969 E/pageboostd( 3548): Received HALT command code 2
+09-17 22:18:01.980 E/TransactionExecutor( 8824): Failed to execute the transaction: tId:191365401 ClientTransaction{
+09-17 22:18:01.980 E/TransactionExecutor( 8824): tId:191365401   transactionItems=[
+09-17 22:18:01.980 E/TransactionExecutor( 8824): tId:191365401     LaunchActivityItem{activityToken=android.os.BinderProxy@aff4968,intent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.gigamindmobile/.MainActivity bnds=[290,803][539,1089] },ident=155767926,info=ActivityInfo{3bfdab2 com.gigamindmobile.MainActivity},curConfig={1.0 250mcc99mnc [ru_RU] ldltr sw360dp w360dp h800dp 480dpi nrml long port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2400) mAppBounds=Rect(0, 0 - 1080, 2400) mMaxBounds=Rect(0, 0 - 1080, 2400) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0 mStageConfig=undefined mPopOver=off mOverlappingWithCutout=false mCompatSandboxScale=-1.0 mDexTaskDockingState=none mFreeformTaskPinningState=unpinned} s.7439 fontWeightAdjustment=0 ff=0 bf=0 bts=0 cst=1.0 nightDim=0 desktop/d dm/n dc/d ?dcui themeSeq=0},overrideConfig={1.0 250mcc99mnc [ru_RU] ldltr sw360dp w360dp h800dp 480dpi nrml long port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2400) mAppBounds=Rect(0, 0 - 1080, 2400) mMaxBounds=Rect(0, 0 - 1080, 2400) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=standard mAlwaysOnTop=undefined mRotation=ROTATION_0 mStageConfig=undefined mPopOver=off mOverlappingWithCutout=false mCompatSandboxScale=-1.0 mDexTaskDockingState=none mFreeformTaskPinningState=unpinned} s.2 fontWeightAdjustment=0 ff=0 bf=0 bts=0 cst=1.0 nightDim=0 desktop/d dm/n dc/d ?dcui themeSeq=0},deviceId=0,referrer=com.sec.android.app.launcher,procState=19,state=null,persistentState=null,pendingResults=null,pendingNewIntents=null,sceneTransitionInfo=null,profilerInfo=null,assistToken=android.os.BinderProxy@f336e67,shareableActivityToken=android.os.BinderProxy@f339414,activityWindowInfo=ActivityWindowInfo{isEmbedded=false, taskBounds=Rect(0, 0 - 1080, 2400), taskFragmentBounds=Rect(0, 0 - 1080, 2400)}}
+09-17 22:18:01.980 E/TransactionExecutor( 8824): tId:191365401     ResumeActivityItem{mActivityToken=android.os.BinderProxy@aff4968,procState=-1,updateProcState=false,isForward=true,shouldSendCompatFakeFocus=false}
+09-17 22:18:01.980 E/TransactionExecutor( 8824): tId:191365401     Target activity: Not found for token: android.os.BinderProxy@aff4968
+09-17 22:18:01.980 E/TransactionExecutor( 8824): tId:191365401   ]
+09-17 22:18:01.980 E/TransactionExecutor( 8824): tId:191365401 }
+09-17 22:18:01.981 E/AndroidRuntime( 8824): FATAL EXCEPTION: main
+09-17 22:18:01.981 E/AndroidRuntime( 8824): Process: com.gigamindmobile, PID: 8824
+09-17 22:18:01.981 E/AndroidRuntime( 8824): java.lang.RuntimeException: Unable to instantiate activity ComponentInfo{com.gigamindmobile/com.gigamindmobile.MainActivity}: java.lang.ClassNotFoundException: Didn't find class "com.gigamindmobile.MainActivity" on path: DexPathList[[zip file "/data/app/~~mOPlyAqZcrJDol40Q-GklQ==/com.gigamindmobile-HOfL3NKh0gWdW9WtAihVPA==/base.apk"],nativeLibraryDirectories=[/data/app/~~mOPlyAqZcrJDol40Q-GklQ==/com.gigamindmobile-HOfL3NKh0gWdW9WtAihVPA==/lib/arm64, /data/app/~~mOPlyAqZcrJDol40Q-GklQ==/com.gigamindmobile-HOfL3NKh0gWdW9WtAihVPA==/base.apk!/lib/arm64-v8a, /system/lib64]]
+09-17 22:18:01.981 E/AndroidRuntime( 8824): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4334)
+09-17 22:18:01.981 E/AndroidRuntime( 8824): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:4685)
+09-17 22:18:01.981 E/AndroidRuntime( 8824): 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:112)
+09-17 22:18:01.981 E/AndroidRuntime( 8824): 	at android.app.servertransaction.TransactionExecutor.executeNonLifecycleItem(TransactionExecutor.java:174)
+09-17 22:18:01.981 E/AndroidRuntime( 8824): 	at android.app.servertransaction.TransactionExecutor.executeTransactionItems(TransactionExecutor.java:109)
+09-17 22:18:01.981 E/AndroidRuntime( 8824): 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:81)
+09-17 22:18:01.981 E/AndroidRuntime( 8824): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2895)
+09-17 22:18:01.981 E/AndroidRuntime( 8824): 	at android.os.Handler.dispatchMessage(Handler.java:107)
+09-17 22:18:01.981 E/AndroidRuntime( 8824): 	at android.os.Looper.loopOnce(Looper.java:257)
+09-17 22:18:01.981 E/AndroidRuntime( 8824): 	at android.os.Looper.loop(Looper.java:342)
+09-17 22:18:01.981 E/AndroidRuntime( 8824): 	at android.app.ActivityThread.main(ActivityThread.java:9634)
+09-17 22:18:01.981 E/AndroidRuntime( 8824): 	at java.lang.reflect.Method.invoke(Native Method)
+09-17 22:18:01.981 E/AndroidRuntime( 8824): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:619)
+09-17 22:18:01.981 E/AndroidRuntime( 8824): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:929)
+09-17 22:18:01.981 E/AndroidRuntime( 8824): Caused by: java.lang.ClassNotFoundException: Didn't find class "com.gigamindmobile.MainActivity" on path: DexPathList[[zip file "/data/app/~~mOPlyAqZcrJDol40Q-GklQ==/com.gigamindmobile-HOfL3NKh0gWdW9WtAihVPA==/base.apk"],nativeLibraryDirectories=[/data/app/~~mOPlyAqZcrJDol40Q-GklQ==/com.gigamindmobile-HOfL3NKh0gWdW9WtAihVPA==/lib/arm64, /data/app/~~mOPlyAqZcrJDol40Q-GklQ==/com.gigamindmobile-HOfL3NKh0gWdW9WtAihVPA==/base.apk!/lib/arm64-v8a, /system/lib64]]
+09-17 22:18:01.981 E/AndroidRuntime( 8824): 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:259)
+09-17 22:18:01.981 E/AndroidRuntime( 8824): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:637)
+09-17 22:18:01.981 E/AndroidRuntime( 8824): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:573)
+09-17 22:18:01.981 E/AndroidRuntime( 8824): 	at android.app.AppComponentFactory.instantiateActivity(AppComponentFactory.java:95)
+09-17 22:18:01.981 E/AndroidRuntime( 8824): 	at androidx.core.app.CoreComponentFactory.instantiateActivity(CoreComponentFactory.java:44)
+09-17 22:18:01.981 E/AndroidRuntime( 8824): 	at android.app.Instrumentation.newActivity(Instrumentation.java:1448)
+09-17 22:18:01.981 E/AndroidRuntime( 8824): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4321)
+09-17 22:18:01.981 E/AndroidRuntime( 8824): 	... 13 more
+09-17 22:18:02.148 E/PocketModeEvent( 1608): PocketModeSetting is off 
+09-17 22:18:02.278 E/pageboostd( 3548): alp start : app comgigamindmobile
+09-17 22:18:02.279 E/pageboostd( 3548): comgigamindmobile, amt 10439916 scnt 2 fcnt 0
+09-17 22:18:02.279 E/pageboostd( 3548): comgigamindmobile, amt 0 scnt 0 fcnt 0
+09-17 22:18:02.279 E/pageboostd( 3548): alp end : app comgigamindmobile data_amount 10439916
+09-17 22:18:02.279 E/AppIconSolution( 2560): Using cached contents available for us.mark.TheHacker.appicon
+09-17 22:18:02.298 E/.gigamindmobile( 8878): Not starting debugger since process cannot load the jdwp agent.
+09-17 22:18:02.378 E/pageboostd( 3548): Received HALT command code 2
+09-17 22:18:02.587 E/pageboostd( 3548): alp start : app comgigamindmobile
+09-17 22:18:02.588 E/pageboostd( 3548): comgigamindmobile, amt 10439916 scnt 2 fcnt 0
+09-17 22:18:02.588 E/pageboostd( 3548): comgigamindmobile, amt 0 scnt 0 fcnt 0
+09-17 22:18:02.588 E/pageboostd( 3548): alp end : app comgigamindmobile data_amount 10439916
+09-17 22:18:02.589 E/AppIconSolution( 2560): Using cached contents available for us.mark.TheHacker.appicon
+09-17 22:18:02.688 E/pageboostd( 3548): Received HALT command code 2
+09-17 22:18:02.918 E/pageboostd( 3548): alp start : app comgigamindmobile
+09-17 22:18:02.919 E/pageboostd( 3548): comgigamindmobile, amt 10439916 scnt 2 fcnt 0
+09-17 22:18:02.919 E/pageboostd( 3548): comgigamindmobile, amt 0 scnt 0 fcnt 0
+09-17 22:18:02.919 E/pageboostd( 3548): alp end : app comgigamindmobile data_amount 10439916
+09-17 22:18:02.919 E/AppIconSolution( 2560): Using cached contents available for us.mark.TheHacker.appicon
+09-17 22:18:02.972 E/Pageboost( 1608): record is ongoing. Abort for 8878
+09-17 22:18:02.981 E/pageboostd( 3548): Received HALT command code 2
+09-17 22:18:02.999 E/TransactionExecutor( 8878): Failed to execute the transaction: tId:1557024549 ClientTransaction{
+09-17 22:18:02.999 E/TransactionExecutor( 8878): tId:1557024549   transactionItems=[
+09-17 22:18:02.999 E/TransactionExecutor( 8878): tId:1557024549     LaunchActivityItem{activityToken=android.os.BinderProxy@aff4968,intent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.gigamindmobile/.MainActivity bnds=[290,803][539,1089] },ident=165021500,info=ActivityInfo{3bfdab2 com.gigamindmobile.MainActivity},curConfig={1.0 250mcc99mnc [ru_RU] ldltr sw360dp w360dp h800dp 480dpi nrml long port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2400) mAppBounds=Rect(0, 0 - 1080, 2400) mMaxBounds=Rect(0, 0 - 1080, 2400) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0 mStageConfig=undefined mPopOver=off mOverlappingWithCutout=false mCompatSandboxScale=-1.0 mDexTaskDockingState=none mFreeformTaskPinningState=unpinned} s.7440 fontWeightAdjustment=0 ff=0 bf=0 bts=0 cst=1.0 nightDim=0 desktop/d dm/n dc/d ?dcui themeSeq=0},overrideConfig={1.0 250mcc99mnc [ru_RU] ldltr sw360dp w360dp h800dp 480dpi nrml long port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2400) mAppBounds=Rect(0, 0 - 1080, 2400) mMaxBounds=Rect(0, 0 - 1080, 2400) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=standard mAlwaysOnTop=undefined mRotation=ROTATION_0 mStageConfig=undefined mPopOver=off mOverlappingWithCutout=false mCompatSandboxScale=-1.0 mDexTaskDockingState=none mFreeformTaskPinningState=unpinned} s.2 fontWeightAdjustment=0 ff=0 bf=0 bts=0 cst=1.0 nightDim=0 desktop/d dm/n dc/d ?dcui themeSeq=0},deviceId=0,referrer=com.sec.android.app.launcher,procState=19,state=null,persistentState=null,pendingResults=null,pendingNewIntents=null,sceneTransitionInfo=null,profilerInfo=null,assistToken=android.os.BinderProxy@f336e67,shareableActivityToken=android.os.BinderProxy@f339414,activityWindowInfo=ActivityWindowInfo{isEmbedded=false, taskBounds=Rect(0, 0 - 1080, 2400), taskFragmentBounds=Rect(0, 0 - 1080, 2400)}}
+09-17 22:18:02.999 E/TransactionExecutor( 8878): tId:1557024549     ResumeActivityItem{mActivityToken=android.os.BinderProxy@aff4968,procState=-1,updateProcState=false,isForward=true,shouldSendCompatFakeFocus=false}
+09-17 22:18:02.999 E/TransactionExecutor( 8878): tId:1557024549     Target activity: Not found for token: android.os.BinderProxy@aff4968
+09-17 22:18:02.999 E/TransactionExecutor( 8878): tId:1557024549   ]
+09-17 22:18:02.999 E/TransactionExecutor( 8878): tId:1557024549 }
+09-17 22:18:02.999 E/AndroidRuntime( 8878): FATAL EXCEPTION: main
+09-17 22:18:02.999 E/AndroidRuntime( 8878): Process: com.gigamindmobile, PID: 8878
+09-17 22:18:02.999 E/AndroidRuntime( 8878): java.lang.RuntimeException: Unable to instantiate activity ComponentInfo{com.gigamindmobile/com.gigamindmobile.MainActivity}: java.lang.ClassNotFoundException: Didn't find class "com.gigamindmobile.MainActivity" on path: DexPathList[[zip file "/data/app/~~mOPlyAqZcrJDol40Q-GklQ==/com.gigamindmobile-HOfL3NKh0gWdW9WtAihVPA==/base.apk"],nativeLibraryDirectories=[/data/app/~~mOPlyAqZcrJDol40Q-GklQ==/com.gigamindmobile-HOfL3NKh0gWdW9WtAihVPA==/lib/arm64, /data/app/~~mOPlyAqZcrJDol40Q-GklQ==/com.gigamindmobile-HOfL3NKh0gWdW9WtAihVPA==/base.apk!/lib/arm64-v8a, /system/lib64]]
+09-17 22:18:02.999 E/AndroidRuntime( 8878): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4334)
+09-17 22:18:02.999 E/AndroidRuntime( 8878): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:4685)
+09-17 22:18:02.999 E/AndroidRuntime( 8878): 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:112)
+09-17 22:18:02.999 E/AndroidRuntime( 8878): 	at android.app.servertransaction.TransactionExecutor.executeNonLifecycleItem(TransactionExecutor.java:174)
+09-17 22:18:02.999 E/AndroidRuntime( 8878): 	at android.app.servertransaction.TransactionExecutor.executeTransactionItems(TransactionExecutor.java:109)
+09-17 22:18:02.999 E/AndroidRuntime( 8878): 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:81)
+09-17 22:18:02.999 E/AndroidRuntime( 8878): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2895)
+09-17 22:18:02.999 E/AndroidRuntime( 8878): 	at android.os.Handler.dispatchMessage(Handler.java:107)
+09-17 22:18:02.999 E/AndroidRuntime( 8878): 	at android.os.Looper.loopOnce(Looper.java:257)
+09-17 22:18:02.999 E/AndroidRuntime( 8878): 	at android.os.Looper.loop(Looper.java:342)
+09-17 22:18:02.999 E/AndroidRuntime( 8878): 	at android.app.ActivityThread.main(ActivityThread.java:9634)
+09-17 22:18:02.999 E/AndroidRuntime( 8878): 	at java.lang.reflect.Method.invoke(Native Method)
+09-17 22:18:02.999 E/AndroidRuntime( 8878): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:619)
+09-17 22:18:02.999 E/AndroidRuntime( 8878): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:929)
+09-17 22:18:02.999 E/AndroidRuntime( 8878): Caused by: java.lang.ClassNotFoundException: Didn't find class "com.gigamindmobile.MainActivity" on path: DexPathList[[zip file "/data/app/~~mOPlyAqZcrJDol40Q-GklQ==/com.gigamindmobile-HOfL3NKh0gWdW9WtAihVPA==/base.apk"],nativeLibraryDirectories=[/data/app/~~mOPlyAqZcrJDol40Q-GklQ==/com.gigamindmobile-HOfL3NKh0gWdW9WtAihVPA==/lib/arm64, /data/app/~~mOPlyAqZcrJDol40Q-GklQ==/com.gigamindmobile-HOfL3NKh0gWdW9WtAihVPA==/base.apk!/lib/arm64-v8a, /system/lib64]]
+09-17 22:18:02.999 E/AndroidRuntime( 8878): 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:259)
+09-17 22:18:02.999 E/AndroidRuntime( 8878): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:637)
+09-17 22:18:02.999 E/AndroidRuntime( 8878): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:573)
+09-17 22:18:02.999 E/AndroidRuntime( 8878): 	at android.app.AppComponentFactory.instantiateActivity(AppComponentFactory.java:95)
+09-17 22:18:02.999 E/AndroidRuntime( 8878): 	at androidx.core.app.CoreComponentFactory.instantiateActivity(CoreComponentFactory.java:44)
+09-17 22:18:02.999 E/AndroidRuntime( 8878): 	at android.app.Instrumentation.newActivity(Instrumentation.java:1448)
+09-17 22:18:02.999 E/AndroidRuntime( 8878): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4321)
+09-17 22:18:02.999 E/AndroidRuntime( 8878): 	... 13 more
+09-17 22:18:03.007 E/{OngoingActivityController}( 2560): getTaskInfo find task 12911 fail. taskInfoList.size:30
+09-17 22:18:03.571 E/pageboostd( 3548): alp start : app comgigamindmobile
+09-17 22:18:03.572 E/pageboostd( 3548): comgigamindmobile, amt 10439916 scnt 2 fcnt 0
+09-17 22:18:03.572 E/pageboostd( 3548): comgigamindmobile, amt 0 scnt 0 fcnt 0
+09-17 22:18:03.572 E/pageboostd( 3548): alp end : app comgigamindmobile data_amount 10439916
+09-17 22:18:03.574 E/AppIconSolution( 2560): Using cached contents available for us.mark.TheHacker.appicon
+09-17 22:18:03.591 E/.gigamindmobile( 8915): Not starting debugger since process cannot load the jdwp agent.
+09-17 22:18:03.671 E/pageboostd( 3548): Received HALT command code 2
+09-17 22:18:03.821 E/pageboostd( 3548): alp start : app comgigamindmobile
+09-17 22:18:03.821 E/pageboostd( 3548): comgigamindmobile, amt 10439916 scnt 2 fcnt 0
+09-17 22:18:03.821 E/pageboostd( 3548): comgigamindmobile, amt 0 scnt 0 fcnt 0
+09-17 22:18:03.821 E/pageboostd( 3548): alp end : app comgigamindmobile data_amount 10439916
+09-17 22:18:03.822 E/AppIconSolution( 2560): Using cached contents available for us.mark.TheHacker.appicon
+09-17 22:18:03.921 E/pageboostd( 3548): Received HALT command code 2
+09-17 22:18:04.022 E/pageboostd( 3548): alp start : app comgigamindmobile
+09-17 22:18:04.023 E/AppIconSolution( 2560): Using cached contents available for us.mark.TheHacker.appicon
+09-17 22:18:04.023 E/pageboostd( 3548): comgigamindmobile, amt 10439916 scnt 2 fcnt 0
+09-17 22:18:04.023 E/pageboostd( 3548): comgigamindmobile, amt 0 scnt 0 fcnt 0
+09-17 22:18:04.023 E/pageboostd( 3548): alp end : app comgigamindmobile data_amount 10439916
+09-17 22:18:04.028 E/Pageboost( 1608): StopRecording Failed
+09-17 22:18:04.031 E/Pageboost( 1608): captureFinished fail
+09-17 22:18:04.080 E/pageboostd( 3548): Received HALT command code 2
+09-17 22:18:04.091 E/TransactionExecutor( 8915): Failed to execute the transaction: tId:-585395279 ClientTransaction{
+09-17 22:18:04.091 E/TransactionExecutor( 8915): tId:-585395279   transactionItems=[
+09-17 22:18:04.091 E/TransactionExecutor( 8915): tId:-585395279     LaunchActivityItem{activityToken=android.os.BinderProxy@aff4968,intent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.gigamindmobile/.MainActivity bnds=[290,803][539,1089] },ident=165592386,info=ActivityInfo{3bfdab2 com.gigamindmobile.MainActivity},curConfig={1.0 250mcc99mnc [ru_RU] ldltr sw360dp w360dp h800dp 480dpi nrml long port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2400) mAppBounds=Rect(0, 0 - 1080, 2400) mMaxBounds=Rect(0, 0 - 1080, 2400) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0 mStageConfig=undefined mPopOver=off mOverlappingWithCutout=false mCompatSandboxScale=-1.0 mDexTaskDockingState=none mFreeformTaskPinningState=unpinned} s.7441 fontWeightAdjustment=0 ff=0 bf=0 bts=0 cst=1.0 nightDim=0 desktop/d dm/n dc/d ?dcui themeSeq=0},overrideConfig={1.0 250mcc99mnc [ru_RU] ldltr sw360dp w360dp h800dp 480dpi nrml long port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2400) mAppBounds=Rect(0, 0 - 1080, 2400) mMaxBounds=Rect(0, 0 - 1080, 2400) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=standard mAlwaysOnTop=undefined mRotation=ROTATION_0 mStageConfig=undefined mPopOver=off mOverlappingWithCutout=false mCompatSandboxScale=-1.0 mDexTaskDockingState=none mFreeformTaskPinningState=unpinned} s.2 fontWeightAdjustment=0 ff=0 bf=0 bts=0 cst=1.0 nightDim=0 desktop/d dm/n dc/d ?dcui themeSeq=0},deviceId=0,referrer=com.sec.android.app.launcher,procState=19,state=null,persistentState=null,pendingResults=null,pendingNewIntents=null,sceneTransitionInfo=null,profilerInfo=null,assistToken=android.os.BinderProxy@f336e67,shareableActivityToken=android.os.BinderProxy@f339414,activityWindowInfo=ActivityWindowInfo{isEmbedded=false, taskBounds=Rect(0, 0 - 1080, 2400), taskFragmentBounds=Rect(0, 0 - 1080, 2400)}}
+09-17 22:18:04.091 E/TransactionExecutor( 8915): tId:-585395279     ResumeActivityItem{mActivityToken=android.os.BinderProxy@aff4968,procState=-1,updateProcState=false,isForward=true,shouldSendCompatFakeFocus=false}
+09-17 22:18:04.091 E/TransactionExecutor( 8915): tId:-585395279     Target activity: Not found for token: android.os.BinderProxy@aff4968
+09-17 22:18:04.091 E/TransactionExecutor( 8915): tId:-585395279   ]
+09-17 22:18:04.091 E/TransactionExecutor( 8915): tId:-585395279 }
+09-17 22:18:04.092 E/AndroidRuntime( 8915): FATAL EXCEPTION: main
+09-17 22:18:04.092 E/AndroidRuntime( 8915): Process: com.gigamindmobile, PID: 8915
+09-17 22:18:04.092 E/AndroidRuntime( 8915): java.lang.RuntimeException: Unable to instantiate activity ComponentInfo{com.gigamindmobile/com.gigamindmobile.MainActivity}: java.lang.ClassNotFoundException: Didn't find class "com.gigamindmobile.MainActivity" on path: DexPathList[[zip file "/data/app/~~mOPlyAqZcrJDol40Q-GklQ==/com.gigamindmobile-HOfL3NKh0gWdW9WtAihVPA==/base.apk"],nativeLibraryDirectories=[/data/app/~~mOPlyAqZcrJDol40Q-GklQ==/com.gigamindmobile-HOfL3NKh0gWdW9WtAihVPA==/lib/arm64, /data/app/~~mOPlyAqZcrJDol40Q-GklQ==/com.gigamindmobile-HOfL3NKh0gWdW9WtAihVPA==/base.apk!/lib/arm64-v8a, /system/lib64]]
+09-17 22:18:04.092 E/AndroidRuntime( 8915): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4334)
+09-17 22:18:04.092 E/AndroidRuntime( 8915): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:4685)
+09-17 22:18:04.092 E/AndroidRuntime( 8915): 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:112)
+09-17 22:18:04.092 E/AndroidRuntime( 8915): 	at android.app.servertransaction.TransactionExecutor.executeNonLifecycleItem(TransactionExecutor.java:174)
+09-17 22:18:04.092 E/AndroidRuntime( 8915): 	at android.app.servertransaction.TransactionExecutor.executeTransactionItems(TransactionExecutor.java:109)
+09-17 22:18:04.092 E/AndroidRuntime( 8915): 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:81)
+09-17 22:18:04.092 E/AndroidRuntime( 8915): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2895)
+09-17 22:18:04.092 E/AndroidRuntime( 8915): 	at android.os.Handler.dispatchMessage(Handler.java:107)
+09-17 22:18:04.092 E/AndroidRuntime( 8915): 	at android.os.Looper.loopOnce(Looper.java:257)
+09-17 22:18:04.092 E/AndroidRuntime( 8915): 	at android.os.Looper.loop(Looper.java:342)
+09-17 22:18:04.092 E/AndroidRuntime( 8915): 	at android.app.ActivityThread.main(ActivityThread.java:9634)
+09-17 22:18:04.092 E/AndroidRuntime( 8915): 	at java.lang.reflect.Method.invoke(Native Method)
+09-17 22:18:04.092 E/AndroidRuntime( 8915): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:619)
+09-17 22:18:04.092 E/AndroidRuntime( 8915): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:929)
+09-17 22:18:04.092 E/AndroidRuntime( 8915): Caused by: java.lang.ClassNotFoundException: Didn't find class "com.gigamindmobile.MainActivity" on path: DexPathList[[zip file "/data/app/~~mOPlyAqZcrJDol40Q-GklQ==/com.gigamindmobile-HOfL3NKh0gWdW9WtAihVPA==/base.apk"],nativeLibraryDirectories=[/data/app/~~mOPlyAqZcrJDol40Q-GklQ==/com.gigamindmobile-HOfL3NKh0gWdW9WtAihVPA==/lib/arm64, /data/app/~~mOPlyAqZcrJDol40Q-GklQ==/com.gigamindmobile-HOfL3NKh0gWdW9WtAihVPA==/base.apk!/lib/arm64-v8a, /system/lib64]]
+09-17 22:18:04.092 E/AndroidRuntime( 8915): 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:259)
+09-17 22:18:04.092 E/AndroidRuntime( 8915): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:637)
+09-17 22:18:04.092 E/AndroidRuntime( 8915): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:573)
+09-17 22:18:04.092 E/AndroidRuntime( 8915): 	at android.app.AppComponentFactory.instantiateActivity(AppComponentFactory.java:95)
+09-17 22:18:04.092 E/AndroidRuntime( 8915): 	at androidx.core.app.CoreComponentFactory.instantiateActivity(CoreComponentFactory.java:44)
+09-17 22:18:04.092 E/AndroidRuntime( 8915): 	at android.app.Instrumentation.newActivity(Instrumentation.java:1448)
+09-17 22:18:04.092 E/AndroidRuntime( 8915): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4321)
+09-17 22:18:04.092 E/AndroidRuntime( 8915): 	... 13 more
+09-17 22:18:04.107 E/{OngoingActivityController}( 2560): getTaskInfo find task 12912 fail. taskInfoList.size:30
+09-17 22:18:04.393 E/Sensors ( 1351): inject_scontext_data: New ssp_data_injection_fd(44)
+09-17 22:18:04.396 E/SemContext.CaeProvider( 1608): setAttribute() : attribute is null!
+09-17 22:18:04.396 E/SensorService( 1608): BigData:Pakage) 5 already enabled. 
+09-17 22:18:04.535 E/SensorService( 1608): BigData:Pakage) 5 already disabled. 
+09-17 22:18:04.656 E/Sensors ( 1351): inject_scontext_data: New ssp_data_injection_fd(44)
+09-17 22:18:05.242 E/TaskPersister( 1608): File error accessing recents directory (directory doesn't exist?).
+09-17 22:18:05.342 E/ArtService( 1608): Failed to get dexopt status [packageName = com.yahoo.mobile.client.android.mail, dexPath = /data/user/0/com.yahoo.mobile.client.android.mail/app_pccache/5/B6EA2E920DF34AD079952BEB09AEEF53F19B467E/pcam.jar, isa = arm64, classLoaderContext = PCL[];PCL[/data/app/~~Tykvv_ZfQcPDfAmHIMkw0w==/com.yahoo.mobile.client.android.mail-chdXAcX6b2txnnc2tezbWw==/base.apk]{PCL[/system/framework/org.apache.http.legacy.jar]#PCL[/system_ext/framework/androidx.window.extensions.jar]#PCL[/system_ext/framework/androidx.window.sidecar.jar]}]
+09-17 22:18:05.342 E/ArtService( 1608): android.os.ServiceSpecificException: Failed to create OatFileAssistant: Failed to load class loader context files for '/data/user/0/com.yahoo.mobile.client.android.mail/app_pccache/5/B6EA2E920DF34AD079952BEB09AEEF53F19B467E/pcam.jar' with context 'PCL[];PCL[/data/app/~~Tykvv_ZfQcPDfAmHIMkw0w==/com.yahoo.mobile.client.android.mail-chdXAcX6b2txnnc2tezbWw==/base.apk]{PCL[/system/framework/org.apache.http.legacy.jar]#PCL[/system_ext/framework/androidx.window.extensions.jar]#PCL[/system_ext/framework/androidx.window.sidecar.jar]}' (code 1)
+09-17 22:18:05.342 E/ArtService( 1608): 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3271)
+09-17 22:18:05.342 E/ArtService( 1608): 	at android.os.Parcel.createException(Parcel.java:3241)
+09-17 22:18:05.342 E/ArtService( 1608): 	at android.os.Parcel.readException(Parcel.java:3224)
+09-17 22:18:05.342 E/ArtService( 1608): 	at android.os.Parcel.readException(Parcel.java:3166)
+09-17 22:18:05.342 E/ArtService( 1608): 	at com.android.server.art.IArtd$Stub$Proxy.getDexoptStatus(IArtd.java:880)
+09-17 22:18:05.342 E/ArtService( 1608): 	at com.android.server.art.ArtFileManager.getUsableArtifacts(ArtFileManager.java:153)
+09-17 22:18:05.342 E/ArtService( 1608): 	at com.android.server.art.ArtManagerLocal.getArtManagedFileStats(ArtManagerLocal.java:1056)
+09-17 22:18:05.342 E/ArtService( 1608): 	at com.android.server.usage.StorageStatsService.computeAppStatsByDataTypes(qb/99323245 147331c3f593555230048f1951233b624d28de1bc69667cb1c9f7e756ba791a6:75)
+09-17 22:18:05.342 E/ArtService( 1608): 	at com.android.server.usage.StorageStatsService.queryStatsForUid(qb/99323245 147331c3f593555230048f1951233b624d28de1bc69667cb1c9f7e756ba791a6:138)
+09-17 22:18:05.342 E/ArtService( 1608): 	at com.android.server.usage.StorageStatsService.queryStatsForPackage(qb/99323245 147331c3f593555230048f1951233b624d28de1bc69667cb1c9f7e756ba791a6:83)
+09-17 22:18:05.342 E/ArtService( 1608): 	at android.app.usage.IStorageStatsManager$Stub.onTransact(IStorageStatsManager.java:265)
+09-17 22:18:05.342 E/ArtService( 1608): 	at android.os.Binder.execTransactInternal(Binder.java:1536)
+09-17 22:18:05.342 E/ArtService( 1608): 	at android.os.Binder.execTransact(Binder.java:1480)
+09-17 22:18:05.343 E/ArtService( 1608): Failed to get dexopt status [packageName = com.yahoo.mobile.client.android.mail, dexPath = /data/user/0/com.yahoo.mobile.client.android.mail/app_pccache/5/6E2A190BD4DF56E567C807314532FEF7E6BDBEDC/pcam.jar, isa = arm64, classLoaderContext = PCL[];PCL[/data/app/~~Tykvv_ZfQcPDfAmHIMkw0w==/com.yahoo.mobile.client.android.mail-chdXAcX6b2txnnc2tezbWw==/base.apk]{PCL[/system/framework/org.apache.http.legacy.jar]#PCL[/system_ext/framework/androidx.window.extensions.jar]#PCL[/system_ext/framework/androidx.window.sidecar.jar]}]
+09-17 22:18:05.343 E/ArtService( 1608): android.os.ServiceSpecificException: Failed to create OatFileAssistant: Failed to load class loader context files for '/data/user/0/com.yahoo.mobile.client.android.mail/app_pccache/5/6E2A190BD4DF56E567C807314532FEF7E6BDBEDC/pcam.jar' with context 'PCL[];PCL[/data/app/~~Tykvv_ZfQcPDfAmHIMkw0w==/com.yahoo.mobile.client.android.mail-chdXAcX6b2txnnc2tezbWw==/base.apk]{PCL[/system/framework/org.apache.http.legacy.jar]#PCL[/system_ext/framework/androidx.window.extensions.jar]#PCL[/system_ext/framework/androidx.window.sidecar.jar]}' (code 1)
+09-17 22:18:05.343 E/ArtService( 1608): 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3271)
+09-17 22:18:05.343 E/ArtService( 1608): 	at android.os.Parcel.createException(Parcel.java:3241)
+09-17 22:18:05.343 E/ArtService( 1608): 	at android.os.Parcel.readException(Parcel.java:3224)
+09-17 22:18:05.343 E/ArtService( 1608): 	at android.os.Parcel.readException(Parcel.java:3166)
+09-17 22:18:05.343 E/ArtService( 1608): 	at com.android.server.art.IArtd$Stub$Proxy.getDexoptStatus(IArtd.java:880)
+09-17 22:18:05.343 E/ArtService( 1608): 	at com.android.server.art.ArtFileManager.getUsableArtifacts(ArtFileManager.java:153)
+09-17 22:18:05.343 E/ArtService( 1608): 	at com.android.server.art.ArtManagerLocal.getArtManagedFileStats(ArtManagerLocal.java:1056)
+09-17 22:18:05.343 E/ArtService( 1608): 	at com.android.server.usage.StorageStatsService.computeAppStatsByDataTypes(qb/99323245 147331c3f593555230048f1951233b624d28de1bc69667cb1c9f7e756ba791a6:75)
+09-17 22:18:05.343 E/ArtService( 1608): 	at com.android.server.usage.StorageStatsService.queryStatsForUid(qb/99323245 147331c3f593555230048f1951233b624d28de1bc69667cb1c9f7e756ba791a6:138)
+09-17 22:18:05.343 E/ArtService( 1608): 	at com.android.server.usage.StorageStatsService.queryStatsForPackage(qb/99323245 147331c3f593555230048f1951233b624d28de1bc69667cb1c9f7e756ba791a6:83)
+09-17 22:18:05.343 E/ArtService( 1608): 	at android.app.usage.IStorageStatsManager$Stub.onTransact(IStorageStatsManager.java:265)
+09-17 22:18:05.343 E/ArtService( 1608): 	at android.os.Binder.execTransactInternal(Binder.java:1536)
+09-17 22:18:05.343 E/ArtService( 1608): 	at android.os.Binder.execTransact(Binder.java:1480)

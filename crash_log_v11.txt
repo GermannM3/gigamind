@@ -1,0 +1,143 @@
+--------- beginning of main
+09-17 23:27:38.314 E/pageboostd( 3548): Received HALT command code 2
+09-17 23:27:38.317 E/AppIconSolution( 2560): Using cached contents available for us.mark.TheHacker.appicon
+09-17 23:27:38.357 E/SurfaceFlinger( 1454): alpha changed 1.000 -> 0.000 - Task=12935#37180
+09-17 23:27:38.357 E/SurfaceFlinger( 1454): alpha changed 0.000 -> 0.000 - Task=12935#37180
+09-17 23:27:38.360 E/.gigamindmobile(21734): Not starting debugger since process cannot load the jdwp agent.
+09-17 23:27:38.390 E/SurfaceFlinger( 1454): alpha changed 0.000 -> 0.170 - Task=12935#37180
+09-17 23:27:38.399 E/NativeCustomFrequencyManager( 1454): [NativeCFMS] BpCustomFrequencyManager::acquire()
+09-17 23:27:38.481 I/ReactNativeJS(21734): Running "GigaMindMobile"
+09-17 23:27:38.482 E/ReactNativeJS(21734): { [Invariant Violation: "GigaMindMobile" has not been registered. This can happen if:
+09-17 23:27:38.482 E/ReactNativeJS(21734): * Metro (the local dev server) is run from the wrong folder. Check if Metro is running, stop it and restart it in the current project.
+09-17 23:27:38.482 E/ReactNativeJS(21734): * A module failed to load due to an error and `AppRegistry.registerComponent` wasn't called.] name: 'Invariant Violation', framesToPop: 1 }
+--------- beginning of crash
+09-17 23:27:38.507 E/AndroidRuntime(21734): FATAL EXCEPTION: mqt_native_modules
+09-17 23:27:38.507 E/AndroidRuntime(21734): Process: com.gigamindmobile, PID: 21734
+09-17 23:27:38.507 E/AndroidRuntime(21734): com.facebook.react.common.JavascriptException: Invariant Violation: "GigaMindMobile" has not been registered. This can happen if:
+09-17 23:27:38.507 E/AndroidRuntime(21734): * Metro (the local dev server) is run from the wrong folder. Check if Metro is running, stop it and restart it in the current project.
+09-17 23:27:38.507 E/AndroidRuntime(21734): * A module failed to load due to an error and `AppRegistry.registerComponent` wasn't called., stack:
+09-17 23:27:38.507 E/AndroidRuntime(21734): invariant@1:50455
+09-17 23:27:38.507 E/AndroidRuntime(21734): runApplication@1:333012
+09-17 23:27:38.507 E/AndroidRuntime(21734): __callFunction@1:56418
+09-17 23:27:38.507 E/AndroidRuntime(21734): anonymous@1:54718
+09-17 23:27:38.507 E/AndroidRuntime(21734): __guard@1:55674
+09-17 23:27:38.507 E/AndroidRuntime(21734): callFunctionReturnFlushedQueue@1:54676
+09-17 23:27:38.507 E/AndroidRuntime(21734): 
+09-17 23:27:38.507 E/AndroidRuntime(21734): 	at com.facebook.react.modules.core.ExceptionsManagerModule.reportException(ExceptionsManagerModule.kt:52)
+09-17 23:27:38.507 E/AndroidRuntime(21734): 	at java.lang.reflect.Method.invoke(Native Method)
+09-17 23:27:38.507 E/AndroidRuntime(21734): 	at com.facebook.react.bridge.JavaMethodWrapper.invoke(JavaMethodWrapper.kt:217)
+09-17 23:27:38.507 E/AndroidRuntime(21734): 	at com.facebook.react.bridge.JavaModuleWrapper.invoke(JavaModuleWrapper.kt:134)
+09-17 23:27:38.507 E/AndroidRuntime(21734): 	at com.facebook.jni.NativeRunnable.run(Native Method)
+09-17 23:27:38.507 E/AndroidRuntime(21734): 	at android.os.Handler.handleCallback(Handler.java:959)
+09-17 23:27:38.507 E/AndroidRuntime(21734): 	at android.os.Handler.dispatchMessage(Handler.java:100)
+09-17 23:27:38.507 E/AndroidRuntime(21734): 	at com.facebook.react.bridge.queue.MessageQueueThreadHandler.dispatchMessage(MessageQueueThreadHandler.kt:21)
+09-17 23:27:38.507 E/AndroidRuntime(21734): 	at android.os.Looper.loopOnce(Looper.java:257)
+09-17 23:27:38.507 E/AndroidRuntime(21734): 	at android.os.Looper.loop(Looper.java:342)
+09-17 23:27:38.507 E/AndroidRuntime(21734): 	at com.facebook.react.bridge.queue.MessageQueueThreadImpl$Companion.startNewBackgroundThread$lambda$1(MessageQueueThreadImpl.kt:175)
+09-17 23:27:38.507 E/AndroidRuntime(21734): 	at com.facebook.react.bridge.queue.MessageQueueThreadImpl$Companion.$r8$lambda$ldnZnqelhYFctGaUKkOKYj5rxo4(Unknown Source:0)
+09-17 23:27:38.507 E/AndroidRuntime(21734): 	at com.facebook.react.bridge.queue.MessageQueueThreadImpl$Companion$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+09-17 23:27:38.507 E/AndroidRuntime(21734): 	at java.lang.Thread.run(Thread.java:1119)
+09-17 23:27:38.515 E/pageboostd( 3548): Received HALT command code 2
+09-17 23:27:38.575 E/SurfaceFlinger( 1454): alpha changed 1.000 -> 0.000 - Surface(name=Task=1)/@0xccc5a10_transition-leash#37196
+09-17 23:27:38.608 E/SurfaceFlinger( 1454): alpha changed 0.000 -> 1.000 - Surface(name=Task=1)/@0xccc5a10_transition-leash#37196
+09-17 23:27:38.642 E/SurfaceFlinger( 1454): alpha changed 1.000 -> 0.000 - Surface(name=440e349 Application Error: com.gigamindmobile)/@0x5855f7b - animation-leash of window_animation#37204
+09-17 23:27:38.642 E/SurfaceFlinger( 1454): alpha changed 0.000 -> 0.000 - Surface(name=440e349 Application Error: com.gigamindmobile)/@0x5855f7b - animation-leash of window_animation#37204
+09-17 23:27:38.642 E/SurfaceFlinger( 1454): alpha changed 1.000 -> 0.000 - Dim Layer for - Display 0 name="Встроенный экран"#37205
+09-17 23:27:38.658 E/SurfaceFlinger( 1454): alpha changed 0.000 -> 0.223 - Surface(name=440e349 Application Error: com.gigamindmobile)/@0x5855f7b - animation-leash of window_animation#37204
+09-17 23:27:38.675 E/SurfaceFlinger( 1454): alpha changed 0.000 -> 0.010 - Dim Layer for - Display 0 name="Встроенный экран"#37205
+09-17 23:27:38.809 E/SurfaceComposerClient( 3017): SurfaceComposerClient::Transaction::setAlpha: invalid alpha -0.017742, clamping
+09-17 23:27:38.826 E/SurfaceComposerClient( 3017): SurfaceComposerClient::Transaction::setAlpha: invalid alpha -0.037181, clamping
+09-17 23:27:38.842 E/SurfaceFlinger( 1454): alpha changed 0.018 -> 0.000 - Surface(name=Task=12935)/@0xffaa70e_transition-leash#37197
+09-17 23:27:38.843 E/SurfaceComposerClient( 3017): SurfaceComposerClient::Transaction::setAlpha: invalid alpha -0.047709, clamping
+09-17 23:27:38.859 E/SurfaceComposerClient( 3017): SurfaceComposerClient::Transaction::setAlpha: invalid alpha -0.050609, clamping
+09-17 23:27:38.876 E/SurfaceComposerClient( 3017): SurfaceComposerClient::Transaction::setAlpha: invalid alpha -0.046609, clamping
+09-17 23:27:38.893 E/SurfaceComposerClient( 3017): SurfaceComposerClient::Transaction::setAlpha: invalid alpha -0.039456, clamping
+09-17 23:27:38.910 E/SurfaceComposerClient( 3017): SurfaceComposerClient::Transaction::setAlpha: invalid alpha -0.028915, clamping
+09-17 23:27:38.926 E/SurfaceComposerClient( 3017): SurfaceComposerClient::Transaction::setAlpha: invalid alpha -0.013784, clamping
+09-17 23:27:38.960 E/unknown:ReactNative(21734): Tried to remove non-existent frame callback
+--------- beginning of system
+09-17 23:27:40.091 E/Watchdog( 1608): !@Sync: 15238 heap(MB): 179 / 210 FD: 1504 [2025-09-17 23:27:40.091]
+09-17 23:27:42.333 E/BtGatt.GattService(16000): [GSIM LOG]: gsimLogHandler, msg: MESSAGE_SCAN_STOP, appName: com.google.android.gms, scannerId: 8, reportDelayMillis=0
+09-17 23:27:42.344 E/TaskPersister( 1608): File error accessing recents directory (directory doesn't exist?).
+09-17 23:27:42.350 E/BtGatt.GattService(16000): [GSIM LOG]: gsimLogHandler, msg: MESSAGE_SCAN_START, appName: com.google.android.gms, scannerId: 8, reportDelayMillis=0
+09-17 23:27:44.869 E/SurfaceFlinger( 1454): alpha changed 0.062 -> 0.000 - Surface(name=440e349 Application Error: com.gigamindmobile)/@0x5855f7b - animation-leash of window_animation#37207
+09-17 23:27:44.959 E/PocketModeEvent( 1608): PocketModeSetting is off 
+09-17 23:27:45.087 E/SurfaceFlinger( 1454): alpha changed 0.009 -> 0.000 - Dim Layer for - Display 0 name="Встроенный экран"#37205
+09-17 23:27:45.497 E/AppIconSolution( 2560): Using cached contents available for us.mark.TheHacker.appicon
+09-17 23:27:45.539 E/.gigamindmobile(21816): Not starting debugger since process cannot load the jdwp agent.
+09-17 23:27:45.565 E/pageboostd( 3548): Received HALT command code 2
+09-17 23:27:45.606 E/SurfaceFlinger( 1454): alpha changed 1.000 -> 0.000 - Surface(name=Task=12936)/@0xb248bdf_transition-leash#37215
+09-17 23:27:45.656 E/SurfaceFlinger( 1454): alpha changed 0.000 -> 0.032 - Surface(name=Task=12936)/@0xb248bdf_transition-leash#37215
+09-17 23:27:45.657 I/ReactNativeJS(21816): Running "GigaMindMobile"
+09-17 23:27:45.657 E/ReactNativeJS(21816): { [Invariant Violation: "GigaMindMobile" has not been registered. This can happen if:
+09-17 23:27:45.657 E/ReactNativeJS(21816): * Metro (the local dev server) is run from the wrong folder. Check if Metro is running, stop it and restart it in the current project.
+09-17 23:27:45.657 E/ReactNativeJS(21816): * A module failed to load due to an error and `AppRegistry.registerComponent` wasn't called.] name: 'Invariant Violation', framesToPop: 1 }
+09-17 23:27:45.660 E/AndroidRuntime(21816): FATAL EXCEPTION: mqt_native_modules
+09-17 23:27:45.660 E/AndroidRuntime(21816): Process: com.gigamindmobile, PID: 21816
+09-17 23:27:45.660 E/AndroidRuntime(21816): com.facebook.react.common.JavascriptException: Invariant Violation: "GigaMindMobile" has not been registered. This can happen if:
+09-17 23:27:45.660 E/AndroidRuntime(21816): * Metro (the local dev server) is run from the wrong folder. Check if Metro is running, stop it and restart it in the current project.
+09-17 23:27:45.660 E/AndroidRuntime(21816): * A module failed to load due to an error and `AppRegistry.registerComponent` wasn't called., stack:
+09-17 23:27:45.660 E/AndroidRuntime(21816): invariant@1:50455
+09-17 23:27:45.660 E/AndroidRuntime(21816): runApplication@1:333012
+09-17 23:27:45.660 E/AndroidRuntime(21816): __callFunction@1:56418
+09-17 23:27:45.660 E/AndroidRuntime(21816): anonymous@1:54718
+09-17 23:27:45.660 E/AndroidRuntime(21816): __guard@1:55674
+09-17 23:27:45.660 E/AndroidRuntime(21816): callFunctionReturnFlushedQueue@1:54676
+09-17 23:27:45.660 E/AndroidRuntime(21816): 
+09-17 23:27:45.660 E/AndroidRuntime(21816): 	at com.facebook.react.modules.core.ExceptionsManagerModule.reportException(ExceptionsManagerModule.kt:52)
+09-17 23:27:45.660 E/AndroidRuntime(21816): 	at java.lang.reflect.Method.invoke(Native Method)
+09-17 23:27:45.660 E/AndroidRuntime(21816): 	at com.facebook.react.bridge.JavaMethodWrapper.invoke(JavaMethodWrapper.kt:217)
+09-17 23:27:45.660 E/AndroidRuntime(21816): 	at com.facebook.react.bridge.JavaModuleWrapper.invoke(JavaModuleWrapper.kt:134)
+09-17 23:27:45.660 E/AndroidRuntime(21816): 	at com.facebook.jni.NativeRunnable.run(Native Method)
+09-17 23:27:45.660 E/AndroidRuntime(21816): 	at android.os.Handler.handleCallback(Handler.java:959)
+09-17 23:27:45.660 E/AndroidRuntime(21816): 	at android.os.Handler.dispatchMessage(Handler.java:100)
+09-17 23:27:45.660 E/AndroidRuntime(21816): 	at com.facebook.react.bridge.queue.MessageQueueThreadHandler.dispatchMessage(MessageQueueThreadHandler.kt:21)
+09-17 23:27:45.660 E/AndroidRuntime(21816): 	at android.os.Looper.loopOnce(Looper.java:257)
+09-17 23:27:45.660 E/AndroidRuntime(21816): 	at android.os.Looper.loop(Looper.java:342)
+09-17 23:27:45.660 E/AndroidRuntime(21816): 	at com.facebook.react.bridge.queue.MessageQueueThreadImpl$Companion.startNewBackgroundThread$lambda$1(MessageQueueThreadImpl.kt:175)
+09-17 23:27:45.660 E/AndroidRuntime(21816): 	at com.facebook.react.bridge.queue.MessageQueueThreadImpl$Companion.$r8$lambda$ldnZnqelhYFctGaUKkOKYj5rxo4(Unknown Source:0)
+09-17 23:27:45.660 E/AndroidRuntime(21816): 	at com.facebook.react.bridge.queue.MessageQueueThreadImpl$Companion$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+09-17 23:27:45.660 E/AndroidRuntime(21816): 	at java.lang.Thread.run(Thread.java:1119)
+09-17 23:27:45.664 E/NativeCustomFrequencyManager( 1454): [NativeCFMS] BpCustomFrequencyManager::acquire()
+09-17 23:27:45.956 E/SurfaceComposerClient( 3017): SurfaceComposerClient::Transaction::setAlpha: invalid alpha -0.015451, clamping
+09-17 23:27:45.973 E/SurfaceFlinger( 1454): alpha changed 0.016 -> 0.000 - Surface(name=Task=12936)/@0xb248bdf_transition-leash#37215
+09-17 23:27:45.973 E/SurfaceComposerClient( 3017): SurfaceComposerClient::Transaction::setAlpha: invalid alpha -0.032989, clamping
+09-17 23:27:45.990 E/SurfaceComposerClient( 3017): SurfaceComposerClient::Transaction::setAlpha: invalid alpha -0.041548, clamping
+09-17 23:27:46.006 E/SurfaceComposerClient( 3017): SurfaceComposerClient::Transaction::setAlpha: invalid alpha -0.044073, clamping
+09-17 23:27:46.023 E/SurfaceComposerClient( 3017): SurfaceComposerClient::Transaction::setAlpha: invalid alpha -0.040590, clamping
+09-17 23:27:46.040 E/SurfaceComposerClient( 3017): SurfaceComposerClient::Transaction::setAlpha: invalid alpha -0.033820, clamping
+09-17 23:27:46.057 E/SurfaceComposerClient( 3017): SurfaceComposerClient::Transaction::setAlpha: invalid alpha -0.025181, clamping
+09-17 23:27:46.073 E/SurfaceComposerClient( 3017): SurfaceComposerClient::Transaction::setAlpha: invalid alpha -0.012004, clamping
+09-17 23:27:49.567 E/TaskPersister( 1608): File error accessing recents directory (directory doesn't exist?).
+09-17 23:27:50.491 E/ArtService( 1608): Failed to get dexopt status [packageName = com.yahoo.mobile.client.android.mail, dexPath = /data/user/0/com.yahoo.mobile.client.android.mail/app_pccache/5/B6EA2E920DF34AD079952BEB09AEEF53F19B467E/pcam.jar, isa = arm64, classLoaderContext = PCL[];PCL[/data/app/~~Tykvv_ZfQcPDfAmHIMkw0w==/com.yahoo.mobile.client.android.mail-chdXAcX6b2txnnc2tezbWw==/base.apk]{PCL[/system/framework/org.apache.http.legacy.jar]#PCL[/system_ext/framework/androidx.window.extensions.jar]#PCL[/system_ext/framework/androidx.window.sidecar.jar]}]
+09-17 23:27:50.491 E/ArtService( 1608): android.os.ServiceSpecificException: Failed to create OatFileAssistant: Failed to load class loader context files for '/data/user/0/com.yahoo.mobile.client.android.mail/app_pccache/5/B6EA2E920DF34AD079952BEB09AEEF53F19B467E/pcam.jar' with context 'PCL[];PCL[/data/app/~~Tykvv_ZfQcPDfAmHIMkw0w==/com.yahoo.mobile.client.android.mail-chdXAcX6b2txnnc2tezbWw==/base.apk]{PCL[/system/framework/org.apache.http.legacy.jar]#PCL[/system_ext/framework/androidx.window.extensions.jar]#PCL[/system_ext/framework/androidx.window.sidecar.jar]}' (code 1)
+09-17 23:27:50.491 E/ArtService( 1608): 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3271)
+09-17 23:27:50.491 E/ArtService( 1608): 	at android.os.Parcel.createException(Parcel.java:3241)
+09-17 23:27:50.491 E/ArtService( 1608): 	at android.os.Parcel.readException(Parcel.java:3224)
+09-17 23:27:50.491 E/ArtService( 1608): 	at android.os.Parcel.readException(Parcel.java:3166)
+09-17 23:27:50.491 E/ArtService( 1608): 	at com.android.server.art.IArtd$Stub$Proxy.getDexoptStatus(IArtd.java:880)
+09-17 23:27:50.491 E/ArtService( 1608): 	at com.android.server.art.ArtFileManager.getUsableArtifacts(ArtFileManager.java:153)
+09-17 23:27:50.491 E/ArtService( 1608): 	at com.android.server.art.ArtManagerLocal.getArtManagedFileStats(ArtManagerLocal.java:1056)
+09-17 23:27:50.491 E/ArtService( 1608): 	at com.android.server.usage.StorageStatsService.computeAppStatsByDataTypes(qb/99323245 147331c3f593555230048f1951233b624d28de1bc69667cb1c9f7e756ba791a6:75)
+09-17 23:27:50.491 E/ArtService( 1608): 	at com.android.server.usage.StorageStatsService.queryStatsForUid(qb/99323245 147331c3f593555230048f1951233b624d28de1bc69667cb1c9f7e756ba791a6:138)
+09-17 23:27:50.491 E/ArtService( 1608): 	at com.android.server.usage.StorageStatsService.queryStatsForPackage(qb/99323245 147331c3f593555230048f1951233b624d28de1bc69667cb1c9f7e756ba791a6:83)
+09-17 23:27:50.491 E/ArtService( 1608): 	at android.app.usage.IStorageStatsManager$Stub.onTransact(IStorageStatsManager.java:265)
+09-17 23:27:50.491 E/ArtService( 1608): 	at android.os.Binder.execTransactInternal(Binder.java:1536)
+09-17 23:27:50.491 E/ArtService( 1608): 	at android.os.Binder.execTransact(Binder.java:1480)
+09-17 23:27:50.491 E/ArtService( 1608): Failed to get dexopt status [packageName = com.yahoo.mobile.client.android.mail, dexPath = /data/user/0/com.yahoo.mobile.client.android.mail/app_pccache/5/6E2A190BD4DF56E567C807314532FEF7E6BDBEDC/pcam.jar, isa = arm64, classLoaderContext = PCL[];PCL[/data/app/~~Tykvv_ZfQcPDfAmHIMkw0w==/com.yahoo.mobile.client.android.mail-chdXAcX6b2txnnc2tezbWw==/base.apk]{PCL[/system/framework/org.apache.http.legacy.jar]#PCL[/system_ext/framework/androidx.window.extensions.jar]#PCL[/system_ext/framework/androidx.window.sidecar.jar]}]
+09-17 23:27:50.491 E/ArtService( 1608): android.os.ServiceSpecificException: Failed to create OatFileAssistant: Failed to load class loader context files for '/data/user/0/com.yahoo.mobile.client.android.mail/app_pccache/5/6E2A190BD4DF56E567C807314532FEF7E6BDBEDC/pcam.jar' with context 'PCL[];PCL[/data/app/~~Tykvv_ZfQcPDfAmHIMkw0w==/com.yahoo.mobile.client.android.mail-chdXAcX6b2txnnc2tezbWw==/base.apk]{PCL[/system/framework/org.apache.http.legacy.jar]#PCL[/system_ext/framework/androidx.window.extensions.jar]#PCL[/system_ext/framework/androidx.window.sidecar.jar]}' (code 1)
+09-17 23:27:50.491 E/ArtService( 1608): 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3271)
+09-17 23:27:50.491 E/ArtService( 1608): 	at android.os.Parcel.createException(Parcel.java:3241)
+09-17 23:27:50.491 E/ArtService( 1608): 	at android.os.Parcel.readException(Parcel.java:3224)
+09-17 23:27:50.491 E/ArtService( 1608): 	at android.os.Parcel.readException(Parcel.java:3166)
+09-17 23:27:50.491 E/ArtService( 1608): 	at com.android.server.art.IArtd$Stub$Proxy.getDexoptStatus(IArtd.java:880)
+09-17 23:27:50.491 E/ArtService( 1608): 	at com.android.server.art.ArtFileManager.getUsableArtifacts(ArtFileManager.java:153)
+09-17 23:27:50.491 E/ArtService( 1608): 	at com.android.server.art.ArtManagerLocal.getArtManagedFileStats(ArtManagerLocal.java:1056)
+09-17 23:27:50.491 E/ArtService( 1608): 	at com.android.server.usage.StorageStatsService.computeAppStatsByDataTypes(qb/99323245 147331c3f593555230048f1951233b624d28de1bc69667cb1c9f7e756ba791a6:75)
+09-17 23:27:50.491 E/ArtService( 1608): 	at com.android.server.usage.StorageStatsService.queryStatsForUid(qb/99323245 147331c3f593555230048f1951233b624d28de1bc69667cb1c9f7e756ba791a6:138)
+09-17 23:27:50.491 E/ArtService( 1608): 	at com.android.server.usage.StorageStatsService.queryStatsForPackage(qb/99323245 147331c3f593555230048f1951233b624d28de1bc69667cb1c9f7e756ba791a6:83)
+09-17 23:27:50.491 E/ArtService( 1608): 	at android.app.usage.IStorageStatsManager$Stub.onTransact(IStorageStatsManager.java:265)
+09-17 23:27:50.491 E/ArtService( 1608): 	at android.os.Binder.execTransactInternal(Binder.java:1536)
+09-17 23:27:50.491 E/ArtService( 1608): 	at android.os.Binder.execTransact(Binder.java:1480)
+09-17 23:27:50.581 E/Pageboost( 1608): StopRecording Failed
+09-17 23:27:50.582 E/Pageboost( 1608): captureFinished fail

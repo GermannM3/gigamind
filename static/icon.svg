@@ -1,0 +1,35 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0b1f4b;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Фон -->
+  <rect width="512" height="512" rx="80" fill="url(#bg)"/>
+  
+  <!-- Мозг/AI символ -->
+  <g transform="translate(128,128)">
+    <!-- Основа мозга -->
+    <ellipse cx="128" cy="100" rx="120" ry="80" fill="#ffffff" opacity="0.9"/>
+    <ellipse cx="128" cy="120" rx="100" ry="60" fill="#ffffff" opacity="0.7"/>
+    
+    <!-- Нейронные связи -->
+    <circle cx="80" cy="80" r="8" fill="#667eea"/>
+    <circle cx="176" cy="80" r="8" fill="#667eea"/>
+    <circle cx="128" cy="120" r="8" fill="#667eea"/>
+    <circle cx="100" cy="140" r="6" fill="#667eea"/>
+    <circle cx="156" cy="140" r="6" fill="#667eea"/>
+    
+    <!-- Соединительные линии -->
+    <line x1="80" y1="80" x2="128" y2="120" stroke="#667eea" stroke-width="3" opacity="0.6"/>
+    <line x1="176" y1="80" x2="128" y2="120" stroke="#667eea" stroke-width="3" opacity="0.6"/>
+    <line x1="128" y1="120" x2="100" y2="140" stroke="#667eea" stroke-width="2" opacity="0.6"/>
+    <line x1="128" y1="120" x2="156" y2="140" stroke="#667eea" stroke-width="2" opacity="0.6"/>
+  </g>
+  
+  <!-- Текст -->
+  <text x="256" y="400" text-anchor="middle" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#ffffff">G</text>
+  <text x="256" y="450" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#ffffff" opacity="0.8">AI</text>
+</svg>

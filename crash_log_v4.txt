@@ -1,0 +1,103 @@
+--------- beginning of main
+09-17 20:47:28.833 E/pageboostd( 3548): Received HALT command code 2
+09-17 20:47:28.855 E/.gigamindmobile(27405): Not starting debugger since process cannot load the jdwp agent.
+--------- beginning of crash
+09-17 20:47:28.899 E/AndroidRuntime(27405): FATAL EXCEPTION: main
+09-17 20:47:28.899 E/AndroidRuntime(27405): Process: com.gigamindmobile, PID: 27405
+09-17 20:47:28.899 E/AndroidRuntime(27405): java.lang.UnsatisfiedLinkError: dlopen failed: library "librninstance.so" not found
+09-17 20:47:28.899 E/AndroidRuntime(27405): 	at java.lang.Runtime.loadLibrary0(Runtime.java:1090)
+09-17 20:47:28.899 E/AndroidRuntime(27405): 	at java.lang.Runtime.loadLibrary0(Runtime.java:1012)
+09-17 20:47:28.899 E/AndroidRuntime(27405): 	at java.lang.System.loadLibrary(System.java:1765)
+09-17 20:47:28.899 E/AndroidRuntime(27405): 	at com.facebook.soloader.nativeloader.SystemDelegate.loadLibrary(SystemDelegate.java:24)
+09-17 20:47:28.899 E/AndroidRuntime(27405): 	at com.facebook.soloader.nativeloader.NativeLoader.loadLibrary(NativeLoader.java:52)
+09-17 20:47:28.899 E/AndroidRuntime(27405): 	at com.facebook.soloader.nativeloader.NativeLoader.loadLibrary(NativeLoader.java:30)
+09-17 20:47:28.899 E/AndroidRuntime(27405): 	at com.facebook.soloader.SoLoader.loadLibrary(SoLoader.java:812)
+09-17 20:47:28.899 E/AndroidRuntime(27405): 	at com.facebook.react.runtime.JSRuntimeFactory.<clinit>(JSRuntimeFactory.kt:21)
+09-17 20:47:28.899 E/AndroidRuntime(27405): 	at com.facebook.react.defaults.DefaultReactNativeHost.toReactHost$ReactAndroid_release(DefaultReactNativeHost.kt:113)
+09-17 20:47:28.899 E/AndroidRuntime(27405): 	at com.facebook.react.defaults.DefaultReactHost.getDefaultReactHost(DefaultReactHost.kt:296)
+09-17 20:47:28.899 E/AndroidRuntime(27405): 	at com.facebook.react.defaults.DefaultReactHost.getDefaultReactHost$default(DefaultReactHost.kt:286)
+09-17 20:47:28.899 E/AndroidRuntime(27405): 	at com.gigamindmobile.MainApplication.getReactHost(MainApplication.kt:32)
+09-17 20:47:28.899 E/AndroidRuntime(27405): 	at com.gigamindmobile.MainApplication.onCreate(MainApplication.kt:38)
+09-17 20:47:28.899 E/AndroidRuntime(27405): 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1386)
+09-17 20:47:28.899 E/AndroidRuntime(27405): 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:8377)
+09-17 20:47:28.899 E/AndroidRuntime(27405): 	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+09-17 20:47:28.899 E/AndroidRuntime(27405): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2675)
+09-17 20:47:28.899 E/AndroidRuntime(27405): 	at android.os.Handler.dispatchMessage(Handler.java:107)
+09-17 20:47:28.899 E/AndroidRuntime(27405): 	at android.os.Looper.loopOnce(Looper.java:257)
+09-17 20:47:28.899 E/AndroidRuntime(27405): 	at android.os.Looper.loop(Looper.java:342)
+09-17 20:47:28.899 E/AndroidRuntime(27405): 	at android.app.ActivityThread.main(ActivityThread.java:9634)
+09-17 20:47:28.899 E/AndroidRuntime(27405): 	at java.lang.reflect.Method.invoke(Native Method)
+09-17 20:47:28.899 E/AndroidRuntime(27405): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:619)
+09-17 20:47:28.899 E/AndroidRuntime(27405): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:929)
+09-17 20:47:29.345 E/PocketModeEvent( 1608): PocketModeSetting is off 
+09-17 20:47:30.305 E/sung.android.ce(27425): Not starting debugger since process cannot load the jdwp agent.
+09-17 20:47:30.360 E/SystemServiceRegistry(27425): create SemLocationManager service
+09-17 20:47:30.422 E/SemLocationManager(27425): parameters are not vaild
+09-17 20:47:30.428 E/RequestManager_FLP( 3466): [LocationManager] Location remove 0950DCAF from com.samsung.android.mcfds
+09-17 20:47:30.428 E/RequestManager_FLP( 3466): [LocationManager] Location request 0950DCAF(PendingIntent) passive (min=40000ms) from com.samsung.android.mcfds (10091_FINE_visible_false_background)
+09-17 20:47:30.502 E/Sensors ( 1351): inject_scontext_data: New ssp_data_injection_fd(44)
+09-17 20:47:30.512 E/Sensors ( 1351): inject_scontext_data: New ssp_data_injection_fd(44)
+09-17 20:47:30.514 E/RequestManager_FLP( 3466): [LocationManager] Location remove 0FE065A2 from com.samsung.android.mcfds
+09-17 20:47:30.514 E/RequestManager_FLP( 3466): [LocationManager] Location request 0FE065A2(PendingIntent) passive (min=40000ms) from com.samsung.android.mcfds (10091_FINE_fg_svc_false_foreground)
+09-17 20:47:30.519 E/Sensors ( 1351): inject_scontext_data: New ssp_data_injection_fd(44)
+09-17 20:47:30.523 E/Sensors ( 1351): inject_scontext_data: New ssp_data_injection_fd(44)
+09-17 20:47:30.528 E/Sensors ( 1351): inject_scontext_data: New ssp_data_injection_fd(44)
+09-17 20:47:30.536 E/SemContext.CaeProvider( 1608): setAttribute() : attribute is null!
+09-17 20:47:30.538 E/Sensors ( 1351): inject_scontext_data: New ssp_data_injection_fd(44)
+09-17 20:47:30.638 E/Sensors ( 1351): inject_scontext_data: New ssp_data_injection_fd(44)
+--------- beginning of system
+09-17 20:47:31.841 E/TaskPersister( 1608): File error accessing recents directory (directory doesn't exist?).
+09-17 20:47:33.782 E/Watchdog( 1608): !@Sync: 14918 heap(MB): 176 / 198 FD: 1498 [2025-09-17 20:47:33.781]
+09-17 20:47:34.193 E/Sensors ( 1351): inject_scontext_data: New ssp_data_injection_fd(44)
+09-17 20:47:34.198 E/SemContext.CaeProvider( 1608): setAttribute() : attribute is null!
+09-17 20:47:34.199 E/SensorService( 1608): BigData:Pakage) 5 already enabled. 
+09-17 20:47:34.310 E/SensorService( 1608): BigData:Pakage) 5 already disabled. 
+09-17 20:47:34.455 E/Sensors ( 1351): inject_scontext_data: New ssp_data_injection_fd(44)
+09-17 20:47:35.568 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:47:35.568 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:47:35.568 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:47:35.623 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:47:35.623 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:47:35.623 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:47:35.671 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:47:35.671 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:47:35.671 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:47:35.790 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:47:35.790 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:47:35.790 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:47:35.950 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:47:35.950 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:47:35.950 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:47:35.968 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:47:35.968 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:47:35.968 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:47:36.023 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:47:36.023 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:47:36.023 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:47:36.038 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:47:36.039 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:47:36.039 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:47:36.245 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:47:36.246 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:47:36.246 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:47:36.262 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:47:36.262 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:47:36.262 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:47:36.317 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:47:36.317 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:47:36.317 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:47:36.405 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:47:36.405 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:47:36.405 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:47:36.563 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:47:36.563 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:47:36.563 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:47:36.581 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:47:36.581 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:47:36.581 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:47:36.634 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:47:36.634 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:47:36.634 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:47:36.650 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:47:36.651 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:47:36.651 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.

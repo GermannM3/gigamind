@@ -1,0 +1,1163 @@
+--------- beginning of main
+09-17 20:38:30.102 E/Camera3-Stream( 1644): [VSync] getBuffer: Stream 1: wait for max dequeued buffer exceeds 30000us (31715)us
+09-17 20:38:30.137 E/Camera3-Stream( 1644): [VSync] getBuffer: Stream 1: wait for max dequeued buffer exceeds 30000us (32843)us
+09-17 20:38:30.169 E/Camera3-Stream( 1644): [VSync] getBuffer: Stream 1: wait for max dequeued buffer exceeds 30000us (31242)us
+09-17 20:38:30.202 E/Camera3-Stream( 1644): [VSync] getBuffer: Stream 1: wait for max dequeued buffer exceeds 30000us (31982)us
+09-17 20:38:30.236 E/Camera3-Stream( 1644): [VSync] getBuffer: Stream 1: wait for max dequeued buffer exceeds 30000us (31731)us
+09-17 20:38:30.269 E/Camera3-Stream( 1644): [VSync] getBuffer: Stream 1: wait for max dequeued buffer exceeds 30000us (32615)us
+09-17 20:38:30.294 E/VibratorController( 1608): vibratorSetIntensity setAmplitude successfully
+09-17 20:38:30.295 E/SecVibrator-HAL-AIDL-EXT( 1417): V_3_0: setAmplitude 4000
+09-17 20:38:30.295 E/SecVibrator-HAL-AIDL-CORE( 1417): HW_API: >> writeNode node:/timed_output/vibrator/intensity val:4000
+09-17 20:38:30.295 E/SecVibrator-HAL-AIDL-CORE( 1417): HW_API: << writeNode node OK : 5
+09-17 20:38:30.296 E/SecVibrator-HAL-AIDL-EXT( 1417): V_3_0: setFrequencyType0
+09-17 20:38:30.296 E/SecVibrator-HAL-AIDL-CORE( 1417): HW_API: >> writeNode node:/timed_output/vibrator/multi_freq val:0
+09-17 20:38:30.296 E/SecVibrator-HAL-AIDL-CORE( 1417): HW_API: << writeNode node OK : 2
+09-17 20:38:30.296 E/SecVibrator-HAL-AIDL-CORE( 1417): V_1_0: Vibrator on for timeoutMs: 7
+09-17 20:38:30.296 E/SecVibrator-HAL-AIDL-CORE( 1417): HW_API: do_on for timeoutMs: 7
+09-17 20:38:30.296 E/SecVibrator-HAL-AIDL-CORE( 1417): HW_API: >> writeNode node:/timed_output/vibrator/enable val:7
+09-17 20:38:30.297 E/SecVibrator-HAL-AIDL-CORE( 1417): HW_API: << writeNode node OK : 2
+09-17 20:38:30.303 E/Camera3-Stream( 1644): [VSync] getBuffer: Stream 1: wait for max dequeued buffer exceeds 30000us (32344)us
+09-17 20:38:30.304 E/SecVibrator-HAL-AIDL-CORE( 1417): V_1_0: Vibrator off
+09-17 20:38:30.304 E/SecVibrator-HAL-AIDL-CORE( 1417): HW_API: >> writeNode node:/timed_output/vibrator/enable val:0
+09-17 20:38:30.305 E/SecVibrator-HAL-AIDL-CORE( 1417): HW_API: << writeNode node OK : 2
+09-17 20:38:30.335 E/Camera3-Stream( 1644): [VSync] getBuffer: Stream 1: wait for max dequeued buffer exceeds 30000us (30823)us
+09-17 20:38:30.370 E/Camera3-Stream( 1644): [VSync] getBuffer: Stream 1: wait for max dequeued buffer exceeds 30000us (33324)us
+09-17 20:38:30.403 E/Camera3-Stream( 1644): [VSync] getBuffer: Stream 1: wait for max dequeued buffer exceeds 30000us (31229)us
+09-17 20:38:30.436 E/Camera3-Stream( 1644): [VSync] getBuffer: Stream 1: wait for max dequeued buffer exceeds 30000us (32174)us
+09-17 20:38:30.469 E/Camera3-Stream( 1644): [VSync] getBuffer: Stream 1: wait for max dequeued buffer exceeds 30000us (31284)us
+09-17 20:38:30.503 E/Camera3-Stream( 1644): [VSync] getBuffer: Stream 1: wait for max dequeued buffer exceeds 30000us (32316)us
+09-17 20:38:30.536 E/Camera3-Stream( 1644): [VSync] getBuffer: Stream 1: wait for max dequeued buffer exceeds 30000us (31896)us
+09-17 20:38:30.569 E/Camera3-Stream( 1644): [VSync] getBuffer: Stream 1: wait for max dequeued buffer exceeds 30000us (31393)us
+09-17 20:38:30.603 E/Camera3-Stream( 1644): [VSync] getBuffer: Stream 1: wait for max dequeued buffer exceeds 30000us (32009)us
+09-17 20:38:30.637 E/Camera3-Stream( 1644): [VSync] getBuffer: Stream 1: wait for max dequeued buffer exceeds 30000us (31997)us
+09-17 20:38:30.669 E/Camera3-Stream( 1644): [VSync] getBuffer: Stream 1: wait for max dequeued buffer exceeds 30000us (31584)us
+09-17 20:38:30.703 E/Camera3-Stream( 1644): [VSync] getBuffer: Stream 1: wait for max dequeued buffer exceeds 30000us (32123)us
+09-17 20:38:30.736 E/Camera3-Stream( 1644): [VSync] getBuffer: Stream 1: wait for max dequeued buffer exceeds 30000us (31135)us
+09-17 20:38:30.753 E/KeyguardSecAbsKeyInputViewController( 2560): onPasswordChecked
+09-17 20:38:30.757 E/bauth_FPQCBAuthSensorControl( 1715): BAuthDeviceWaitInt sys call failed : 4
+09-17 20:38:30.758 E/bauth_FPBAuthService( 1715): check_cancel_flag BAuthSensorControl_DeviceEnableInt Enable Error : -1
+09-17 20:38:30.758 E/bauth_FPQCBAuthSensorControl( 1715): BAuthDeviceWaitIPC sys call failed : 4
+--------- beginning of system
+09-17 20:38:30.772 E/WindowManager( 1608): win=Window{1d18757 u0 FP Iconview} destroySurfaces: appStopped=true cleanupOnResume=false win.mWindowRemovalAllowed=false win.mRemoveOnExit=false win.mViewVisibility=8 caller=com.android.server.wm.WindowManagerService.tryStartExitingAnimation:147 com.android.server.wm.WindowManagerService.relayoutWindowInner:112 com.android.server.wm.WindowManagerService.relayoutWindow:6 com.android.server.wm.Session.relayout:27 android.view.IWindowSession$Stub.onTransact:861 com.android.server.wm.Session.onTransact:1 android.os.Binder.execTransactInternal:1536 
+09-17 20:38:30.792 E/NativeCustomFrequencyManager( 1454): [NativeCFMS] BpCustomFrequencyManager::acquire()
+09-17 20:38:30.808 E/ExynosCameraRequestManagerSec( 1373): [CAM(1)][]-(sendNotifyError[1534]):[R153 F154] REQUEST ERROR
+09-17 20:38:30.808 E/CameraDeviceClient( 1644): notifyError: pid=1713, errorCode=3, errorStreamId=0, frameNumber=153
+09-17 20:38:30.808 E/CameraDeviceClient( 1644): notifyError: pid=1713, skipClientNotification=false
+09-17 20:38:30.809 E/Camera3-OutputStream( 1644): returnBufferCheckedLocked: A frame is dropped for stream 0 frame 153 , due to buffer error.
+09-17 20:38:30.809 E/Camera3-OutputStream( 1644): returnBufferCheckedLocked: A frame is dropped for stream 1 frame 153 , due to buffer error.
+09-17 20:38:30.809 E/Camera3-Stream( 1644): [VSync] getBuffer: Stream 1: wait for max dequeued buffer exceeds 30000us (72019)us
+09-17 20:38:30.809 E/ExynosCameraRequestManagerSec( 1373): [CAM(1)][]-(sendNotifyError[1534]):[R154 F155] REQUEST ERROR
+09-17 20:38:30.809 E/CameraDeviceClient( 1644): notifyError: pid=1713, errorCode=3, errorStreamId=0, frameNumber=154
+09-17 20:38:30.810 E/CameraDeviceClient( 1644): notifyError: pid=1713, skipClientNotification=false
+09-17 20:38:30.810 E/Camera3-OutputStream( 1644): returnBufferCheckedLocked: A frame is dropped for stream 0 frame 154 , due to buffer error.
+09-17 20:38:30.810 E/Camera3-OutputStream( 1644): returnBufferCheckedLocked: A frame is dropped for stream 1 frame 154 , due to buffer error.
+09-17 20:38:30.810 E/ExynosCameraRequestManagerSec( 1373): [CAM(1)][]-(sendNotifyError[1534]):[R155 F156] REQUEST ERROR
+09-17 20:38:30.810 E/CameraDeviceClient( 1644): notifyError: pid=1713, errorCode=3, errorStreamId=0, frameNumber=155
+09-17 20:38:30.810 E/CameraDeviceClient( 1644): notifyError: pid=1713, skipClientNotification=false
+09-17 20:38:30.811 E/Camera3-OutputStream( 1644): returnBufferCheckedLocked: A frame is dropped for stream 0 frame 155 , due to buffer error.
+09-17 20:38:30.811 E/Camera3-OutputStream( 1644): returnBufferCheckedLocked: A frame is dropped for stream 1 frame 155 , due to buffer error.
+09-17 20:38:30.811 E/ExynosCameraRequestManagerSec( 1373): [CAM(1)][]-(sendNotifyError[1534]):[R156 F0] REQUEST ERROR
+09-17 20:38:30.811 E/CameraDeviceClient( 1644): notifyError: pid=1713, errorCode=3, errorStreamId=0, frameNumber=156
+09-17 20:38:30.811 E/CameraDeviceClient( 1644): notifyError: pid=1713, skipClientNotification=false
+09-17 20:38:30.811 E/ExynosCameraRequestManager( 1373): [CAM(-1)][]-(getAcquireFenceDone[649]):[R156 F0] m_pop failed, handle is not EXIST
+09-17 20:38:30.812 E/ExynosCameraRequestManager( 1373): [CAM(-1)][]-(getAcquireFenceDone[649]):[R156 F0] m_pop failed, handle is not EXIST
+09-17 20:38:30.812 E/Camera3-OutputStream( 1644): returnBufferCheckedLocked: A frame is dropped for stream 0 frame 156 , due to buffer error.
+09-17 20:38:30.812 E/Camera3-OutputStream( 1644): returnBufferCheckedLocked: A frame is dropped for stream 1 frame 156 , due to buffer error.
+09-17 20:38:30.814 E/ExynosCameraSec( 1373): [CAM(1)][Front_0]-(processCaptureRequest[3723]):Request key:157, out:2 can't accepted during flush()!! forcely Flush() again!(5,5)
+09-17 20:38:30.814 E/ExynosCameraRequestManagerSec( 1373): [CAM(1)][]-(sendNotifyError[1534]):[R157 F0] REQUEST ERROR
+09-17 20:38:30.815 E/CameraDeviceClient( 1644): notifyError: pid=1713, errorCode=3, errorStreamId=0, frameNumber=157
+09-17 20:38:30.815 E/CameraDeviceClient( 1644): notifyError: pid=1713, skipClientNotification=false
+09-17 20:38:30.815 E/ExynosCameraRequestManager( 1373): [CAM(-1)][]-(getAcquireFenceDone[649]):[R157 F0] m_pop failed, handle is not EXIST
+09-17 20:38:30.815 E/ExynosCameraRequestManager( 1373): [CAM(-1)][]-(getAcquireFenceDone[649]):[R157 F0] m_pop failed, handle is not EXIST
+09-17 20:38:30.815 E/Camera3-OutputStream( 1644): returnBufferCheckedLocked: A frame is dropped for stream 0 frame 157 , due to buffer error.
+09-17 20:38:30.815 E/Camera3-OutputStream( 1644): returnBufferCheckedLocked: A frame is dropped for stream 1 frame 157 , due to buffer error.
+09-17 20:38:30.820 E/Sensors ( 1351): AutoRotation::inject_sensor_data: size 31
+09-17 20:38:30.827 E/Camera2-FrameProcessorBase( 1644): removeListener: 
+09-17 20:38:30.849 E/ExynosCameraNode( 1373): [CAM(1)][3AA_DRC]-(close[242]):fd(-1) is invalid skip close
+09-17 20:38:30.849 E/ExynosCameraNode( 1373): [CAM(1)][3AA_ORBC]-(close[242]):fd(-1) is invalid skip close
+09-17 20:38:30.849 E/ExynosCameraNode( 1373): [CAM(1)][3AA_LMEC]-(close[242]):fd(-1) is invalid skip close
+09-17 20:38:30.849 E/ExynosCameraNode( 1373): [CAM(1)][3AA_FD]-(close[242]):fd(-1) is invalid skip close
+09-17 20:38:30.849 E/ExynosCameraNode( 1373): [CAM(1)][3AA_HF]-(close[242]):fd(-1) is invalid skip close
+09-17 20:38:30.849 E/ExynosCameraNode( 1373): [CAM(1)][3AA_PREVIEW]-(close[242]):fd(-1) is invalid skip close
+09-17 20:38:30.849 E/ExynosCameraNode( 1373): [CAM(1)][3AA_CAPTURE]-(close[242]):fd(-1) is invalid skip close
+09-17 20:38:30.860 E/ExynosCameraNode( 1373): [CAM(1)][MCSC_HF]-(close[242]):fd(-1) is invalid skip close
+09-17 20:38:30.860 E/ExynosCameraNode( 1373): [CAM(1)][YUVPP_NOISE]-(close[242]):fd(-1) is invalid skip close
+09-17 20:38:30.860 E/ExynosCameraNode( 1373): [CAM(1)][YUVPP_NRDS]-(close[242]):fd(-1) is invalid skip close
+09-17 20:38:30.860 E/ExynosCameraNode( 1373): [CAM(1)][ISP_NOISE]-(close[242]):fd(-1) is invalid skip close
+09-17 20:38:30.860 E/ExynosCameraNode( 1373): [CAM(1)][ISP_NRDS]-(close[242]):fd(-1) is invalid skip close
+09-17 20:38:30.860 E/ExynosCameraNode( 1373): [CAM(1)][MCSC_CAPTURE_THUMBNAIL]-(close[242]):fd(-1) is invalid skip close
+09-17 20:38:30.860 E/ExynosCameraNode( 1373): [CAM(1)][MCSC_CAPTURE_JPEG]-(close[242]):fd(-1) is invalid skip close
+09-17 20:38:30.860 E/ExynosCameraNode( 1373): [CAM(1)][MCSC_RECORDING]-(close[242]):fd(-1) is invalid skip close
+09-17 20:38:30.860 E/ExynosCameraNode( 1373): [CAM(1)][MCSC_PREVIEW_CALLBACK]-(close[242]):fd(-1) is invalid skip close
+09-17 20:38:30.860 E/ExynosCameraNode( 1373): [CAM(1)][MCSC_PREVIEW]-(close[242]):fd(-1) is invalid skip close
+09-17 20:38:30.860 E/ExynosCameraNode( 1373): [CAM(1)][YUVPP_DRC_GAIN]-(close[242]):fd(-1) is invalid skip close
+09-17 20:38:30.860 E/ExynosCameraNode( 1373): [CAM(1)][YUVPP_SVHIST]-(close[242]):fd(-1) is invalid skip close
+09-17 20:38:30.860 E/ExynosCameraNode( 1373): [CAM(1)][ISP_DRC_GAIN]-(close[242]):fd(-1) is invalid skip close
+09-17 20:38:30.860 E/ExynosCameraNode( 1373): [CAM(1)][ISP_SVHIST]-(close[242]):fd(-1) is invalid skip close
+09-17 20:38:30.860 E/ExynosCameraNode( 1373): [CAM(1)][ISP_LME]-(close[242]):fd(-1) is invalid skip close
+09-17 20:38:30.860 E/ExynosCameraNode( 1373): [CAM(1)][ISP_DRC_GRID]-(close[242]):fd(-1) is invalid skip close
+09-17 20:38:30.861 E/libcsc  ( 1373): csc_deinit:: unsupported csc_hw_type
+09-17 20:38:30.861 E/libcsc  ( 1373): csc_deinit:: unsupported csc_hw_type
+09-17 20:38:30.861 E/libcsc  ( 1373): csc_deinit:: unsupported csc_hw_type
+09-17 20:38:30.862 E/ExynosCameraNode( 1373): [CAM(1)][LME_DST]-(close[242]):fd(-1) is invalid skip close
+09-17 20:38:30.862 E/ExynosCameraNode( 1373): [CAM(1)][LME_SRC_PREV_IMAGE]-(close[242]):fd(-1) is invalid skip close
+09-17 20:38:30.862 E/ExynosCameraNode( 1373): [CAM(1)][LME_SW_DST]-(close[242]):fd(-1) is invalid skip close
+09-17 20:38:30.889 E/bauth_service( 1715): request() not defined status : 42
+09-17 20:38:30.966 E/KeyguardViewMediator( 2560): mHideAnimationFinishedRunnable#run
+09-17 20:38:31.000 E/SurfaceFlinger( 1454): alpha changed 1.000 -> 0.000 - Surface(name=Task=12625)/@0x5f0966_transition-leash#36134
+09-17 20:38:31.016 E/SurfaceFlinger( 1454): alpha changed 0.000 -> 1.000 - Surface(name=Task=12625)/@0x5f0966_transition-leash#36134
+09-17 20:38:31.016 E/SurfaceFlinger( 1454): alpha changed 1.000 -> 0.000 - Bouncer$_2560#36127
+09-17 20:38:31.041 E/AppIconSolution(28331): Using cached contents available for us.mark.TheHacker.appicon
+09-17 20:38:31.043 E/AppIconSolution(28331): Using cached contents available for us.mark.TheHacker.appicon
+09-17 20:38:31.047 E/SensorService( 1608): BigData:Pakage) 5 already disabled. 
+09-17 20:38:31.047 E/AuthSessionCoordinator( 1608): Error unable to find auth operation : authEndedFor(userId=0 ,biometricStrength=255, sensorId=1, requestId=306, wasSuccessful=false)
+09-17 20:38:31.057 E/FromLockscreenTransitionInteractor( 2560): Ignoring startTransition: This interactor asked to transition from LOCKSCREEN -> GONE, but we last transitioned to GONE, not LOCKSCREEN. This should never happen - check currentTransitionInfoInternal or use filterRelevantKeyguardState before starting transitions.
+09-17 20:38:31.057 E/BiometricScheduler( 1608): [Finishing] {[1785] com.android.server.biometrics.sensors.face.aidl.FaceResetLockoutClient, proto=12, owner=android, cookie=0, requestId=-1, userId=0} but current operation is null, success: true, possible lifecycle bug in clientMonitor implementation?
+09-17 20:38:31.074 E/MotionRecognitionService( 1608): Receiver: ACTION_USER_PRESENT - UNLOCK SCREEN
+09-17 20:38:31.079 E/PocketModeEvent( 1608): PocketModeSetting is off 
+09-17 20:38:31.082 E/engmode_client_list( 2560): Cannot find client
+09-17 20:38:31.082 E/engmode_hidl_client_service( 2560): Client error
+09-17 20:38:31.087 E/engmode_world( 1310): Unknown token(00/00/00)
+09-17 20:38:31.088 E/engmode_hidl_service(  693): error to server(0xd0060012)
+09-17 20:38:31.091 E/MtpService( 6926): GUID is invalid
+09-17 20:38:31.108 E/AppIconSolution(28331): Using cached contents available for us.mark.TheHacker.appicon
+09-17 20:38:31.133 E/SurfaceFlinger( 1454): alpha changed 1.000 -> 0.000 - Surface(name=a8bf907 StatusBar)/@0x88091c7 - animation-leash of insets_animation#36137
+09-17 20:38:31.146 E/BtGatt.GattService(16000): [GSIM LOG]: gsimLogHandler, msg: MESSAGE_SCAN_START, appName: com.google.android.gms, scannerId: 7, reportDelayMillis=0
+09-17 20:38:31.161 E/NowBarCardStackView( 2560): getTopCard topCard is null view size = 0
+09-17 20:38:31.161 E/NowBarCardViewModel( 2560): updateExpandedClickPanelVisibility screen on = true expanded falseisTopCardSettingViewOpened = false
+09-17 20:38:31.161 E/NowBarCardStackView( 2560): getTopCard topCard is null view size = 0
+09-17 20:38:31.166 E/SurfaceFlinger( 1454): alpha changed 0.000 -> 1.000 - Surface(name=a8bf907 StatusBar)/@0x88091c7 - animation-leash of insets_animation#36137
+09-17 20:38:31.166 E/SurfaceFlinger( 1454): alpha changed 1.000 -> 0.000 - Surface(name=a8bf907 StatusBar)/@0x88091c7 - animation-leash of insets_animation#36137
+09-17 20:38:31.177 E/bluetooth(16000): system/gd/hci/le_scanning_manager.cc:1320 update_ad_type_filter: AD type filter isn't supported
+09-17 20:38:31.200 E/SurfaceFlinger( 1454): alpha changed 0.000 -> 0.011 - Surface(name=a8bf907 StatusBar)/@0x88091c7 - animation-leash of insets_animation#36137
+09-17 20:38:31.200 E/Tile.MobileDataTile( 2560): onCallStatesChanged: CallStateList = []
+09-17 20:38:31.209 E/WindowManager( 1608): win=Window{e04060f u0 Bouncer} destroySurfaces: appStopped=true cleanupOnResume=false win.mWindowRemovalAllowed=false win.mRemoveOnExit=false win.mViewVisibility=4 caller=com.android.server.wm.WindowManagerService.tryStartExitingAnimation:147 com.android.server.wm.WindowManagerService.relayoutWindowInner:112 com.android.server.wm.WindowManagerService.relayoutWindow:6 com.android.server.wm.Session.relayout:27 android.view.IWindowSession$Stub.onTransact:861 com.android.server.wm.Session.onTransact:1 android.os.Binder.execTransactInternal:1541 
+09-17 20:38:31.214 E/AppIconSolution(28331): Using cached contents available for us.mark.TheHacker.appicon
+09-17 20:38:31.283 E/SurfaceFlinger( 1454): alpha changed 1.000 -> 0.000 - Surface(name=d1c2e8d InputMethod)/@0x7a60053 - animation-leash of insets_animation#36140
+09-17 20:38:31.294 E/WindowManager( 1608): win=Window{e70176c u0 NotificationShade} destroySurfaces: appStopped=true cleanupOnResume=false win.mWindowRemovalAllowed=false win.mRemoveOnExit=false win.mViewVisibility=4 caller=com.android.server.wm.WindowManagerService.tryStartExitingAnimation:147 com.android.server.wm.WindowManagerService.relayoutWindowInner:112 com.android.server.wm.WindowManagerService.relayoutWindow:6 com.android.server.wm.Session.relayout:27 android.view.IWindowSession$Stub.onTransact:861 com.android.server.wm.Session.onTransact:1 android.os.Binder.execTransactInternal:1541 
+09-17 20:38:31.364 E/BtGatt.GattService(16000): [GSIM LOG]: gsimLogHandler, msg: MESSAGE_ADV_SET_STOP, appName: com.google.android.gms, id: 3, isLegacy: true
+09-17 20:38:31.374 E/BluetoothRemoteDevices(16000): Remote class is UNCATEGORIZED
+09-17 20:38:31.376 E/BtGatt.GattService(16000): [GSIM LOG]: gsimLogHandler, msg: MESSAGE_ADV_SET_START, appName: com.google.android.gms, id: 2, isLegacy: true
+09-17 20:38:31.391 E/BtGatt.GattService(16000): [GSIM LOG]: gsimLogHandler, msg: MESSAGE_ADV_SET_START, appName: com.google.android.gms, id: 3, isLegacy: false
+09-17 20:38:31.399 E/BtGatt.GattService(16000): [GSIM LOG]: gsimLogHandler, msg: MESSAGE_ADV_SET_START, appName: com.google.android.gms, id: 4, isLegacy: true
+09-17 20:38:31.437 E/WindowManager( 1608): win=Window{aa745cc u0 SnapshotStartingWindow for taskId=12625 EXITING} destroySurfaces: appStopped=false cleanupOnResume=false win.mWindowRemovalAllowed=true win.mRemoveOnExit=true win.mViewVisibility=0 caller=com.android.server.wm.WindowState.onExitAnimationDone:222 com.android.server.wm.WindowState.onAnimationFinished:161 com.android.server.wm.WindowContainer$$ExternalSyntheticLambda5.onAnimationFinished:26 com.android.server.wm.SurfaceAnimator$$ExternalSyntheticLambda1.run:28 com.android.server.wm.SurfaceAnimator$$ExternalSyntheticLambda0.onAnimationFinished:65 com.android.server.wm.LocalAnimationAdapter$$ExternalSyntheticLambda0.run:10 android.os.Handler.handleCallback:959 
+09-17 20:38:31.450 E/SurfaceFlinger( 1454): alpha changed 0.107 -> 0.000 - Surface(name=aa745cc SnapshotStartingWindow for taskId=12625)/@0x248b1d8 - animation-leash of window_animation#36141
+09-17 20:38:31.526 E/[WEATHER](22649): {[4D63BA3A7171858DA5D3F9375C43492DDF25E5A1AD7D8FEF26A2A3C27FCA533645F81B5C97AD32F6DE1997D8427A3FBDAC4FE3B3432AA7141CC13B626036C6FA]}
+09-17 20:38:31.540 E/ateaccesstokens(22710): Not starting debugger since process cannot load the jdwp agent.
+09-17 20:38:31.600 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:31.601 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:31.601 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:31.614 E/droid.rubin.app(22738): Not starting debugger since process cannot load the jdwp agent.
+09-17 20:38:31.683 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:31.683 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:31.683 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:31.738 E/SystemServiceRegistry(22649): create SemLocationManager service
+09-17 20:38:31.755 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:31.755 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:31.755 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:31.779 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:31.779 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:31.779 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:31.787 E/[WEATHER](22649): {[7D230D78D0ABBDBE948CE80A15B2E91DFF802913D1AF381467573614C6FCCC8E90F1E9CD8AFD23AEB491C274FD20C127]}
+09-17 20:38:31.788 E/[WEATHER](22649): {[EDE3BDC1EF0D5CBBAF31EF2109E3B09B7FA7FB6CE67D12B8A3028EC978B8B5E760B062A31699B07DF9D07D538FEACD71]}
+09-17 20:38:31.797 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:31.797 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:31.797 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:31.813 E/RunestoneSDK(22649): Bundle parsing error : Not exist key : isCriticalUpdateNeeded for isCriticalUpdateNeeded
+09-17 20:38:31.852 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:31.852 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:31.852 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:31.859 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:31.859 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:31.859 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:31.862 E/Rubin   (22738): [446] B5.n.run(Unknown Source) : Enabling :: FAILED - USER_NOT_CONSENT_TO_COLLECT_DATA
+09-17 20:38:31.865 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:31.865 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:31.865 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:32.051 E/Rubin   (22738): [2] O7.c.run(Unknown Source) : runestone modules are not started, so start runestone modules
+09-17 20:38:32.052 E/Rubin   (22738): [446] B5.n.run(Unknown Source) : Enabling :: FAILED - USER_NOT_CONSENT_TO_COLLECT_DATA
+09-17 20:38:32.198 E/BtGatt.GattService(16000): [GSIM LOG]: gsimLogHandler, msg: MESSAGE_SCAN_START, appName: com.samsung.android.mcfserver, scannerId: 8, reportDelayMillis=0
+09-17 20:38:32.243 E/SecVibrator-HAL-AIDL-EXT( 1417): V_3_0: performHapticEngine
+09-17 20:38:32.243 E/SecVibrator-HAL-AIDL-EXT( 1417): V_3_0: performHapticEngine amplitude : 4000
+09-17 20:38:32.243 E/SecVibrator-HAL-AIDL-EXT( 1417): V_3_0: performHapticEngine packet_cnt : 1
+09-17 20:38:32.243 E/SecVibrator-HAL-AIDL-EXT( 1417): V_3_0: performHapticEngine total_size : 4
+09-17 20:38:32.243 E/SecVibrator-HAL-AIDL-EXT( 1417): V_3_0: performHapticEngine : 4 7 4000 2000 1
+09-17 20:38:32.245 E/SecVibrator-HAL-AIDL-CORE( 1417): HW_API: do_on for timeoutMs: 1
+09-17 20:38:32.245 E/SecVibrator-HAL-AIDL-CORE( 1417): HW_API: >> writeNode node:/timed_output/vibrator/enable val:1
+09-17 20:38:32.246 E/SecVibrator-HAL-AIDL-CORE( 1417): HW_API: << writeNode node OK : 2
+09-17 20:38:32.247 E/SecVibrator-HAL-AIDL-EXT( 1417): V_3_0: performHapticEngine OK
+09-17 20:38:32.318 E/pageboostd( 3548): Received HALT command code 2
+09-17 20:38:32.352 E/chbox:googleapp(22785): Not starting debugger since process cannot load the jdwp agent.
+09-17 20:38:32.363 E/AppIconSolution( 3017): Using cached contents available for us.mark.TheHacker.appicon
+09-17 20:38:32.363 E/id.app.launcher( 3017): Invalid resource ID 0x00000000.
+09-17 20:38:32.363 E/AppIconSolution( 3017): app icon package doesn't have 'liveicon_from_theme', pkg : com.sec.android.app.clockpackage
+09-17 20:38:32.364 E/AppIconSolution( 3017): Using cached contents available for us.mark.TheHacker.appicon
+09-17 20:38:32.371 E/AppIconSolution( 3017): Using cached contents available for us.mark.TheHacker.appicon
+09-17 20:38:32.418 E/SurfaceFlinger( 1454): alpha changed 1.000 -> 0.000 - Surface(name=Task=1)/@0x8eb8a70_transition-leash#36146
+09-17 20:38:32.434 E/BtGatt.GattService(16000): [GSIM LOG]: gsimLogHandler, msg: MESSAGE_SCAN_START, appName: com.google.android.gms, scannerId: 9, reportDelayMillis=0
+09-17 20:38:32.451 E/SurfaceFlinger( 1454): alpha changed 0.000 -> 1.000 - Surface(name=Task=1)/@0x8eb8a70_transition-leash#36146
+09-17 20:38:32.472 E/SecVibrator-HAL-AIDL-CORE( 1417): V_1_0: Vibrator off
+09-17 20:38:32.472 E/SecVibrator-HAL-AIDL-CORE( 1417): HW_API: >> writeNode node:/timed_output/vibrator/enable val:0
+09-17 20:38:32.475 E/SecVibrator-HAL-AIDL-CORE( 1417): HW_API: << writeNode node OK : 2
+09-17 20:38:32.501 E/SurfaceFlinger( 1454): alpha changed 1.000 -> 0.000 - Surface(name=d1c2e8d InputMethod)/@0x7a60053 - animation-leash of insets_animation#36149
+09-17 20:38:32.668 E/SurfaceComposerClient( 3017): SurfaceComposerClient::Transaction::setAlpha: invalid alpha -0.015027, clamping
+09-17 20:38:32.685 E/SurfaceFlinger( 1454): alpha changed 0.022 -> 0.000 - Surface(name=Task=12625)/@0xd2a13a5_transition-leash#36147
+09-17 20:38:32.685 E/SurfaceComposerClient( 3017): SurfaceComposerClient::Transaction::setAlpha: invalid alpha -0.036481, clamping
+09-17 20:38:32.701 E/SurfaceComposerClient( 3017): SurfaceComposerClient::Transaction::setAlpha: invalid alpha -0.047539, clamping
+09-17 20:38:32.718 E/SurfaceComposerClient( 3017): SurfaceComposerClient::Transaction::setAlpha: invalid alpha -0.050438, clamping
+09-17 20:38:32.735 E/SurfaceComposerClient( 3017): SurfaceComposerClient::Transaction::setAlpha: invalid alpha -0.047134, clamping
+09-17 20:38:32.752 E/SurfaceComposerClient( 3017): SurfaceComposerClient::Transaction::setAlpha: invalid alpha -0.040076, clamping
+09-17 20:38:32.768 E/SurfaceComposerClient( 3017): SurfaceComposerClient::Transaction::setAlpha: invalid alpha -0.029535, clamping
+09-17 20:38:32.785 E/SurfaceComposerClient( 3017): SurfaceComposerClient::Transaction::setAlpha: invalid alpha -0.015622, clamping
+09-17 20:38:32.837 E/WindowManager( 1608): win=Window{8d1a07e u0 com.samsung.android.dialer/com.samsung.android.dialer.DialtactsActivity} destroySurfaces: appStopped=true cleanupOnResume=false win.mWindowRemovalAllowed=false win.mRemoveOnExit=false win.mViewVisibility=8 caller=com.android.server.wm.ActivityRecord.destroySurfaces:25 com.android.server.wm.ActivityRecord.activityStopped:204 com.android.server.wm.ActivityClientController.activityStopped:95 android.app.IActivityClientController$Stub.onTransact:722 com.android.server.wm.ActivityClientController.onTransact:1 android.os.Binder.execTransactInternal:1541 android.os.Binder.execTransact:1480 
+09-17 20:38:33.208 E/pageboostd( 3548): alp start : app comsamsungandroidmessaging
+09-17 20:38:33.240 E/droid.messaging(22826): Not starting debugger since process cannot load the jdwp agent.
+09-17 20:38:33.276 E/pageboostd( 3548): comsamsungandroidmessaging, amt 43891200 scnt 7 fcnt 0
+09-17 20:38:33.278 E/pageboostd( 3548): comsamsungandroidmessaging, amt 9146368 scnt 8 fcnt 28
+09-17 20:38:33.278 E/pageboostd( 3548): alp end : app comsamsungandroidmessaging data_amount 53037568
+09-17 20:38:33.308 E/pageboostd( 3548): Received HALT command code 2
+09-17 20:38:33.345 E/RegiMgr<0>( 2924): getImsProfile: found [null] for [RCS]
+09-17 20:38:33.385 E/NativeCustomFrequencyManager( 1454): [NativeCFMS] BpCustomFrequencyManager::acquire()
+09-17 20:38:33.391 E/BtGatt.GattService(16000): [GSIM LOG]: gsimLogHandler, msg: MESSAGE_ADV_SET_STOP, appName: com.google.android.gms, id: 2, isLegacy: true
+09-17 20:38:33.414 E/CS/OwnCapabilityManager<0>(22826): queryOwnCapability, cursor null
+09-17 20:38:33.426 E/CS/CommonDbUtils(22826): transactionMakeFail : Not exist transaction msg
+09-17 20:38:33.429 E/ORC/CustomerFeatureCommon(22826): initDocument
+09-17 20:38:33.496 E/Watchdog( 1608): !@Sync: 14900 heap(MB): 190 / 201 native(MB): 118 FD: 2674 WaitTime: 0 ms GCcnt: 0 FullGC: 0 [2025-09-17 20:38:33.426]
+09-17 20:38:34.196 E/pageboostd( 3548): alp start : app commarininnowapp
+09-17 20:38:34.198 E/ActivityTaskManager( 1608): Checking for the Active launch getApplicationEnabledSetting
+09-17 20:38:34.219 E/pageboostd( 3548): aal_prefetch_file alp wrong file name:/data/app/~~ykmIPDgx_vhUUYiSfIZBcw==/com.marinin.nowapp-3V6OVA5dCD8v3RafFWrX3A==/oat/arm64/base.odex
+09-17 20:38:34.219 E/pageboostd( 3548): commarininnowapp, amt 14694048 scnt 1 fcnt 1
+09-17 20:38:34.219 E/pageboostd( 3548): commarininnowapp, amt 0 scnt 0 fcnt 0
+09-17 20:38:34.219 E/pageboostd( 3548): alp end : app commarininnowapp data_amount 14694048
+09-17 20:38:34.297 E/pageboostd( 3548): Received HALT command code 2
+09-17 20:38:35.306 E/DatabaseUtils(16272): Writing exception to parcel
+09-17 20:38:35.306 E/DatabaseUtils(16272): java.lang.SecurityException: Permission Denial: writing com.sec.android.provider.badge.BadgeProvider uri content://com.sec.badge/apps?notify=true from pid=19086, uid=10281 requires com.sec.android.provider.badge.permission.WRITE, or grantUriPermission()
+09-17 20:38:35.306 E/DatabaseUtils(16272): 	at android.content.ContentProvider.enforceWritePermissionInner(ContentProvider.java:1138)
+09-17 20:38:35.306 E/DatabaseUtils(16272): 	at android.content.ContentProvider.semEnforceWritePermission(ContentProvider.java:1064)
+09-17 20:38:35.306 E/DatabaseUtils(16272): 	at android.content.ContentProvider$Transport.enforceWritePermission(ContentProvider.java:840)
+09-17 20:38:35.306 E/DatabaseUtils(16272): 	at android.content.ContentProvider$Transport.update(ContentProvider.java:569)
+09-17 20:38:35.306 E/DatabaseUtils(16272): 	at android.content.ContentProviderNative.onTransact(ContentProviderNative.java:243)
+09-17 20:38:35.306 E/DatabaseUtils(16272): 	at android.os.Binder.execTransactInternal(Binder.java:1541)
+09-17 20:38:35.306 E/DatabaseUtils(16272): 	at android.os.Binder.execTransact(Binder.java:1480)
+09-17 20:38:35.486 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:35.486 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:35.486 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:35.589 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:35.589 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:35.589 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:35.648 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:35.648 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:35.648 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:35.670 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:35.671 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:35.671 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:35.691 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:35.691 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:35.691 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:35.750 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:35.750 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:35.750 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:35.757 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:35.757 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:35.757 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:35.764 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:35.764 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:35.764 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:36.443 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:36.443 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:36.443 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:36.589 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:36.589 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:36.590 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:36.664 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:36.664 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:36.664 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:36.692 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:36.692 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:36.692 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:36.716 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:36.716 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:36.716 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:36.790 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:36.790 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:36.790 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:36.800 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:36.800 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:36.800 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:36.811 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:36.811 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:36.811 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:37.162 E/BtGatt.GattService(16000): [GSIM LOG]: gsimLogHandler, msg: MESSAGE_SCAN_STOP, appName: com.google.android.gms, scannerId: 7, reportDelayMillis=0
+09-17 20:38:37.166 E/BtGatt.GattService(16000): [GSIM LOG]: gsimLogHandler, msg: MESSAGE_SCAN_START, appName: com.google.android.gms, scannerId: 7, reportDelayMillis=0
+09-17 20:38:37.168 E/bluetooth(16000): system/gd/hci/le_scanning_manager.cc:1320 update_ad_type_filter: AD type filter isn't supported
+09-17 20:38:37.247 E/DatabaseUtils(16272): Writing exception to parcel
+09-17 20:38:37.247 E/DatabaseUtils(16272): java.lang.SecurityException: Permission Denial: writing com.sec.android.provider.badge.BadgeProvider uri content://com.sec.badge/apps?notify=true from pid=19086, uid=10281 requires com.sec.android.provider.badge.permission.WRITE, or grantUriPermission()
+09-17 20:38:37.247 E/DatabaseUtils(16272): 	at android.content.ContentProvider.enforceWritePermissionInner(ContentProvider.java:1138)
+09-17 20:38:37.247 E/DatabaseUtils(16272): 	at android.content.ContentProvider.semEnforceWritePermission(ContentProvider.java:1064)
+09-17 20:38:37.247 E/DatabaseUtils(16272): 	at android.content.ContentProvider$Transport.enforceWritePermission(ContentProvider.java:840)
+09-17 20:38:37.247 E/DatabaseUtils(16272): 	at android.content.ContentProvider$Transport.update(ContentProvider.java:569)
+09-17 20:38:37.247 E/DatabaseUtils(16272): 	at android.content.ContentProviderNative.onTransact(ContentProviderNative.java:243)
+09-17 20:38:37.247 E/DatabaseUtils(16272): 	at android.os.Binder.execTransactInternal(Binder.java:1541)
+09-17 20:38:37.247 E/DatabaseUtils(16272): 	at android.os.Binder.execTransact(Binder.java:1480)
+09-17 20:38:38.466 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:38.466 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:38.466 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:38.595 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:38.595 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:38.595 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:38.670 E/BluetoothRemoteDevices(16000): Remote class is UNCATEGORIZED
+09-17 20:38:38.689 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:38.689 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:38.689 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:38.728 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:38.728 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:38.728 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:38.760 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:38.760 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:38.760 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:38.826 E/ActivityTaskManager( 1608): Checking for the Active launch getApplicationEnabledSetting
+09-17 20:38:38.827 E/pageboostd( 3548): alp start : app comgigamindmobile
+09-17 20:38:38.849 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:38.849 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:38.849 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:38.851 E/pageboostd( 3548): comgigamindmobile, amt 14656904 scnt 2 fcnt 0
+09-17 20:38:38.851 E/pageboostd( 3548): comgigamindmobile, amt 0 scnt 0 fcnt 0
+09-17 20:38:38.851 E/pageboostd( 3548): alp end : app comgigamindmobile data_amount 14656904
+09-17 20:38:38.862 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:38.862 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:38.862 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:38.873 E/AppIconSolution( 2560): Using cached contents available for us.mark.TheHacker.appicon
+09-17 20:38:38.874 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:38.874 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:38.874 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:38.902 E/LoadedApk(23077): Exception : java.lang.NullPointerException: Attempt to invoke virtual method 'boolean android.os.Looper.isPerfLogEnable()' on a null object reference
+09-17 20:38:38.927 E/pageboostd( 3548): Received HALT command code 2
+09-17 20:38:38.944 E/RoleControllerServiceImpl( 1608): Default/fallback role holder package doesn't qualify for the role, package: com.google.android.gms.supervision, role: android.app.role.SYSTEM_SUPERVISION
+09-17 20:38:38.959 E/android.vending(22900): Not starting debugger since process cannot load the jdwp agent.
+09-17 20:38:38.973 E/AppIconSolution( 3017): Using cached contents available for us.mark.TheHacker.appicon
+09-17 20:38:38.976 E/SurfaceFlinger( 1454): alpha changed 1.000 -> 0.000 - Surface(name=Task=12879)/@0x965abc1_transition-leash#36156
+09-17 20:38:38.990 E/ssioncontroller(22913): Not starting debugger since process cannot load the jdwp agent.
+09-17 20:38:39.027 E/SurfaceFlinger( 1454): alpha changed 0.000 -> 0.032 - Surface(name=Task=12879)/@0x965abc1_transition-leash#36156
+09-17 20:38:39.037 E/.gigamindmobile(22925): Not starting debugger since process cannot load the jdwp agent.
+09-17 20:38:39.037 E/NativeCustomFrequencyManager( 1454): [NativeCFMS] BpCustomFrequencyManager::acquire()
+--------- beginning of crash
+09-17 20:38:39.094 E/AndroidRuntime(22925): FATAL EXCEPTION: main
+09-17 20:38:39.094 E/AndroidRuntime(22925): Process: com.gigamindmobile, PID: 22925
+09-17 20:38:39.094 E/AndroidRuntime(22925): java.lang.UnsatisfiedLinkError: dlopen failed: library "librninstance.so" not found
+09-17 20:38:39.094 E/AndroidRuntime(22925): 	at java.lang.Runtime.loadLibrary0(Runtime.java:1090)
+09-17 20:38:39.094 E/AndroidRuntime(22925): 	at java.lang.Runtime.loadLibrary0(Runtime.java:1012)
+09-17 20:38:39.094 E/AndroidRuntime(22925): 	at java.lang.System.loadLibrary(System.java:1765)
+09-17 20:38:39.094 E/AndroidRuntime(22925): 	at com.facebook.soloader.nativeloader.SystemDelegate.loadLibrary(SystemDelegate.java:24)
+09-17 20:38:39.094 E/AndroidRuntime(22925): 	at com.facebook.soloader.nativeloader.NativeLoader.loadLibrary(NativeLoader.java:52)
+09-17 20:38:39.094 E/AndroidRuntime(22925): 	at com.facebook.soloader.nativeloader.NativeLoader.loadLibrary(NativeLoader.java:30)
+09-17 20:38:39.094 E/AndroidRuntime(22925): 	at com.facebook.soloader.SoLoader.loadLibrary(SoLoader.java:812)
+09-17 20:38:39.094 E/AndroidRuntime(22925): 	at com.facebook.react.runtime.JSRuntimeFactory.<clinit>(JSRuntimeFactory.kt:21)
+09-17 20:38:39.094 E/AndroidRuntime(22925): 	at com.facebook.react.defaults.DefaultReactNativeHost.toReactHost$ReactAndroid_release(DefaultReactNativeHost.kt:113)
+09-17 20:38:39.094 E/AndroidRuntime(22925): 	at com.facebook.react.defaults.DefaultReactHost.getDefaultReactHost(DefaultReactHost.kt:296)
+09-17 20:38:39.094 E/AndroidRuntime(22925): 	at com.facebook.react.defaults.DefaultReactHost.getDefaultReactHost$default(DefaultReactHost.kt:286)
+09-17 20:38:39.094 E/AndroidRuntime(22925): 	at com.gigamindmobile.MainApplication.getReactHost(MainApplication.kt:32)
+09-17 20:38:39.094 E/AndroidRuntime(22925): 	at com.gigamindmobile.MainApplication.onCreate(MainApplication.kt:38)
+09-17 20:38:39.094 E/AndroidRuntime(22925): 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1386)
+09-17 20:38:39.094 E/AndroidRuntime(22925): 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:8377)
+09-17 20:38:39.094 E/AndroidRuntime(22925): 	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+09-17 20:38:39.094 E/AndroidRuntime(22925): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2675)
+09-17 20:38:39.094 E/AndroidRuntime(22925): 	at android.os.Handler.dispatchMessage(Handler.java:107)
+09-17 20:38:39.094 E/AndroidRuntime(22925): 	at android.os.Looper.loopOnce(Looper.java:257)
+09-17 20:38:39.094 E/AndroidRuntime(22925): 	at android.os.Looper.loop(Looper.java:342)
+09-17 20:38:39.094 E/AndroidRuntime(22925): 	at android.app.ActivityThread.main(ActivityThread.java:9634)
+09-17 20:38:39.094 E/AndroidRuntime(22925): 	at java.lang.reflect.Method.invoke(Native Method)
+09-17 20:38:39.094 E/AndroidRuntime(22925): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:619)
+09-17 20:38:39.094 E/AndroidRuntime(22925): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:929)
+09-17 20:38:39.205 E/FeatureFlagsImplExport(22913): android.os.flagging.AconfigStorageReadException: ERROR_PACKAGE_NOT_FOUND: package com.android.permission.flags cannot be found on the device
+09-17 20:38:39.208 E/FeatureFlagsImplExport(22913): android.os.flagging.AconfigStorageReadException: ERROR_PACKAGE_NOT_FOUND: package android.permission.flags cannot be found on the device
+09-17 20:38:39.208 E/FeatureFlagsImplExport(22913): android.os.flagging.AconfigStorageReadException: ERROR_PACKAGE_NOT_FOUND: package android.content.pm cannot be found on the device
+09-17 20:38:39.217 E/FeatureFlagsImplExport(22913): android.os.flagging.AconfigStorageReadException: ERROR_PACKAGE_NOT_FOUND: package android.companion.virtualdevice.flags cannot be found on the device
+09-17 20:38:39.225 E/FeatureFlagsImplExport(22913): android.os.flagging.AconfigStorageReadException: ERROR_PACKAGE_NOT_FOUND: package android.xr cannot be found on the device
+09-17 20:38:39.320 E/ding:background(22988): Not starting debugger since process cannot load the jdwp agent.
+09-17 20:38:39.393 E/SurfaceComposerClient( 3017): SurfaceComposerClient::Transaction::setAlpha: invalid alpha -0.016213, clamping
+09-17 20:38:39.410 E/SurfaceFlinger( 1454): alpha changed 0.021 -> 0.000 - Surface(name=Task=12879)/@0x965abc1_transition-leash#36156
+09-17 20:38:39.410 E/SurfaceComposerClient( 3017): SurfaceComposerClient::Transaction::setAlpha: invalid alpha -0.036791, clamping
+09-17 20:38:39.428 E/SurfaceComposerClient( 3017): SurfaceComposerClient::Transaction::setAlpha: invalid alpha -0.047041, clamping
+09-17 20:38:39.443 E/SurfaceComposerClient( 3017): SurfaceComposerClient::Transaction::setAlpha: invalid alpha -0.049910, clamping
+09-17 20:38:39.460 E/SurfaceComposerClient( 3017): SurfaceComposerClient::Transaction::setAlpha: invalid alpha -0.046380, clamping
+09-17 20:38:39.469 E/android.dqagent(23090): Not starting debugger since process cannot load the jdwp agent.
+09-17 20:38:39.478 E/SurfaceComposerClient( 3017): SurfaceComposerClient::Transaction::setAlpha: invalid alpha -0.039656, clamping
+09-17 20:38:39.494 E/SurfaceComposerClient( 3017): SurfaceComposerClient::Transaction::setAlpha: invalid alpha -0.029226, clamping
+09-17 20:38:39.509 E/DatabaseUtils(16272): Writing exception to parcel
+09-17 20:38:39.509 E/DatabaseUtils(16272): java.lang.SecurityException: Permission Denial: writing com.sec.android.provider.badge.BadgeProvider uri content://com.sec.badge/apps?notify=true from pid=19086, uid=10281 requires com.sec.android.provider.badge.permission.WRITE, or grantUriPermission()
+09-17 20:38:39.509 E/DatabaseUtils(16272): 	at android.content.ContentProvider.enforceWritePermissionInner(ContentProvider.java:1138)
+09-17 20:38:39.509 E/DatabaseUtils(16272): 	at android.content.ContentProvider.semEnforceWritePermission(ContentProvider.java:1064)
+09-17 20:38:39.509 E/DatabaseUtils(16272): 	at android.content.ContentProvider$Transport.enforceWritePermission(ContentProvider.java:840)
+09-17 20:38:39.509 E/DatabaseUtils(16272): 	at android.content.ContentProvider$Transport.update(ContentProvider.java:569)
+09-17 20:38:39.509 E/DatabaseUtils(16272): 	at android.content.ContentProviderNative.onTransact(ContentProviderNative.java:243)
+09-17 20:38:39.509 E/DatabaseUtils(16272): 	at android.os.Binder.execTransactInternal(Binder.java:1541)
+09-17 20:38:39.509 E/DatabaseUtils(16272): 	at android.os.Binder.execTransact(Binder.java:1480)
+09-17 20:38:39.510 E/SurfaceComposerClient( 3017): SurfaceComposerClient::Transaction::setAlpha: invalid alpha -0.014549, clamping
+09-17 20:38:39.729 E/android.vending(22900): Invalid resource ID 0x00000000.
+09-17 20:38:39.908 E/AbsSettings( 2560): refreshInner: refreshedSettingsDBItem key enabled_complication_widgets_id_list val = 
+09-17 20:38:39.908 E/AbsSettings( 2560): refreshInner: refreshedSettingsDBItem key enabled_complication_widgets_id_list val = 
+09-17 20:38:40.131 E/Finsky  (22900): [453] [Counters] attempted to use a non-positive increment for: 4752
+09-17 20:38:40.131 E/Finsky  (22900): [453] [Counters] attempted to use a non-positive increment for: 4753
+09-17 20:38:40.135 E/Finsky  (22900): [445] [Counters] attempted to use a non-positive increment for: 4752
+09-17 20:38:40.140 E/Finsky  (22900): [445] [Counters] attempted to use a non-positive increment for: 4753
+09-17 20:38:40.634 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:40.634 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:40.634 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:40.735 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:40.735 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:40.735 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:40.769 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:40.769 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:40.769 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:40.781 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:40.781 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:40.781 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:40.792 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:40.792 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:40.792 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:40.823 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:40.823 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:40.823 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:40.827 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:40.827 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:40.827 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:40.831 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:40.831 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:40.831 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:40.836 E/DatabaseUtils(16272): Writing exception to parcel
+09-17 20:38:40.836 E/DatabaseUtils(16272): java.lang.SecurityException: Permission Denial: writing com.sec.android.provider.badge.BadgeProvider uri content://com.sec.badge/apps?notify=true from pid=19086, uid=10281 requires com.sec.android.provider.badge.permission.WRITE, or grantUriPermission()
+09-17 20:38:40.836 E/DatabaseUtils(16272): 	at android.content.ContentProvider.enforceWritePermissionInner(ContentProvider.java:1138)
+09-17 20:38:40.836 E/DatabaseUtils(16272): 	at android.content.ContentProvider.semEnforceWritePermission(ContentProvider.java:1064)
+09-17 20:38:40.836 E/DatabaseUtils(16272): 	at android.content.ContentProvider$Transport.enforceWritePermission(ContentProvider.java:840)
+09-17 20:38:40.836 E/DatabaseUtils(16272): 	at android.content.ContentProvider$Transport.update(ContentProvider.java:569)
+09-17 20:38:40.836 E/DatabaseUtils(16272): 	at android.content.ContentProviderNative.onTransact(ContentProviderNative.java:243)
+09-17 20:38:40.836 E/DatabaseUtils(16272): 	at android.os.Binder.execTransactInternal(Binder.java:1541)
+09-17 20:38:40.836 E/DatabaseUtils(16272): 	at android.os.Binder.execTransact(Binder.java:1480)
+09-17 20:38:41.925 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:41.925 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:41.925 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:42.012 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:42.012 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:42.012 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:42.083 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:42.083 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:42.083 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:42.109 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:42.109 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:42.109 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:42.132 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:42.132 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:42.132 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:42.208 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:42.208 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:42.209 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:42.221 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:42.222 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:42.222 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:42.232 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:42.232 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:42.232 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:42.431 E/TaskPersister( 1608): File error accessing recents directory (directory doesn't exist?).
+09-17 20:38:42.446 E/BtGatt.GattService(16000): [GSIM LOG]: gsimLogHandler, msg: MESSAGE_SCAN_STOP, appName: com.google.android.gms, scannerId: 9, reportDelayMillis=0
+09-17 20:38:42.455 E/BtGatt.GattService(16000): [GSIM LOG]: gsimLogHandler, msg: MESSAGE_SCAN_START, appName: com.google.android.gms, scannerId: 9, reportDelayMillis=0
+09-17 20:38:42.586 E/DatabaseUtils(16272): Writing exception to parcel
+09-17 20:38:42.586 E/DatabaseUtils(16272): java.lang.SecurityException: Permission Denial: writing com.sec.android.provider.badge.BadgeProvider uri content://com.sec.badge/apps?notify=true from pid=19086, uid=10281 requires com.sec.android.provider.badge.permission.WRITE, or grantUriPermission()
+09-17 20:38:42.586 E/DatabaseUtils(16272): 	at android.content.ContentProvider.enforceWritePermissionInner(ContentProvider.java:1138)
+09-17 20:38:42.586 E/DatabaseUtils(16272): 	at android.content.ContentProvider.semEnforceWritePermission(ContentProvider.java:1064)
+09-17 20:38:42.586 E/DatabaseUtils(16272): 	at android.content.ContentProvider$Transport.enforceWritePermission(ContentProvider.java:840)
+09-17 20:38:42.586 E/DatabaseUtils(16272): 	at android.content.ContentProvider$Transport.update(ContentProvider.java:569)
+09-17 20:38:42.586 E/DatabaseUtils(16272): 	at android.content.ContentProviderNative.onTransact(ContentProviderNative.java:243)
+09-17 20:38:42.586 E/DatabaseUtils(16272): 	at android.os.Binder.execTransactInternal(Binder.java:1541)
+09-17 20:38:42.586 E/DatabaseUtils(16272): 	at android.os.Binder.execTransact(Binder.java:1480)
+09-17 20:38:42.634 E/xiaomi.wearable(23233): Not starting debugger since process cannot load the jdwp agent.
+09-17 20:38:42.890 E/DeviceManagerComponent_23233_23260(23233): startConnectProcess: false
+09-17 20:38:42.922 E/xiaomi.wearable(23233): No package ID 6a found for resource ID 0x6a0b000f.
+09-17 20:38:43.100 E/able:persistent(23307): Not starting debugger since process cannot load the jdwp agent.
+09-17 20:38:43.442 E/able:persistent(23307): No package ID 6a found for resource ID 0x6a0b000f.
+09-17 20:38:43.694 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:43.694 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:43.694 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:43.762 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:43.762 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:43.762 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:43.805 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:43.805 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:43.805 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:43.822 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:43.822 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:43.822 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:43.834 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:43.835 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:43.835 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:43.877 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:43.877 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:43.877 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:43.882 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:43.882 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:43.882 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:43.888 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:43.888 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:43.888 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:44.016 E/LoadedApk(23077): Exception : java.lang.NullPointerException: Attempt to invoke virtual method 'boolean android.os.Looper.isPerfLogEnable()' on a null object reference
+09-17 20:38:44.033 E/RoleControllerServiceImpl( 1608): Default/fallback role holder package doesn't qualify for the role, package: com.google.android.gms.supervision, role: android.app.role.SYSTEM_SUPERVISION
+09-17 20:38:44.040 E/AppIconSolution( 3017): Using cached contents available for us.mark.TheHacker.appicon
+09-17 20:38:44.162 E/Sensors ( 1351): inject_scontext_data: New ssp_data_injection_fd(44)
+09-17 20:38:44.167 E/SemContext.CaeProvider( 1608): setAttribute() : attribute is null!
+09-17 20:38:44.168 E/SensorService( 1608): BigData:Pakage) 5 already enabled. 
+09-17 20:38:44.278 E/SensorService( 1608): BigData:Pakage) 5 already disabled. 
+09-17 20:38:44.421 E/Sensors ( 1351): inject_scontext_data: New ssp_data_injection_fd(44)
+09-17 20:38:45.028 E/AbsSettings( 2560): refreshInner: refreshedSettingsDBItem key enabled_complication_widgets_id_list val = 
+09-17 20:38:45.029 E/AbsSettings( 2560): refreshInner: refreshedSettingsDBItem key enabled_complication_widgets_id_list val = 
+09-17 20:38:46.380 E/DatabaseUtils(16272): Writing exception to parcel
+09-17 20:38:46.380 E/DatabaseUtils(16272): java.lang.SecurityException: Permission Denial: writing com.sec.android.provider.badge.BadgeProvider uri content://com.sec.badge/apps?notify=true from pid=19086, uid=10281 requires com.sec.android.provider.badge.permission.WRITE, or grantUriPermission()
+09-17 20:38:46.380 E/DatabaseUtils(16272): 	at android.content.ContentProvider.enforceWritePermissionInner(ContentProvider.java:1138)
+09-17 20:38:46.380 E/DatabaseUtils(16272): 	at android.content.ContentProvider.semEnforceWritePermission(ContentProvider.java:1064)
+09-17 20:38:46.380 E/DatabaseUtils(16272): 	at android.content.ContentProvider$Transport.enforceWritePermission(ContentProvider.java:840)
+09-17 20:38:46.380 E/DatabaseUtils(16272): 	at android.content.ContentProvider$Transport.update(ContentProvider.java:569)
+09-17 20:38:46.380 E/DatabaseUtils(16272): 	at android.content.ContentProviderNative.onTransact(ContentProviderNative.java:243)
+09-17 20:38:46.380 E/DatabaseUtils(16272): 	at android.os.Binder.execTransactInternal(Binder.java:1541)
+09-17 20:38:46.380 E/DatabaseUtils(16272): 	at android.os.Binder.execTransact(Binder.java:1480)
+09-17 20:38:46.681 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:46.681 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:46.681 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:46.847 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:46.847 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:46.847 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:46.959 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:46.959 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:46.959 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:47.003 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:47.004 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:47.004 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:47.041 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:47.041 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:47.041 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:47.134 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:47.134 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:47.135 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:47.155 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:47.155 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:47.155 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:47.175 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:47.175 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:47.175 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:47.196 E/DatabaseUtils(16272): Writing exception to parcel
+09-17 20:38:47.196 E/DatabaseUtils(16272): java.lang.SecurityException: Permission Denial: writing com.sec.android.provider.badge.BadgeProvider uri content://com.sec.badge/apps?notify=true from pid=19086, uid=10281 requires com.sec.android.provider.badge.permission.WRITE, or grantUriPermission()
+09-17 20:38:47.196 E/DatabaseUtils(16272): 	at android.content.ContentProvider.enforceWritePermissionInner(ContentProvider.java:1138)
+09-17 20:38:47.196 E/DatabaseUtils(16272): 	at android.content.ContentProvider.semEnforceWritePermission(ContentProvider.java:1064)
+09-17 20:38:47.196 E/DatabaseUtils(16272): 	at android.content.ContentProvider$Transport.enforceWritePermission(ContentProvider.java:840)
+09-17 20:38:47.196 E/DatabaseUtils(16272): 	at android.content.ContentProvider$Transport.update(ContentProvider.java:569)
+09-17 20:38:47.196 E/DatabaseUtils(16272): 	at android.content.ContentProviderNative.onTransact(ContentProviderNative.java:243)
+09-17 20:38:47.196 E/DatabaseUtils(16272): 	at android.os.Binder.execTransactInternal(Binder.java:1541)
+09-17 20:38:47.196 E/DatabaseUtils(16272): 	at android.os.Binder.execTransact(Binder.java:1480)
+09-17 20:38:48.430 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:48.430 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:48.430 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:48.456 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:48.457 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:48.457 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:48.662 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:48.662 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:48.662 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:48.794 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:48.794 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:48.794 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:48.840 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:48.840 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:48.840 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:48.882 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:48.882 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:48.882 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:48.996 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:48.996 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:48.996 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:49.016 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:49.016 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:49.016 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:49.290 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:49.290 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:49.290 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:49.309 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:49.310 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:49.310 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:49.328 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:49.328 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:49.328 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:49.496 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:49.496 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:49.497 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:49.586 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:49.586 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:49.586 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:49.623 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:49.623 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:49.623 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:49.653 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:49.653 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:49.653 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:49.730 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:49.730 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:49.730 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:49.745 E/DatabaseUtils(16272): Writing exception to parcel
+09-17 20:38:49.745 E/DatabaseUtils(16272): java.lang.SecurityException: Permission Denial: writing com.sec.android.provider.badge.BadgeProvider uri content://com.sec.badge/apps?notify=true from pid=19086, uid=10281 requires com.sec.android.provider.badge.permission.WRITE, or grantUriPermission()
+09-17 20:38:49.745 E/DatabaseUtils(16272): 	at android.content.ContentProvider.enforceWritePermissionInner(ContentProvider.java:1138)
+09-17 20:38:49.745 E/DatabaseUtils(16272): 	at android.content.ContentProvider.semEnforceWritePermission(ContentProvider.java:1064)
+09-17 20:38:49.745 E/DatabaseUtils(16272): 	at android.content.ContentProvider$Transport.enforceWritePermission(ContentProvider.java:840)
+09-17 20:38:49.745 E/DatabaseUtils(16272): 	at android.content.ContentProvider$Transport.update(ContentProvider.java:569)
+09-17 20:38:49.745 E/DatabaseUtils(16272): 	at android.content.ContentProviderNative.onTransact(ContentProviderNative.java:243)
+09-17 20:38:49.745 E/DatabaseUtils(16272): 	at android.os.Binder.execTransactInternal(Binder.java:1541)
+09-17 20:38:49.745 E/DatabaseUtils(16272): 	at android.os.Binder.execTransact(Binder.java:1480)
+09-17 20:38:49.920 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:49.921 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:49.921 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:49.942 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:49.943 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:49.943 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:49.957 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:49.957 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:49.957 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:50.128 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:50.128 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:50.128 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:50.250 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:50.250 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:50.250 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:50.297 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:50.298 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:50.298 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:50.332 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:50.332 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:50.332 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:50.416 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:50.416 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:50.416 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:52.953 E/DatabaseUtils(16272): Writing exception to parcel
+09-17 20:38:52.953 E/DatabaseUtils(16272): java.lang.SecurityException: Permission Denial: writing com.sec.android.provider.badge.BadgeProvider uri content://com.sec.badge/apps?notify=true from pid=19086, uid=10281 requires com.sec.android.provider.badge.permission.WRITE, or grantUriPermission()
+09-17 20:38:52.953 E/DatabaseUtils(16272): 	at android.content.ContentProvider.enforceWritePermissionInner(ContentProvider.java:1138)
+09-17 20:38:52.953 E/DatabaseUtils(16272): 	at android.content.ContentProvider.semEnforceWritePermission(ContentProvider.java:1064)
+09-17 20:38:52.953 E/DatabaseUtils(16272): 	at android.content.ContentProvider$Transport.enforceWritePermission(ContentProvider.java:840)
+09-17 20:38:52.953 E/DatabaseUtils(16272): 	at android.content.ContentProvider$Transport.update(ContentProvider.java:569)
+09-17 20:38:52.953 E/DatabaseUtils(16272): 	at android.content.ContentProviderNative.onTransact(ContentProviderNative.java:243)
+09-17 20:38:52.953 E/DatabaseUtils(16272): 	at android.os.Binder.execTransactInternal(Binder.java:1541)
+09-17 20:38:52.953 E/DatabaseUtils(16272): 	at android.os.Binder.execTransact(Binder.java:1480)
+09-17 20:38:53.135 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:53.135 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:53.135 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:53.309 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:53.309 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:53.309 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:53.331 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:53.331 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:53.331 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:53.353 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:53.353 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:53.354 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:53.469 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:53.469 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:53.469 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:53.518 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:53.518 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:53.518 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:53.555 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:53.556 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:53.556 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:53.665 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:53.665 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:53.665 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:54.195 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:54.195 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:54.195 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:54.356 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:54.356 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:54.356 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:54.374 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:54.374 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:54.375 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:54.390 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:54.390 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:54.390 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:54.507 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:54.507 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:54.507 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:54.551 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:54.551 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:54.551 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:54.592 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:54.593 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:54.593 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:54.718 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:54.718 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:54.718 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:54.946 E/DatabaseUtils(16272): Writing exception to parcel
+09-17 20:38:54.946 E/DatabaseUtils(16272): java.lang.SecurityException: Permission Denial: writing com.sec.android.provider.badge.BadgeProvider uri content://com.sec.badge/apps?notify=true from pid=19086, uid=10281 requires com.sec.android.provider.badge.permission.WRITE, or grantUriPermission()
+09-17 20:38:54.946 E/DatabaseUtils(16272): 	at android.content.ContentProvider.enforceWritePermissionInner(ContentProvider.java:1138)
+09-17 20:38:54.946 E/DatabaseUtils(16272): 	at android.content.ContentProvider.semEnforceWritePermission(ContentProvider.java:1064)
+09-17 20:38:54.946 E/DatabaseUtils(16272): 	at android.content.ContentProvider$Transport.enforceWritePermission(ContentProvider.java:840)
+09-17 20:38:54.946 E/DatabaseUtils(16272): 	at android.content.ContentProvider$Transport.update(ContentProvider.java:569)
+09-17 20:38:54.946 E/DatabaseUtils(16272): 	at android.content.ContentProviderNative.onTransact(ContentProviderNative.java:243)
+09-17 20:38:54.946 E/DatabaseUtils(16272): 	at android.os.Binder.execTransactInternal(Binder.java:1541)
+09-17 20:38:54.946 E/DatabaseUtils(16272): 	at android.os.Binder.execTransact(Binder.java:1480)
+09-17 20:38:54.962 E/pageboostd( 3548): alp start : app comgigamindmobile
+09-17 20:38:54.964 E/pageboostd( 3548): comgigamindmobile, amt 14656904 scnt 2 fcnt 0
+09-17 20:38:54.965 E/pageboostd( 3548): comgigamindmobile, amt 0 scnt 0 fcnt 0
+09-17 20:38:54.965 E/pageboostd( 3548): alp end : app comgigamindmobile data_amount 14656904
+09-17 20:38:54.965 E/AppIconSolution( 2560): Using cached contents available for us.mark.TheHacker.appicon
+09-17 20:38:55.010 E/.gigamindmobile(23411): Not starting debugger since process cannot load the jdwp agent.
+09-17 20:38:55.050 E/pageboostd( 3548): Received HALT command code 2
+09-17 20:38:55.085 E/AndroidRuntime(23411): FATAL EXCEPTION: main
+09-17 20:38:55.085 E/AndroidRuntime(23411): Process: com.gigamindmobile, PID: 23411
+09-17 20:38:55.085 E/AndroidRuntime(23411): java.lang.UnsatisfiedLinkError: dlopen failed: library "librninstance.so" not found
+09-17 20:38:55.085 E/AndroidRuntime(23411): 	at java.lang.Runtime.loadLibrary0(Runtime.java:1090)
+09-17 20:38:55.085 E/AndroidRuntime(23411): 	at java.lang.Runtime.loadLibrary0(Runtime.java:1012)
+09-17 20:38:55.085 E/AndroidRuntime(23411): 	at java.lang.System.loadLibrary(System.java:1765)
+09-17 20:38:55.085 E/AndroidRuntime(23411): 	at com.facebook.soloader.nativeloader.SystemDelegate.loadLibrary(SystemDelegate.java:24)
+09-17 20:38:55.085 E/AndroidRuntime(23411): 	at com.facebook.soloader.nativeloader.NativeLoader.loadLibrary(NativeLoader.java:52)
+09-17 20:38:55.085 E/AndroidRuntime(23411): 	at com.facebook.soloader.nativeloader.NativeLoader.loadLibrary(NativeLoader.java:30)
+09-17 20:38:55.085 E/AndroidRuntime(23411): 	at com.facebook.soloader.SoLoader.loadLibrary(SoLoader.java:812)
+09-17 20:38:55.085 E/AndroidRuntime(23411): 	at com.facebook.react.runtime.JSRuntimeFactory.<clinit>(JSRuntimeFactory.kt:21)
+09-17 20:38:55.085 E/AndroidRuntime(23411): 	at com.facebook.react.defaults.DefaultReactNativeHost.toReactHost$ReactAndroid_release(DefaultReactNativeHost.kt:113)
+09-17 20:38:55.085 E/AndroidRuntime(23411): 	at com.facebook.react.defaults.DefaultReactHost.getDefaultReactHost(DefaultReactHost.kt:296)
+09-17 20:38:55.085 E/AndroidRuntime(23411): 	at com.facebook.react.defaults.DefaultReactHost.getDefaultReactHost$default(DefaultReactHost.kt:286)
+09-17 20:38:55.085 E/AndroidRuntime(23411): 	at com.gigamindmobile.MainApplication.getReactHost(MainApplication.kt:32)
+09-17 20:38:55.085 E/AndroidRuntime(23411): 	at com.gigamindmobile.MainApplication.onCreate(MainApplication.kt:38)
+09-17 20:38:55.085 E/AndroidRuntime(23411): 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1386)
+09-17 20:38:55.085 E/AndroidRuntime(23411): 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:8377)
+09-17 20:38:55.085 E/AndroidRuntime(23411): 	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+09-17 20:38:55.085 E/AndroidRuntime(23411): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2675)
+09-17 20:38:55.085 E/AndroidRuntime(23411): 	at android.os.Handler.dispatchMessage(Handler.java:107)
+09-17 20:38:55.085 E/AndroidRuntime(23411): 	at android.os.Looper.loopOnce(Looper.java:257)
+09-17 20:38:55.085 E/AndroidRuntime(23411): 	at android.os.Looper.loop(Looper.java:342)
+09-17 20:38:55.085 E/AndroidRuntime(23411): 	at android.app.ActivityThread.main(ActivityThread.java:9634)
+09-17 20:38:55.085 E/AndroidRuntime(23411): 	at java.lang.reflect.Method.invoke(Native Method)
+09-17 20:38:55.085 E/AndroidRuntime(23411): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:619)
+09-17 20:38:55.085 E/AndroidRuntime(23411): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:929)
+09-17 20:38:55.101 E/DMASA[D]( 4658): [d]enqueueFCwork: ProcessErrorStateInfo is null
+09-17 20:38:55.110 E/SurfaceFlinger( 1454): alpha changed 1.000 -> 0.000 - Surface(name=Task=12880)/@0xae25881_transition-leash#36171
+09-17 20:38:55.160 E/SurfaceFlinger( 1454): alpha changed 0.000 -> 0.032 - Surface(name=Task=12880)/@0xae25881_transition-leash#36171
+09-17 20:38:55.167 E/NativeCustomFrequencyManager( 1454): [NativeCFMS] BpCustomFrequencyManager::acquire()
+09-17 20:38:55.167 E/pageboostd( 3548): alp start : app comgigamindmobile
+09-17 20:38:55.168 E/pageboostd( 3548): comgigamindmobile, amt 14656904 scnt 2 fcnt 0
+09-17 20:38:55.168 E/pageboostd( 3548): comgigamindmobile, amt 0 scnt 0 fcnt 0
+09-17 20:38:55.168 E/pageboostd( 3548): alp end : app comgigamindmobile data_amount 14656904
+09-17 20:38:55.193 E/.gigamindmobile(23450): Not starting debugger since process cannot load the jdwp agent.
+09-17 20:38:55.204 E/pageboostd( 3548): Received HALT command code 2
+09-17 20:38:55.208 E/AppIconSolution( 2560): Using cached contents available for us.mark.TheHacker.appicon
+09-17 20:38:55.253 E/Pageboost( 1608): record is ongoing. Abort for 23450
+09-17 20:38:55.264 E/pageboostd( 3548): Received HALT command code 2
+09-17 20:38:55.281 E/AndroidRuntime(23450): FATAL EXCEPTION: main
+09-17 20:38:55.281 E/AndroidRuntime(23450): Process: com.gigamindmobile, PID: 23450
+09-17 20:38:55.281 E/AndroidRuntime(23450): java.lang.UnsatisfiedLinkError: dlopen failed: library "librninstance.so" not found
+09-17 20:38:55.281 E/AndroidRuntime(23450): 	at java.lang.Runtime.loadLibrary0(Runtime.java:1090)
+09-17 20:38:55.281 E/AndroidRuntime(23450): 	at java.lang.Runtime.loadLibrary0(Runtime.java:1012)
+09-17 20:38:55.281 E/AndroidRuntime(23450): 	at java.lang.System.loadLibrary(System.java:1765)
+09-17 20:38:55.281 E/AndroidRuntime(23450): 	at com.facebook.soloader.nativeloader.SystemDelegate.loadLibrary(SystemDelegate.java:24)
+09-17 20:38:55.281 E/AndroidRuntime(23450): 	at com.facebook.soloader.nativeloader.NativeLoader.loadLibrary(NativeLoader.java:52)
+09-17 20:38:55.281 E/AndroidRuntime(23450): 	at com.facebook.soloader.nativeloader.NativeLoader.loadLibrary(NativeLoader.java:30)
+09-17 20:38:55.281 E/AndroidRuntime(23450): 	at com.facebook.soloader.SoLoader.loadLibrary(SoLoader.java:812)
+09-17 20:38:55.281 E/AndroidRuntime(23450): 	at com.facebook.react.runtime.JSRuntimeFactory.<clinit>(JSRuntimeFactory.kt:21)
+09-17 20:38:55.281 E/AndroidRuntime(23450): 	at com.facebook.react.defaults.DefaultReactNativeHost.toReactHost$ReactAndroid_release(DefaultReactNativeHost.kt:113)
+09-17 20:38:55.281 E/AndroidRuntime(23450): 	at com.facebook.react.defaults.DefaultReactHost.getDefaultReactHost(DefaultReactHost.kt:296)
+09-17 20:38:55.281 E/AndroidRuntime(23450): 	at com.facebook.react.defaults.DefaultReactHost.getDefaultReactHost$default(DefaultReactHost.kt:286)
+09-17 20:38:55.281 E/AndroidRuntime(23450): 	at com.gigamindmobile.MainApplication.getReactHost(MainApplication.kt:32)
+09-17 20:38:55.281 E/AndroidRuntime(23450): 	at com.gigamindmobile.MainApplication.onCreate(MainApplication.kt:38)
+09-17 20:38:55.281 E/AndroidRuntime(23450): 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1386)
+09-17 20:38:55.281 E/AndroidRuntime(23450): 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:8377)
+09-17 20:38:55.281 E/AndroidRuntime(23450): 	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+09-17 20:38:55.281 E/AndroidRuntime(23450): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2675)
+09-17 20:38:55.281 E/AndroidRuntime(23450): 	at android.os.Handler.dispatchMessage(Handler.java:107)
+09-17 20:38:55.281 E/AndroidRuntime(23450): 	at android.os.Looper.loopOnce(Looper.java:257)
+09-17 20:38:55.281 E/AndroidRuntime(23450): 	at android.os.Looper.loop(Looper.java:342)
+09-17 20:38:55.281 E/AndroidRuntime(23450): 	at android.app.ActivityThread.main(ActivityThread.java:9634)
+09-17 20:38:55.281 E/AndroidRuntime(23450): 	at java.lang.reflect.Method.invoke(Native Method)
+09-17 20:38:55.281 E/AndroidRuntime(23450): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:619)
+09-17 20:38:55.281 E/AndroidRuntime(23450): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:929)
+09-17 20:38:55.320 E/IDS_TAG (21894): System UID: no SharedPreferences here, no IDS
+09-17 20:38:55.322 E/IDS_TAG (21894): System UID: no SharedPreferences here, no IDS
+09-17 20:38:55.358 E/.gigamindmobile(23479): Not starting debugger since process cannot load the jdwp agent.
+09-17 20:38:55.402 E/AndroidRuntime(23479): FATAL EXCEPTION: main
+09-17 20:38:55.402 E/AndroidRuntime(23479): Process: com.gigamindmobile, PID: 23479
+09-17 20:38:55.402 E/AndroidRuntime(23479): java.lang.UnsatisfiedLinkError: dlopen failed: library "librninstance.so" not found
+09-17 20:38:55.402 E/AndroidRuntime(23479): 	at java.lang.Runtime.loadLibrary0(Runtime.java:1090)
+09-17 20:38:55.402 E/AndroidRuntime(23479): 	at java.lang.Runtime.loadLibrary0(Runtime.java:1012)
+09-17 20:38:55.402 E/AndroidRuntime(23479): 	at java.lang.System.loadLibrary(System.java:1765)
+09-17 20:38:55.402 E/AndroidRuntime(23479): 	at com.facebook.soloader.nativeloader.SystemDelegate.loadLibrary(SystemDelegate.java:24)
+09-17 20:38:55.402 E/AndroidRuntime(23479): 	at com.facebook.soloader.nativeloader.NativeLoader.loadLibrary(NativeLoader.java:52)
+09-17 20:38:55.402 E/AndroidRuntime(23479): 	at com.facebook.soloader.nativeloader.NativeLoader.loadLibrary(NativeLoader.java:30)
+09-17 20:38:55.402 E/AndroidRuntime(23479): 	at com.facebook.soloader.SoLoader.loadLibrary(SoLoader.java:812)
+09-17 20:38:55.402 E/AndroidRuntime(23479): 	at com.facebook.react.runtime.JSRuntimeFactory.<clinit>(JSRuntimeFactory.kt:21)
+09-17 20:38:55.402 E/AndroidRuntime(23479): 	at com.facebook.react.defaults.DefaultReactNativeHost.toReactHost$ReactAndroid_release(DefaultReactNativeHost.kt:113)
+09-17 20:38:55.402 E/AndroidRuntime(23479): 	at com.facebook.react.defaults.DefaultReactHost.getDefaultReactHost(DefaultReactHost.kt:296)
+09-17 20:38:55.402 E/AndroidRuntime(23479): 	at com.facebook.react.defaults.DefaultReactHost.getDefaultReactHost$default(DefaultReactHost.kt:286)
+09-17 20:38:55.402 E/AndroidRuntime(23479): 	at com.gigamindmobile.MainApplication.getReactHost(MainApplication.kt:32)
+09-17 20:38:55.402 E/AndroidRuntime(23479): 	at com.gigamindmobile.MainApplication.onCreate(MainApplication.kt:38)
+09-17 20:38:55.402 E/AndroidRuntime(23479): 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1386)
+09-17 20:38:55.402 E/AndroidRuntime(23479): 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:8377)
+09-17 20:38:55.402 E/AndroidRuntime(23479): 	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+09-17 20:38:55.402 E/AndroidRuntime(23479): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2675)
+09-17 20:38:55.402 E/AndroidRuntime(23479): 	at android.os.Handler.dispatchMessage(Handler.java:107)
+09-17 20:38:55.402 E/AndroidRuntime(23479): 	at android.os.Looper.loopOnce(Looper.java:257)
+09-17 20:38:55.402 E/AndroidRuntime(23479): 	at android.os.Looper.loop(Looper.java:342)
+09-17 20:38:55.402 E/AndroidRuntime(23479): 	at android.app.ActivityThread.main(ActivityThread.java:9634)
+09-17 20:38:55.402 E/AndroidRuntime(23479): 	at java.lang.reflect.Method.invoke(Native Method)
+09-17 20:38:55.402 E/AndroidRuntime(23479): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:619)
+09-17 20:38:55.402 E/AndroidRuntime(23479): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:929)
+09-17 20:38:55.461 E/SurfaceFlinger( 1454): alpha changed 1.000 -> 0.000 - Surface(name=4104bc2 com.samsung.android.lool/com.samsung.android.sm.iafd.dialog.AppErrorDialogActivity)/@0x65810f7 - animation-leash of window_animation#36189
+09-17 20:38:55.461 E/SurfaceFlinger( 1454): alpha changed 1.000 -> 0.000 - Task=12881#36175
+09-17 20:38:55.477 E/SurfaceFlinger( 1454): alpha changed 1.000 -> 0.000 - Dim Layer for - Task=12881#36192
+09-17 20:38:55.477 E/SurfaceFlinger( 1454): alpha changed 0.000 -> 0.000 - Dim Layer for - Task=12881#36192
+09-17 20:38:55.494 E/SurfaceFlinger( 1454): alpha changed 0.000 -> 0.206 - Surface(name=4104bc2 com.samsung.android.lool/com.samsung.android.sm.iafd.dialog.AppErrorDialogActivity)/@0x65810f7 - animation-leash of window_animation#36189
+09-17 20:38:55.494 E/SurfaceFlinger( 1454): alpha changed 0.000 -> 0.035 - Dim Layer for - Task=12881#36192
+09-17 20:38:55.548 E/pageboostd( 3548): alp start : app comgigamindmobile
+09-17 20:38:55.550 E/AppIconSolution( 2560): Using cached contents available for us.mark.TheHacker.appicon
+09-17 20:38:55.560 E/pageboostd( 3548): comgigamindmobile, amt 14656904 scnt 2 fcnt 0
+09-17 20:38:55.560 E/pageboostd( 3548): comgigamindmobile, amt 0 scnt 0 fcnt 0
+09-17 20:38:55.560 E/pageboostd( 3548): alp end : app comgigamindmobile data_amount 14656904
+09-17 20:38:55.570 E/.gigamindmobile(23510): Not starting debugger since process cannot load the jdwp agent.
+09-17 20:38:55.611 E/AndroidRuntime(23510): FATAL EXCEPTION: main
+09-17 20:38:55.611 E/AndroidRuntime(23510): Process: com.gigamindmobile, PID: 23510
+09-17 20:38:55.611 E/AndroidRuntime(23510): java.lang.UnsatisfiedLinkError: dlopen failed: library "librninstance.so" not found
+09-17 20:38:55.611 E/AndroidRuntime(23510): 	at java.lang.Runtime.loadLibrary0(Runtime.java:1090)
+09-17 20:38:55.611 E/AndroidRuntime(23510): 	at java.lang.Runtime.loadLibrary0(Runtime.java:1012)
+09-17 20:38:55.611 E/AndroidRuntime(23510): 	at java.lang.System.loadLibrary(System.java:1765)
+09-17 20:38:55.611 E/AndroidRuntime(23510): 	at com.facebook.soloader.nativeloader.SystemDelegate.loadLibrary(SystemDelegate.java:24)
+09-17 20:38:55.611 E/AndroidRuntime(23510): 	at com.facebook.soloader.nativeloader.NativeLoader.loadLibrary(NativeLoader.java:52)
+09-17 20:38:55.611 E/AndroidRuntime(23510): 	at com.facebook.soloader.nativeloader.NativeLoader.loadLibrary(NativeLoader.java:30)
+09-17 20:38:55.611 E/AndroidRuntime(23510): 	at com.facebook.soloader.SoLoader.loadLibrary(SoLoader.java:812)
+09-17 20:38:55.611 E/AndroidRuntime(23510): 	at com.facebook.react.runtime.JSRuntimeFactory.<clinit>(JSRuntimeFactory.kt:21)
+09-17 20:38:55.611 E/AndroidRuntime(23510): 	at com.facebook.react.defaults.DefaultReactNativeHost.toReactHost$ReactAndroid_release(DefaultReactNativeHost.kt:113)
+09-17 20:38:55.611 E/AndroidRuntime(23510): 	at com.facebook.react.defaults.DefaultReactHost.getDefaultReactHost(DefaultReactHost.kt:296)
+09-17 20:38:55.611 E/AndroidRuntime(23510): 	at com.facebook.react.defaults.DefaultReactHost.getDefaultReactHost$default(DefaultReactHost.kt:286)
+09-17 20:38:55.611 E/AndroidRuntime(23510): 	at com.gigamindmobile.MainApplication.getReactHost(MainApplication.kt:32)
+09-17 20:38:55.611 E/AndroidRuntime(23510): 	at com.gigamindmobile.MainApplication.onCreate(MainApplication.kt:38)
+09-17 20:38:55.611 E/AndroidRuntime(23510): 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1386)
+09-17 20:38:55.611 E/AndroidRuntime(23510): 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:8377)
+09-17 20:38:55.611 E/AndroidRuntime(23510): 	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+09-17 20:38:55.611 E/AndroidRuntime(23510): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2675)
+09-17 20:38:55.611 E/AndroidRuntime(23510): 	at android.os.Handler.dispatchMessage(Handler.java:107)
+09-17 20:38:55.611 E/AndroidRuntime(23510): 	at android.os.Looper.loopOnce(Looper.java:257)
+09-17 20:38:55.611 E/AndroidRuntime(23510): 	at android.os.Looper.loop(Looper.java:342)
+09-17 20:38:55.611 E/AndroidRuntime(23510): 	at android.app.ActivityThread.main(ActivityThread.java:9634)
+09-17 20:38:55.611 E/AndroidRuntime(23510): 	at java.lang.reflect.Method.invoke(Native Method)
+09-17 20:38:55.611 E/AndroidRuntime(23510): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:619)
+09-17 20:38:55.611 E/AndroidRuntime(23510): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:929)
+09-17 20:38:55.622 E/Pageboost( 1608): record is ongoing. Abort for 23510
+09-17 20:38:55.626 E/DMASA[D]( 4658): [d]enqueueFCwork: ProcessErrorStateInfo is null
+09-17 20:38:55.628 E/SurfaceFlinger( 1454): alpha changed 0.000 -> 1.000 - Task=12881#36175
+09-17 20:38:55.634 E/pageboostd( 3548): Received HALT command code 2
+09-17 20:38:55.678 E/SurfaceFlinger( 1454): alpha changed 1.000 -> 0.000 - Dim Layer for - Task=12881#36205
+09-17 20:38:55.690 E/{OngoingActivityController}( 2560): getTaskInfo find task 12883 fail. taskInfoList.size:30
+09-17 20:38:55.711 E/SurfaceFlinger( 1454): alpha changed 0.000 -> 0.035 - Dim Layer for - Task=12881#36205
+09-17 20:38:55.930 E/PocketModeEvent( 1608): PocketModeSetting is off 
+09-17 20:38:55.978 E/SurfaceFlinger( 1454): alpha changed 0.035 -> 0.000 - Dim Layer for - Task=12881#36192
+09-17 20:38:56.019 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:56.019 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:56.019 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:56.071 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:56.071 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:56.071 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:56.076 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:56.077 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:56.077 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:56.081 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:56.081 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:56.081 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:56.112 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:56.112 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:56.112 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:56.124 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:56.124 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:56.124 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:56.134 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:56.134 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:56.134 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:56.167 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:38:56.167 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:38:56.167 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:38:56.912 E/SurfaceFlinger( 1454): alpha changed 0.000 -> 0.396 - Dim Layer for - Task=12881#36192
+09-17 20:38:57.012 E/SurfaceFlinger( 1454): alpha changed 0.070 -> 0.000 - Surface(name=4104bc2 com.samsung.android.lool/com.samsung.android.sm.iafd.dialog.AppErrorDialogActivity)/@0x65810f7 - animation-leash of window_animation#36208
+09-17 20:38:57.062 E/SurfaceFlinger( 1454): alpha changed 0.070 -> 0.000 - Task=12881#36175
+09-17 20:38:57.062 E/SurfaceFlinger( 1454): alpha changed 0.000 -> 0.000 - Task=12881#36175
+09-17 20:38:57.062 E/SurfaceFlinger( 1454): alpha changed 0.000 -> 1.000 - Task=12881#36175
+09-17 20:38:57.076 E/Dc.AppErrorDialogActivity(21894): onDestroy 
+09-17 20:38:57.076 E/Dc.AppErrorDialogActivity(21894): java.lang.IllegalArgumentException: Receiver not registered: af.f@5b6c351
+09-17 20:38:57.076 E/Dc.AppErrorDialogActivity(21894): 	at android.app.LoadedApk.forgetReceiverDispatcher(LoadedApk.java:1728)
+09-17 20:38:57.076 E/Dc.AppErrorDialogActivity(21894): 	at android.app.ContextImpl.unregisterReceiver(ContextImpl.java:1966)
+09-17 20:38:57.076 E/Dc.AppErrorDialogActivity(21894): 	at android.content.ContextWrapper.unregisterReceiver(ContextWrapper.java:839)
+09-17 20:38:57.076 E/Dc.AppErrorDialogActivity(21894): 	at android.content.ContextWrapper.unregisterReceiver(ContextWrapper.java:839)
+09-17 20:38:57.076 E/Dc.AppErrorDialogActivity(21894): 	at com.samsung.android.sm.iafd.dialog.AppErrorDialogActivity.onDestroy(Unknown Source:5)
+09-17 20:38:57.076 E/Dc.AppErrorDialogActivity(21894): 	at android.app.Activity.performDestroy(Activity.java:9673)
+09-17 20:38:57.076 E/Dc.AppErrorDialogActivity(21894): 	at android.app.Instrumentation.callActivityOnDestroy(Instrumentation.java:1561)
+09-17 20:38:57.076 E/Dc.AppErrorDialogActivity(21894): 	at android.app.ActivityThread.performDestroyActivity(ActivityThread.java:6650)
+09-17 20:38:57.076 E/Dc.AppErrorDialogActivity(21894): 	at android.app.ActivityThread.handleDestroyActivity(ActivityThread.java:6695)
+09-17 20:38:57.076 E/Dc.AppErrorDialogActivity(21894): 	at android.app.servertransaction.DestroyActivityItem.execute(DestroyActivityItem.java:46)
+09-17 20:38:57.076 E/Dc.AppErrorDialogActivity(21894): 	at android.app.servertransaction.ActivityTransactionItem.execute(ActivityTransactionItem.java:60)
+09-17 20:38:57.076 E/Dc.AppErrorDialogActivity(21894): 	at android.app.servertransaction.TransactionExecutor.executeLifecycleItem(TransactionExecutor.java:225)
+09-17 20:38:57.076 E/Dc.AppErrorDialogActivity(21894): 	at android.app.servertransaction.TransactionExecutor.executeTransactionItems(TransactionExecutor.java:107)
+09-17 20:38:57.076 E/Dc.AppErrorDialogActivity(21894): 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:81)
+09-17 20:38:57.076 E/Dc.AppErrorDialogActivity(21894): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2895)
+09-17 20:38:57.076 E/Dc.AppErrorDialogActivity(21894): 	at android.os.Handler.dispatchMessage(Handler.java:107)
+09-17 20:38:57.076 E/Dc.AppErrorDialogActivity(21894): 	at android.os.Looper.loopOnce(Looper.java:257)
+09-17 20:38:57.076 E/Dc.AppErrorDialogActivity(21894): 	at android.os.Looper.loop(Looper.java:342)
+09-17 20:38:57.076 E/Dc.AppErrorDialogActivity(21894): 	at android.app.ActivityThread.main(ActivityThread.java:9634)
+09-17 20:38:57.076 E/Dc.AppErrorDialogActivity(21894): 	at java.lang.reflect.Method.invoke(Native Method)
+09-17 20:38:57.076 E/Dc.AppErrorDialogActivity(21894): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:619)
+09-17 20:38:57.076 E/Dc.AppErrorDialogActivity(21894): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:929)
+09-17 20:38:57.082 E/WindowManager( 1608): win=Window{4104bc2 u0 com.samsung.android.lool/com.samsung.android.sm.iafd.dialog.AppErrorDialogActivity EXITING} destroySurfaces: appStopped=false cleanupOnResume=false win.mWindowRemovalAllowed=true win.mRemoveOnExit=true win.mViewVisibility=0 caller=com.android.server.wm.WindowState.onExitAnimationDone:222 com.android.server.wm.WindowState.onAnimationFinished:161 com.android.server.wm.WindowContainer$$ExternalSyntheticLambda5.onAnimationFinished:26 com.android.server.wm.SurfaceAnimator.cancelAnimation:19 com.android.server.wm.SurfaceAnimator.cancelAnimation:1 com.android.server.wm.WindowContainer.setParent:49 com.android.server.wm.WindowContainer.removeChild:17 
+09-17 20:38:57.229 E/SurfaceFlinger( 1454): alpha changed 0.037 -> 0.000 - Dim Layer for - Task=12881#36205
+09-17 20:38:57.381 E/guplus.appstore(23532): Not starting debugger since process cannot load the jdwp agent.
+09-17 20:38:57.567 E/guplus.appstore(23532): No package ID 6a found for resource ID 0x6a0b000f.
+09-17 20:38:57.584 E/skaf.OA00018282(23569): Not starting debugger since process cannot load the jdwp agent.
+09-17 20:38:57.694 E/pageboostd( 3548): alp start : app comgigamindmobile
+09-17 20:38:57.695 E/pageboostd( 3548): comgigamindmobile, amt 14656904 scnt 2 fcnt 0
+09-17 20:38:57.695 E/pageboostd( 3548): comgigamindmobile, amt 0 scnt 0 fcnt 0
+09-17 20:38:57.695 E/pageboostd( 3548): alp end : app comgigamindmobile data_amount 14656904
+09-17 20:38:57.697 E/AppIconSolution( 2560): Using cached contents available for us.mark.TheHacker.appicon
+09-17 20:38:57.698 E/skaf.OA00018282(23569): No package ID 6a found for resource ID 0x6a0b000f.
+09-17 20:38:57.726 E/.gigamindmobile(23628): Not starting debugger since process cannot load the jdwp agent.
+09-17 20:38:57.765 E/Pageboost( 1608): record is ongoing. Abort for 23628
+09-17 20:38:57.772 E/AndroidRuntime(23628): FATAL EXCEPTION: main
+09-17 20:38:57.772 E/AndroidRuntime(23628): Process: com.gigamindmobile, PID: 23628
+09-17 20:38:57.772 E/AndroidRuntime(23628): java.lang.UnsatisfiedLinkError: dlopen failed: library "librninstance.so" not found
+09-17 20:38:57.772 E/AndroidRuntime(23628): 	at java.lang.Runtime.loadLibrary0(Runtime.java:1090)
+09-17 20:38:57.772 E/AndroidRuntime(23628): 	at java.lang.Runtime.loadLibrary0(Runtime.java:1012)
+09-17 20:38:57.772 E/AndroidRuntime(23628): 	at java.lang.System.loadLibrary(System.java:1765)
+09-17 20:38:57.772 E/AndroidRuntime(23628): 	at com.facebook.soloader.nativeloader.SystemDelegate.loadLibrary(SystemDelegate.java:24)
+09-17 20:38:57.772 E/AndroidRuntime(23628): 	at com.facebook.soloader.nativeloader.NativeLoader.loadLibrary(NativeLoader.java:52)
+09-17 20:38:57.772 E/AndroidRuntime(23628): 	at com.facebook.soloader.nativeloader.NativeLoader.loadLibrary(NativeLoader.java:30)
+09-17 20:38:57.772 E/AndroidRuntime(23628): 	at com.facebook.soloader.SoLoader.loadLibrary(SoLoader.java:812)
+09-17 20:38:57.772 E/AndroidRuntime(23628): 	at com.facebook.react.runtime.JSRuntimeFactory.<clinit>(JSRuntimeFactory.kt:21)
+09-17 20:38:57.772 E/AndroidRuntime(23628): 	at com.facebook.react.defaults.DefaultReactNativeHost.toReactHost$ReactAndroid_release(DefaultReactNativeHost.kt:113)
+09-17 20:38:57.772 E/AndroidRuntime(23628): 	at com.facebook.react.defaults.DefaultReactHost.getDefaultReactHost(DefaultReactHost.kt:296)
+09-17 20:38:57.772 E/AndroidRuntime(23628): 	at com.facebook.react.defaults.DefaultReactHost.getDefaultReactHost$default(DefaultReactHost.kt:286)
+09-17 20:38:57.772 E/AndroidRuntime(23628): 	at com.gigamindmobile.MainApplication.getReactHost(MainApplication.kt:32)
+09-17 20:38:57.772 E/AndroidRuntime(23628): 	at com.gigamindmobile.MainApplication.onCreate(MainApplication.kt:38)
+09-17 20:38:57.772 E/AndroidRuntime(23628): 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1386)
+09-17 20:38:57.772 E/AndroidRuntime(23628): 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:8377)
+09-17 20:38:57.772 E/AndroidRuntime(23628): 	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+09-17 20:38:57.772 E/AndroidRuntime(23628): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2675)
+09-17 20:38:57.772 E/AndroidRuntime(23628): 	at android.os.Handler.dispatchMessage(Handler.java:107)
+09-17 20:38:57.772 E/AndroidRuntime(23628): 	at android.os.Looper.loopOnce(Looper.java:257)
+09-17 20:38:57.772 E/AndroidRuntime(23628): 	at android.os.Looper.loop(Looper.java:342)
+09-17 20:38:57.772 E/AndroidRuntime(23628): 	at android.app.ActivityThread.main(ActivityThread.java:9634)
+09-17 20:38:57.772 E/AndroidRuntime(23628): 	at java.lang.reflect.Method.invoke(Native Method)
+09-17 20:38:57.772 E/AndroidRuntime(23628): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:619)
+09-17 20:38:57.772 E/AndroidRuntime(23628): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:929)
+09-17 20:38:57.777 E/pageboostd( 3548): Received HALT command code 2
+09-17 20:38:57.814 E/IgniteDefaultLog(23532): TID:2 -- [IgniteController] onSSLRecovery: Self Update Detected: Pinning Expiration Mode disabled.
+09-17 20:38:57.816 E/{OngoingActivityController}( 2560): getTaskInfo find task 12884 fail. taskInfoList.size:29
+09-17 20:38:57.825 E/DMASA[D]( 4658): [d]enqueueFCwork: ProcessErrorStateInfo is null
+09-17 20:38:57.923 E/IgniteDefaultLog(23532): TID:491 -- [TaskManager]  | postToWorkerHandler | workerHandler is null. TaskInfo is rejected !
+09-17 20:39:00.052 E/Pageboost( 1608): StopRecording Failed
+09-17 20:39:00.052 E/Pageboost( 1608): captureFinished fail
+09-17 20:39:00.551 E/TaskPersister( 1608): File error accessing recents directory (directory doesn't exist?).
+09-17 20:39:01.006 E/AppIconSolution( 3017): Using cached contents available for us.mark.TheHacker.appicon
+09-17 20:39:01.006 E/id.app.launcher( 3017): Invalid resource ID 0x00000000.
+09-17 20:39:01.007 E/AppIconSolution( 3017): app icon package doesn't have 'liveicon_from_theme', pkg : com.sec.android.app.clockpackage
+09-17 20:39:01.007 E/AppIconSolution( 3017): Using cached contents available for us.mark.TheHacker.appicon
+09-17 20:39:01.007 E/AppIconSolution( 3017): Using cached contents available for us.mark.TheHacker.appicon
+09-17 20:39:01.322 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:39:01.322 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:39:01.322 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:39:01.470 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:39:01.470 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:39:01.470 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:39:01.485 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:39:01.485 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:39:01.485 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:39:01.493 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:39:01.493 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:39:01.493 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:39:01.595 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:39:01.595 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:39:01.595 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:39:01.634 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:39:01.634 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:39:01.634 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:39:01.670 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:39:01.670 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:39:01.670 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:39:01.784 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:39:01.784 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:39:01.784 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:39:01.955 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:39:01.955 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:39:01.955 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:39:02.121 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:39:02.121 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:39:02.121 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:39:02.134 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:39:02.134 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:39:02.134 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:39:02.144 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:39:02.144 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:39:02.144 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:39:02.253 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:39:02.254 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:39:02.254 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:39:02.298 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:39:02.298 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:39:02.298 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:39:02.330 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:39:02.330 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:39:02.330 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:39:02.433 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:39:02.434 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:39:02.434 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:39:03.523 E/Watchdog( 1608): !@Sync: 14901 heap(MB): 151 / 191 FD: 1908 [2025-09-17 20:39:03.521]
+09-17 20:39:06.195 E/PocketModeEvent( 1608): PocketModeSetting is off 
+09-17 20:39:10.581 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:39:10.581 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:39:10.581 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:39:10.767 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:39:10.767 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:39:10.767 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:39:10.788 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:39:10.788 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:39:10.788 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:39:10.802 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:39:10.802 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:39:10.802 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:39:10.918 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:39:10.918 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:39:10.918 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:39:10.963 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:39:10.963 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:39:10.963 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:39:11.000 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:39:11.000 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:39:11.000 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:39:11.122 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:39:11.122 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:39:11.122 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:39:11.345 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:39:11.345 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:39:11.345 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:39:11.520 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:39:11.520 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:39:11.520 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:39:11.541 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:39:11.541 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:39:11.541 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:39:11.563 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:39:11.563 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:39:11.563 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:39:11.668 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:39:11.668 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:39:11.668 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:39:11.703 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:39:11.703 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:39:11.703 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:39:11.733 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:39:11.733 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:39:11.733 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:39:11.806 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:39:11.806 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:39:11.806 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:39:14.942 E/DatabaseUtils(16272): Writing exception to parcel
+09-17 20:39:14.942 E/DatabaseUtils(16272): java.lang.SecurityException: Permission Denial: writing com.sec.android.provider.badge.BadgeProvider uri content://com.sec.badge/apps?notify=true from pid=19086, uid=10281 requires com.sec.android.provider.badge.permission.WRITE, or grantUriPermission()
+09-17 20:39:14.942 E/DatabaseUtils(16272): 	at android.content.ContentProvider.enforceWritePermissionInner(ContentProvider.java:1138)
+09-17 20:39:14.942 E/DatabaseUtils(16272): 	at android.content.ContentProvider.semEnforceWritePermission(ContentProvider.java:1064)
+09-17 20:39:14.942 E/DatabaseUtils(16272): 	at android.content.ContentProvider$Transport.enforceWritePermission(ContentProvider.java:840)
+09-17 20:39:14.942 E/DatabaseUtils(16272): 	at android.content.ContentProvider$Transport.update(ContentProvider.java:569)
+09-17 20:39:14.942 E/DatabaseUtils(16272): 	at android.content.ContentProviderNative.onTransact(ContentProviderNative.java:243)
+09-17 20:39:14.942 E/DatabaseUtils(16272): 	at android.os.Binder.execTransactInternal(Binder.java:1541)
+09-17 20:39:14.942 E/DatabaseUtils(16272): 	at android.os.Binder.execTransact(Binder.java:1480)
+09-17 20:39:16.250 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:39:16.250 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:39:16.250 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:39:16.484 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:39:16.484 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:39:16.484 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:39:16.506 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:39:16.506 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:39:16.506 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:39:16.521 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:39:16.521 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:39:16.521 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:39:16.653 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:39:16.653 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:39:16.653 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:39:16.710 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:39:16.710 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:39:16.710 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:39:16.746 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:39:16.746 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:39:16.746 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:39:16.885 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:39:16.885 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:39:16.885 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:39:19.515 E/DatabaseUtils(16272): Writing exception to parcel
+09-17 20:39:19.515 E/DatabaseUtils(16272): java.lang.SecurityException: Permission Denial: writing com.sec.android.provider.badge.BadgeProvider uri content://com.sec.badge/apps?notify=true from pid=19086, uid=10281 requires com.sec.android.provider.badge.permission.WRITE, or grantUriPermission()
+09-17 20:39:19.515 E/DatabaseUtils(16272): 	at android.content.ContentProvider.enforceWritePermissionInner(ContentProvider.java:1138)
+09-17 20:39:19.515 E/DatabaseUtils(16272): 	at android.content.ContentProvider.semEnforceWritePermission(ContentProvider.java:1064)
+09-17 20:39:19.515 E/DatabaseUtils(16272): 	at android.content.ContentProvider$Transport.enforceWritePermission(ContentProvider.java:840)
+09-17 20:39:19.515 E/DatabaseUtils(16272): 	at android.content.ContentProvider$Transport.update(ContentProvider.java:569)
+09-17 20:39:19.515 E/DatabaseUtils(16272): 	at android.content.ContentProviderNative.onTransact(ContentProviderNative.java:243)
+09-17 20:39:19.515 E/DatabaseUtils(16272): 	at android.os.Binder.execTransactInternal(Binder.java:1541)
+09-17 20:39:19.515 E/DatabaseUtils(16272): 	at android.os.Binder.execTransact(Binder.java:1480)
+09-17 20:39:20.676 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:39:20.676 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:39:20.676 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:39:20.787 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:39:20.787 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:39:20.787 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:39:20.801 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:39:20.801 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:39:20.801 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:39:20.812 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:39:20.812 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:39:20.812 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:39:20.911 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:39:20.911 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:39:20.911 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:39:20.949 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:39:20.949 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:39:20.949 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:39:20.982 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:39:20.982 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:39:20.982 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:39:21.082 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:39:21.082 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:39:21.082 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:39:21.199 E/DatabaseUtils(16272): Writing exception to parcel
+09-17 20:39:21.199 E/DatabaseUtils(16272): java.lang.SecurityException: Permission Denial: writing com.sec.android.provider.badge.BadgeProvider uri content://com.sec.badge/apps?notify=true from pid=19086, uid=10281 requires com.sec.android.provider.badge.permission.WRITE, or grantUriPermission()
+09-17 20:39:21.199 E/DatabaseUtils(16272): 	at android.content.ContentProvider.enforceWritePermissionInner(ContentProvider.java:1138)
+09-17 20:39:21.199 E/DatabaseUtils(16272): 	at android.content.ContentProvider.semEnforceWritePermission(ContentProvider.java:1064)
+09-17 20:39:21.199 E/DatabaseUtils(16272): 	at android.content.ContentProvider$Transport.enforceWritePermission(ContentProvider.java:840)
+09-17 20:39:21.199 E/DatabaseUtils(16272): 	at android.content.ContentProvider$Transport.update(ContentProvider.java:569)
+09-17 20:39:21.199 E/DatabaseUtils(16272): 	at android.content.ContentProviderNative.onTransact(ContentProviderNative.java:243)
+09-17 20:39:21.199 E/DatabaseUtils(16272): 	at android.os.Binder.execTransactInternal(Binder.java:1541)
+09-17 20:39:21.199 E/DatabaseUtils(16272): 	at android.os.Binder.execTransact(Binder.java:1480)
+09-17 20:39:21.626 E/DatabaseUtils(16272): Writing exception to parcel
+09-17 20:39:21.626 E/DatabaseUtils(16272): java.lang.SecurityException: Permission Denial: writing com.sec.android.provider.badge.BadgeProvider uri content://com.sec.badge/apps?notify=true from pid=19086, uid=10281 requires com.sec.android.provider.badge.permission.WRITE, or grantUriPermission()
+09-17 20:39:21.626 E/DatabaseUtils(16272): 	at android.content.ContentProvider.enforceWritePermissionInner(ContentProvider.java:1138)
+09-17 20:39:21.626 E/DatabaseUtils(16272): 	at android.content.ContentProvider.semEnforceWritePermission(ContentProvider.java:1064)
+09-17 20:39:21.626 E/DatabaseUtils(16272): 	at android.content.ContentProvider$Transport.enforceWritePermission(ContentProvider.java:840)
+09-17 20:39:21.626 E/DatabaseUtils(16272): 	at android.content.ContentProvider$Transport.update(ContentProvider.java:569)
+09-17 20:39:21.626 E/DatabaseUtils(16272): 	at android.content.ContentProviderNative.onTransact(ContentProviderNative.java:243)
+09-17 20:39:21.626 E/DatabaseUtils(16272): 	at android.os.Binder.execTransactInternal(Binder.java:1541)
+09-17 20:39:21.626 E/DatabaseUtils(16272): 	at android.os.Binder.execTransact(Binder.java:1480)
+09-17 20:39:22.805 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:39:22.805 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:39:22.805 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:39:22.994 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:39:22.994 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:39:22.994 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:39:23.016 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:39:23.016 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:39:23.016 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:39:23.034 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:39:23.034 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:39:23.034 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:39:23.167 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:39:23.167 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:39:23.167 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:39:23.222 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:39:23.222 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:39:23.222 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:39:23.256 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:39:23.256 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:39:23.256 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
+09-17 20:39:23.393 E/NotificationService( 1608): isPkgBlocked = true
+09-17 20:39:23.393 E/NotificationService( 1608): isRecordBlocked = false
+09-17 20:39:23.393 E/NotificationService( 1608): Suppressing notification from package org.telegram.messenger.web by user request.
